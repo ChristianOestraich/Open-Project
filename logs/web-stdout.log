@@ -1,0 +1,1078 @@
+`/root` is not writable.
+Bundler will use `/tmp/bundler/home/unknown' as your home directory temporarily.
+ --> Downloading a Phusion Passenger agent binary for your platform
+
+ --> Installing Nginx 1.14.0 engine
+
+--------------------------
+
+=============== Phusion Passenger Standalone web server started ===============
+PID file: /usr/src/app/passenger.8080.pid
+Log file: /usr/src/app/log/passenger.8080.log
+Environment: production
+Accessible via: http://0.0.0.0:8080/
+
+You can stop Phusion Passenger Standalone by pressing Ctrl-C.
+Problems? Check https://www.phusionpassenger.com/library/admin/standalone/troubleshooting/
+===============================================================================
+[ N 2018-11-13 17:08:22.1962 406/T5 age/Cor/SecurityUpdateChecker.h:517 ]: Security update check: no update found (next check in 24 hours)
+App 446 output: Rails Error: Unable to access log file. Please ensure that /usr/src/app/log/production.log exists and is writable (ie, make it writable for user and group: chmod 0664 /usr/src/app/log/production.log). The log level has been raised to WARN and the output directed to STDERR until the problem is fixed.
+App 446 output: hook registered
+App 446 output: [auth_saml] Missing settings from '/usr/src/app/config/plugins/auth_saml/settings.yml', skipping omniauth registration.
+App 446 output: Creating scope :order_by_name. Overwriting existing method Sprint.order_by_name.
+App 499 output: Started HEAD "/" for 127.0.0.1 at 2018-11-13 17:08:34 +0000
+App 499 output: Processing by HomescreenController#index as HTML
+App 499 output: Fork detected, re-connecting child process...
+App 499 output:   Rendering homescreen/index.html.erb within layouts/no_menu
+App 499 output:   Rendered announcements/_show.html.erb (1.4ms)
+App 499 output:   Rendered homescreen/blocks/_welcome.html.erb (77.7ms)
+App 499 output:   Rendered homescreen/blocks/_projects.html.erb (18.6ms)
+App 499 output:   Rendered homescreen/blocks/_community.html.erb (4.6ms)
+App 499 output:   Rendered homescreen/blocks/_upsale.html.erb (1.1ms)
+App 499 output:   Rendered homescreen/index.html.erb within layouts/no_menu (566.5ms)
+App 499 output:   Rendering layouts/base.html.erb
+App 499 output:   Rendered common/_favicons.html.erb (1.0ms)
+App 499 output:   Rendered search/_mini_form.html.erb (0.7ms)
+App 499 output:   Rendered onboarding/_onboarding_video_modal.html.erb (0.7ms)
+App 499 output:   Rendered onboarding/_menu_item.html.erb (31.4ms)
+App 499 output:   Rendered hooks/login/_auth_provider.html.erb (0.4ms)
+App 499 output:   Rendered vendored-plugins/openproject-auth_plugins/app/views/hooks/login/_providers.html.erb (0.7ms)
+App 499 output:   Rendered account/_auth_providers.html.erb (39.9ms)
+App 499 output:   Rendered account/_login.html.erb (82.3ms)
+App 499 output:   Rendered layouts/_action_menu.html.erb (0.4ms)
+App 499 output:   Rendered layouts/base.html.erb (297.8ms)
+App 499 output: Completed 200 OK in 1223ms (Views: 1015.5ms | ActiveRecord: 54.9ms)
+App 499 output: Started GET "/" for 127.0.0.1 at 2018-11-13 17:09:24 +0000
+App 499 output: Processing by HomescreenController#index as HTML
+App 499 output:   Rendering homescreen/index.html.erb within layouts/no_menu
+App 499 output:   Rendered announcements/_show.html.erb (2.0ms)
+App 499 output:   Rendered homescreen/blocks/_welcome.html.erb (5.5ms)
+App 499 output:   Rendered homescreen/blocks/_projects.html.erb (3.4ms)
+App 499 output:   Rendered homescreen/blocks/_community.html.erb (1.3ms)
+App 499 output:   Rendered homescreen/blocks/_upsale.html.erb (1.0ms)
+App 499 output:   Rendered homescreen/index.html.erb within layouts/no_menu (175.2ms)
+App 499 output:   Rendering layouts/base.html.erb
+App 499 output:   Rendered common/_favicons.html.erb (0.6ms)
+App 499 output:   Rendered search/_mini_form.html.erb (0.7ms)
+App 499 output:   Rendered onboarding/_onboarding_video_modal.html.erb (0.7ms)
+App 499 output:   Rendered onboarding/_menu_item.html.erb (34.6ms)
+App 499 output:   Rendered hooks/login/_auth_provider.html.erb (0.5ms)
+App 499 output:   Rendered vendored-plugins/openproject-auth_plugins/app/views/hooks/login/_providers.html.erb (0.7ms)
+App 499 output:   Rendered account/_auth_providers.html.erb (36.7ms)
+App 499 output:   Rendered account/_login.html.erb (69.4ms)
+App 499 output:   Rendered layouts/_action_menu.html.erb (0.4ms)
+App 499 output:   Rendered layouts/base.html.erb (282.0ms)
+App 499 output: Completed 200 OK in 576ms (Views: 500.8ms | ActiveRecord: 11.2ms)
+App 499 output: Started POST "/login" for 127.0.0.1 at 2018-11-13 17:10:32 +0000
+App 499 output: Processing by AccountController#login as HTML
+App 499 output:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"UWBpV03alwkKHb5ss4Q70Avj98hyiP4tgqYthzRwyOHioi5UI0LMpKKz0zbkXIvMTLwlh4cJZ+qTi+MkYTEM4w==", "back_url"=>"/", "username"=>"admin", "password"=>"[FILTERED]", "login"=>"Login"}
+App 499 output:   Rendering my/password.html.erb within layouts/no_menu
+App 499 output:   Rendered my/_password_form_fields.html.erb (24.4ms)
+App 499 output:   Rendered my/password.html.erb within layouts/no_menu (60.6ms)
+App 499 output:   Rendering layouts/base.html.erb
+App 499 output:   Rendered common/_favicons.html.erb (1.0ms)
+App 499 output:   Rendered search/_mini_form.html.erb (0.2ms)
+App 499 output:   Rendered hooks/login/_auth_provider.html.erb (0.1ms)
+App 499 output:   Rendered vendored-plugins/openproject-auth_plugins/app/views/hooks/login/_providers.html.erb (0.2ms)
+App 499 output:   Rendered account/_auth_providers.html.erb (0.6ms)
+App 499 output:   Rendered account/_login.html.erb (2.2ms)
+App 499 output:   Rendered layouts/_action_menu.html.erb (0.1ms)
+App 499 output:   Rendered layouts/base.html.erb (18.9ms)
+App 499 output: Completed 200 OK in 394ms (Views: 120.0ms | ActiveRecord: 101.9ms)
+App 499 output: Started POST "/login" for 127.0.0.1 at 2018-11-13 17:10:47 +0000
+App 499 output: Processing by AccountController#login as HTML
+App 499 output:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"ZalUAuOUmmRf+TRP6kAdDKF1AO0xXzRAIk4H7VdbnCXWaxMBjQzByfdXWRW9mK0Q5irSosTerYczY8lOAhpYJw==", "back_url"=>"/", "username"=>"admin", "password"=>"[FILTERED]", "login"=>"Login"}
+App 499 output: Failed login for 'admin' from 127.0.0.1 at 2018-11-13 17:10:47 UTC: invalid credentials
+App 499 output:   Rendering account/login.html.erb within layouts/no_menu
+App 499 output:   Rendered collection of customizable/_field.html.erb [0 times] (0.1ms)
+App 499 output:   Rendered hooks/login/_auth_provider.html.erb (0.1ms)
+App 499 output:   Rendered vendored-plugins/openproject-auth_plugins/app/views/hooks/login/_providers.html.erb (0.2ms)
+App 499 output:   Rendered account/_auth_providers.html.erb (1.4ms)
+App 499 output:   Rendered account/_footer.html.erb (0.5ms)
+App 499 output:   Rendered account/_register.html.erb (104.2ms)
+App 499 output:   Rendered account/_password_login_form.html.erb (139.7ms)
+App 499 output:   Rendered hooks/login/_auth_provider.html.erb (0.1ms)
+App 499 output:   Rendered vendored-plugins/openproject-auth_plugins/app/views/hooks/login/_providers.html.erb (0.2ms)
+App 499 output:   Rendered account/_auth_providers.html.erb (0.5ms)
+App 499 output:   Rendered announcements/_show.html.erb (4.3ms)
+App 499 output:   Rendered account/login.html.erb within layouts/no_menu (205.9ms)
+App 499 output:   Rendering layouts/base.html.erb
+App 499 output:   Rendered common/_favicons.html.erb (1.0ms)
+App 499 output:   Rendered search/_mini_form.html.erb (0.3ms)
+App 499 output:   Rendered hooks/login/_auth_provider.html.erb (0.1ms)
+App 499 output:   Rendered vendored-plugins/openproject-auth_plugins/app/views/hooks/login/_providers.html.erb (0.2ms)
+App 499 output:   Rendered account/_auth_providers.html.erb (0.6ms)
+App 499 output:   Rendered account/_login.html.erb (3.1ms)
+App 499 output:   Rendered layouts/_action_menu.html.erb (0.1ms)
+App 499 output:   Rendered layouts/base.html.erb (21.0ms)
+App 499 output: Completed 200 OK in 443ms (Views: 223.6ms | ActiveRecord: 33.2ms)
+App 499 output: Started POST "/login" for 127.0.0.1 at 2018-11-13 17:10:51 +0000
+App 499 output: Processing by AccountController#login as HTML
+App 499 output:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"UiStvooNMBceTojLWHtwoZYoa/7hRqdkrbnB4ea4Ounh5uq95JVrurbg5ZEPo8C90Xe5sRTHPqO8lA9Cs/n+6w==", "back_url"=>"%2F", "username"=>"admin", "password"=>"[FILTERED]", "login"=>"Login"}
+App 499 output: Failed login for 'admin' from 127.0.0.1 at 2018-11-13 17:10:51 UTC: invalid credentials
+App 499 output:   Rendering account/login.html.erb within layouts/no_menu
+App 499 output:   Rendered collection of customizable/_field.html.erb [0 times] (0.0ms)
+App 499 output:   Rendered hooks/login/_auth_provider.html.erb (0.1ms)
+App 499 output:   Rendered vendored-plugins/openproject-auth_plugins/app/views/hooks/login/_providers.html.erb (0.2ms)
+App 499 output:   Rendered account/_auth_providers.html.erb (0.6ms)
+App 499 output:   Rendered account/_footer.html.erb (0.1ms)
+App 499 output:   Rendered account/_register.html.erb (6.2ms)
+App 499 output:   Rendered account/_password_login_form.html.erb (8.8ms)
+App 499 output:   Rendered hooks/login/_auth_provider.html.erb (0.1ms)
+App 499 output:   Rendered vendored-plugins/openproject-auth_plugins/app/views/hooks/login/_providers.html.erb (0.1ms)
+App 499 output:   Rendered account/_auth_providers.html.erb (0.5ms)
+App 499 output:   Rendered announcements/_show.html.erb (0.9ms)
+App 499 output:   Rendered account/login.html.erb within layouts/no_menu (10.8ms)
+App 499 output:   Rendering layouts/base.html.erb
+App 499 output:   Rendered common/_favicons.html.erb (0.8ms)
+App 499 output:   Rendered search/_mini_form.html.erb (0.2ms)
+App 499 output:   Rendered hooks/login/_auth_provider.html.erb (0.1ms)
+App 499 output:   Rendered vendored-plugins/openproject-auth_plugins/app/views/hooks/login/_providers.html.erb (0.2ms)
+App 499 output:   Rendered account/_auth_providers.html.erb (0.5ms)
+App 499 output:   Rendered account/_login.html.erb (1.9ms)
+App 499 output:   Rendered layouts/_action_menu.html.erb (0.1ms)
+App 499 output:   Rendered layouts/base.html.erb (15.0ms)
+App 499 output: Completed 200 OK in 192ms (Views: 22.3ms | ActiveRecord: 31.3ms)
+App 499 output: Started POST "/login" for 127.0.0.1 at 2018-11-13 17:13:05 +0000
+App 499 output: Processing by AccountController#login as HTML
+App 499 output:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"0dvbQy9S8zBPd6U9tyhVpLOzDgjd1oBUi4E+V4kumFNiGZxAQcqonefZyGfg8OW49OzcRyhXGZOarPD03G9cUQ==", "back_url"=>"%2F", "username"=>"admin", "password"=>"[FILTERED]", "login"=>"Login"}
+App 499 output:   Rendering my/password.html.erb within layouts/no_menu
+App 499 output:   Rendered my/_password_form_fields.html.erb (2.7ms)
+App 499 output:   Rendered my/password.html.erb within layouts/no_menu (3.6ms)
+App 499 output:   Rendering layouts/base.html.erb
+App 499 output:   Rendered common/_favicons.html.erb (2.5ms)
+App 499 output:   Rendered search/_mini_form.html.erb (0.3ms)
+App 499 output:   Rendered hooks/login/_auth_provider.html.erb (0.1ms)
+App 499 output:   Rendered vendored-plugins/openproject-auth_plugins/app/views/hooks/login/_providers.html.erb (0.2ms)
+App 499 output:   Rendered account/_auth_providers.html.erb (0.6ms)
+App 499 output:   Rendered account/_login.html.erb (3.8ms)
+App 499 output:   Rendered layouts/_action_menu.html.erb (0.1ms)
+App 499 output:   Rendered layouts/base.html.erb (23.2ms)
+App 499 output: Completed 200 OK in 192ms (Views: 23.6ms | ActiveRecord: 21.1ms)
+App 499 output: Started POST "/account/change_password" for 127.0.0.1 at 2018-11-13 17:13:20 +0000
+App 499 output: Processing by AccountController#change_password as HTML
+App 499 output:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"C0fSnS5Aw8oXFoVhlTEsZnHqCjD1b8nJhMSz1+xWu6q4hZWeQNiYZ7+46DvC6Zx6NrXYfwDuUA6V6X10uRd/qA==", "back_url"=>"%2F", "username"=>"admin", "password"=>"[FILTERED]", "new_password"=>"[FILTERED]", "new_password_confirmation"=>"[FILTERED]", "button"=>""}
+App 499 output: Failed login for 'admin' from 127.0.0.1 at 2018-11-13 17:13:20 UTC: invalid credentials
+App 499 output:   Rendering my/password.html.erb within layouts/no_menu
+App 499 output:   Rendered my/_password_form_fields.html.erb (2.3ms)
+App 499 output:   Rendered my/password.html.erb within layouts/no_menu (4.0ms)
+App 499 output:   Rendering layouts/base.html.erb
+App 499 output:   Rendered common/_favicons.html.erb (0.9ms)
+App 499 output:   Rendered search/_mini_form.html.erb (0.2ms)
+App 499 output:   Rendered hooks/login/_auth_provider.html.erb (0.1ms)
+App 499 output:   Rendered vendored-plugins/openproject-auth_plugins/app/views/hooks/login/_providers.html.erb (0.2ms)
+App 499 output:   Rendered account/_auth_providers.html.erb (0.5ms)
+App 499 output:   Rendered account/_login.html.erb (1.9ms)
+App 499 output:   Rendered layouts/_action_menu.html.erb (0.1ms)
+App 499 output:   Rendered layouts/base.html.erb (17.8ms)
+App 499 output: Completed 200 OK in 107ms (Views: 18.7ms | ActiveRecord: 8.8ms)
+App 499 output: Started GET "/account/lost_password" for 127.0.0.1 at 2018-11-13 17:17:33 +0000
+App 499 output: Processing by AccountController#lost_password as HTML
+App 499 output:   Rendering account/lost_password.html.erb within layouts/no_menu
+App 499 output:   Rendered account/lost_password.html.erb within layouts/no_menu (3.3ms)
+App 499 output:   Rendering layouts/base.html.erb
+App 499 output:   Rendered common/_favicons.html.erb (1.0ms)
+App 499 output:   Rendered search/_mini_form.html.erb (0.3ms)
+App 499 output:   Rendered hooks/login/_auth_provider.html.erb (0.1ms)
+App 499 output:   Rendered vendored-plugins/openproject-auth_plugins/app/views/hooks/login/_providers.html.erb (0.2ms)
+App 499 output:   Rendered account/_auth_providers.html.erb (0.6ms)
+App 499 output:   Rendered account/_login.html.erb (3.1ms)
+App 499 output:   Rendered layouts/_action_menu.html.erb (0.1ms)
+App 499 output:   Rendered layouts/base.html.erb (20.3ms)
+App 499 output: Completed 200 OK in 95ms (Views: 22.1ms | ActiveRecord: 4.0ms)
+App 499 output: Started POST "/login" for 127.0.0.1 at 2018-11-13 17:20:27 +0000
+App 499 output: Processing by AccountController#login as HTML
+App 499 output:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"0dvbQy9S8zBPd6U9tyhVpLOzDgjd1oBUi4E+V4kumFNiGZxAQcqonefZyGfg8OW49OzcRyhXGZOarPD03G9cUQ==", "back_url"=>"%2F", "username"=>"admin", "password"=>"[FILTERED]", "login"=>"Login"}
+App 499 output:   Rendering my/password.html.erb within layouts/no_menu
+App 499 output:   Rendered my/_password_form_fields.html.erb (2.1ms)
+App 499 output:   Rendered my/password.html.erb within layouts/no_menu (3.7ms)
+App 499 output:   Rendering layouts/base.html.erb
+App 499 output:   Rendered common/_favicons.html.erb (0.9ms)
+App 499 output:   Rendered search/_mini_form.html.erb (0.2ms)
+App 499 output:   Rendered hooks/login/_auth_provider.html.erb (0.1ms)
+App 499 output:   Rendered vendored-plugins/openproject-auth_plugins/app/views/hooks/login/_providers.html.erb (0.2ms)
+App 499 output:   Rendered account/_auth_providers.html.erb (0.5ms)
+App 499 output:   Rendered account/_login.html.erb (2.0ms)
+App 499 output:   Rendered layouts/_action_menu.html.erb (0.1ms)
+App 499 output:   Rendered layouts/base.html.erb (15.7ms)
+App 499 output: Completed 200 OK in 207ms (Views: 17.6ms | ActiveRecord: 33.8ms)
+App 499 output: Started POST "/account/change_password" for 127.0.0.1 at 2018-11-13 17:20:48 +0000
+App 499 output: Processing by AccountController#change_password as HTML
+App 499 output:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"wb+7jksif9CVm9gG4JT+8ldkVWctsvA2q+/e6vJ+/rdyffyNJbokfT01tVy3TE7uEDuHKNgzafG6whBJpz86tQ==", "back_url"=>"%2F", "username"=>"admin", "password"=>"[FILTERED]", "new_password"=>"[FILTERED]", "new_password_confirmation"=>"[FILTERED]", "button"=>""}
+App 499 output: Redirected to http://localhost:8080/?first_time_user=true
+App 499 output: Completed 302 Found in 262ms (ActiveRecord: 47.9ms)
+App 499 output: Started GET "/?first_time_user=true" for 127.0.0.1 at 2018-11-13 17:20:48 +0000
+App 499 output: Processing by HomescreenController#index as HTML
+App 499 output:   Parameters: {"first_time_user"=>"true"}
+App 499 output:   Rendering homescreen/index.html.erb within layouts/no_menu
+App 499 output:   Rendered announcements/_show.html.erb (0.6ms)
+App 499 output:   Rendered homescreen/blocks/_welcome.html.erb (5.2ms)
+App 499 output:   Rendered homescreen/blocks/_projects.html.erb (1.7ms)
+App 499 output:   Rendered homescreen/blocks/_users.html.erb (1.3ms)
+App 499 output:   Rendered homescreen/blocks/_my_account.html.erb (1.3ms)
+App 499 output: Failed to create avatar for : Invalid Mail
+App 499 output: Failed to create avatar for : Invalid Mail
+App 499 output:   Rendered homescreen/blocks/_news.html.erb (85.9ms)
+App 499 output:   Rendered homescreen/blocks/_community.html.erb (0.7ms)
+App 499 output:   Rendered homescreen/blocks/_administration.html.erb (1.7ms)
+App 499 output:   Rendered homescreen/blocks/_upsale.html.erb (0.4ms)
+App 499 output:   Rendered homescreen/index.html.erb within layouts/no_menu (245.6ms)
+App 499 output:   Rendering layouts/base.html.erb
+App 499 output:   Rendered common/_favicons.html.erb (0.2ms)
+App 499 output:   Rendered search/_mini_form.html.erb (0.4ms)
+App 499 output:   Rendered onboarding/_configuration_modal.html.erb (2.1ms)
+App 499 output:   Rendered layouts/_action_menu.html.erb (0.1ms)
+App 499 output:   Rendered layouts/base.html.erb (126.8ms)
+App 499 output: Completed 200 OK in 415ms (Views: 321.0ms | ActiveRecord: 56.9ms)
+App 499 output: Started PATCH "/user_settings" for 127.0.0.1 at 2018-11-13 17:20:58 +0000
+App 499 output: Processing by OnboardingController#user_settings as HTML
+App 499 output:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"v+NvUDtYT30k2N/FyC6evMk5Y+A2E9qrXif5kwrUGinJuznbOIrs2n5b/8GaQDm36qWeSEz1KZxh2fy3wtLPKw==", "user"=>{"language"=>"pt-BR"}, "button"=>""}
+App 499 output: Redirected to http://localhost:8080/?
+App 499 output: Completed 302 Found in 107ms (ActiveRecord: 85.0ms)
+App 499 output: Started GET "/" for 127.0.0.1 at 2018-11-13 17:20:59 +0000
+App 499 output: Processing by HomescreenController#index as HTML
+App 499 output:   Rendering homescreen/index.html.erb within layouts/no_menu
+App 499 output:   Rendered announcements/_show.html.erb (1.1ms)
+App 499 output:   Rendered homescreen/blocks/_welcome.html.erb (8.0ms)
+App 499 output:   Rendered homescreen/blocks/_projects.html.erb (1.7ms)
+App 499 output:   Rendered homescreen/blocks/_users.html.erb (1.2ms)
+App 499 output:   Rendered homescreen/blocks/_my_account.html.erb (1.0ms)
+App 499 output: Failed to create avatar for : Invalid Mail
+App 499 output: Failed to create avatar for : Invalid Mail
+App 499 output:   Rendered homescreen/blocks/_news.html.erb (6.5ms)
+App 499 output:   Rendered homescreen/blocks/_community.html.erb (0.6ms)
+App 499 output:   Rendered homescreen/blocks/_administration.html.erb (2.2ms)
+App 499 output:   Rendered homescreen/blocks/_upsale.html.erb (0.5ms)
+App 499 output:   Rendered homescreen/index.html.erb within layouts/no_menu (161.5ms)
+App 499 output:   Rendering layouts/base.html.erb
+App 499 output:   Rendered common/_favicons.html.erb (0.2ms)
+App 499 output:   Rendered search/_mini_form.html.erb (0.2ms)
+App 499 output:   Rendered layouts/_action_menu.html.erb (0.1ms)
+App 499 output:   Rendered layouts/base.html.erb (8.1ms)
+App 499 output: Completed 200 OK in 191ms (Views: 167.3ms | ActiveRecord: 8.0ms)
+App 499 output: Started GET "/projects/demo-project/work_packages/?start_onboarding_tour=true" for 127.0.0.1 at 2018-11-13 17:21:15 +0000
+App 499 output: Processing by WorkPackagesController#index as HTML
+App 499 output:   Parameters: {"start_onboarding_tour"=>"true", "project_id"=>"demo-project"}
+App 499 output:   Rendering work_packages/index.html.erb within layouts/angular
+App 499 output:   Rendered work_packages/_sidebar.html.erb (1.6ms)
+App 499 output:   Rendered work_packages/index.html.erb within layouts/angular (241.9ms)
+App 499 output:   Rendered vendored-plugins/openproject-costs/app/views/hooks/costs/_view_work_package_overview_attributes.html.erb (0.8ms)
+App 499 output:   Rendering layouts/base.html.erb
+App 499 output:   Rendered common/_favicons.html.erb (1.8ms)
+App 499 output:   Rendered work_packages/_menu_query_select.html.erb (0.4ms)
+App 499 output:   Rendered wiki/_menu_pages_tree.html.erb (62.4ms) [cache miss]
+App 499 output:   Rendered search/_mini_form.html.erb (0.3ms)
+App 499 output:   Rendered layouts/base.html.erb (392.3ms)
+App 499 output: Completed 200 OK in 961ms (Views: 668.1ms | ActiveRecord: 261.6ms)
+App 499 output: Started GET "/api/v3/queries?filters=%5B%7B%22project_identifier%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22demo-project%22%5D%7D%7D%5D" for 127.0.0.1 at 2018-11-13 17:21:17 +0000
+App 919 output: Started GET "/api/v3/projects/demo-project/queries/default?pageSize=20" for 127.0.0.1 at 2018-11-13 17:21:17 +0000
+App 919 output: Fork detected, re-connecting child process...
+App 499 output: Started GET "/api/v3/projects/demo-project/types" for 127.0.0.1 at 2018-11-13 17:21:20 +0000
+App 499 output: Started GET "/api/v3/configuration" for 127.0.0.1 at 2018-11-13 17:21:20 +0000
+App 499 output: Started POST "/api/v3/queries/form" for 127.0.0.1 at 2018-11-13 17:21:20 +0000
+App 499 output: Started GET "/api/v3/projects/2" for 127.0.0.1 at 2018-11-13 17:21:24 +0000
+App 919 output: Started GET "/api/v3/work_packages/24/attachments" for 127.0.0.1 at 2018-11-13 17:21:24 +0000
+App 499 output: Started GET "/highlighting/styles.css" for 127.0.0.1 at 2018-11-13 17:21:24 +0000
+App 499 output: Processing by HighlightingController#styles as CSS
+App 919 output: Started GET "/api/v3/work_packages/24/relations" for 127.0.0.1 at 2018-11-13 17:21:24 +0000
+App 919 output: Started GET "/api/v3/projects/demo-project/types" for 127.0.0.1 at 2018-11-13 17:21:24 +0000
+App 919 output: Started GET "/api/v3/configuration" for 127.0.0.1 at 2018-11-13 17:21:24 +0000
+App 919 output: Started GET "/api/v3/help_texts" for 127.0.0.1 at 2018-11-13 17:21:24 +0000
+App 919 output: Started GET "/api/v3/work_packages/24/activities" for 127.0.0.1 at 2018-11-13 17:21:25 +0000
+App 951 output: Started GET "/api/v3/work_packages/24/revisions" for 127.0.0.1 at 2018-11-13 17:21:25 +0000
+App 499 output:   Rendering highlighting/styles.css.erb
+App 499 output: Scoped order is ignored, it's forced to be batch order.
+App 499 output: Scoped order is ignored, it's forced to be batch order.
+App 499 output: Scoped order is ignored, it's forced to be batch order.
+App 499 output:   Rendered highlighting/styles.css.erb (63.6ms)
+App 499 output: Completed 200 OK in 599ms (Views: 534.6ms | ActiveRecord: 7.6ms)
+App 951 output: Fork detected, re-connecting child process...
+App 499 output: Started GET "/api/v3/users/2" for 127.0.0.1 at 2018-11-13 17:21:25 +0000
+App 499 output: Failed to create avatar url for Anônimo: Invalid Mail
+App 499 output: Started GET "/api/v3/projects/demo-project/types" for 127.0.0.1 at 2018-11-13 17:25:29 +0000
+App 499 output: Started GET "/api/v3/configuration" for 127.0.0.1 at 2018-11-13 17:25:29 +0000
+App 499 output: Started GET "/api/v3/relations?filters=%5B%7B%22involved%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B25%2C26%2C27%2C28%2C29%2C30%2C31%2C32%2C33%2C34%2C35%2C36%2C37%2C38%2C39%2C40%2C41%5D%7D%7D%5D" for 127.0.0.1 at 2018-11-13 17:25:33 +0000
+App 499 output: Started GET "/api/v3/relations?filters=%5B%7B%22involved%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B25%2C26%2C27%2C28%2C29%2C30%2C31%2C32%2C33%2C34%2C35%2C36%2C37%2C38%2C39%2C40%2C41%5D%7D%7D%5D" for 127.0.0.1 at 2018-11-13 17:25:33 +0000
+App 499 output: Started POST "/api/v3/work_packages/37/form" for 127.0.0.1 at 2018-11-13 17:26:04 +0000
+App 499 output: Started GET "/projects/level_list.json" for 127.0.0.1 at 2018-11-13 17:26:11 +0000
+App 499 output: Processing by ProjectsController#level_list as JSON
+App 499 output:   Rendering projects/level_list.api.rabl
+App 499 output:   Rendered projects/level_list.api.rabl (1.7ms)
+App 499 output: Completed 200 OK in 93ms (Views: 30.2ms | ActiveRecord: 1.9ms)
+App 499 output: Started GET "/projects/new" for 127.0.0.1 at 2018-11-13 17:26:14 +0000
+App 499 output: Processing by ProjectsController#new as HTML
+App 499 output:   Rendering projects/new.html.erb within layouts/no_menu
+App 499 output:   Rendered projects/form/attributes/_name.html.erb (1.2ms)
+App 499 output:   Rendered customizable/_form.html.erb (5.3ms)
+App 499 output:   Rendered projects/form/attributes/_parent_id.html.erb (10.8ms)
+App 499 output:   Rendered projects/form/attributes/_description.html.erb (1.4ms)
+App 499 output:   Rendered projects/form/attributes/_identifier.html.erb (1.4ms)
+App 499 output:   Rendered projects/form/attributes/_is_public.html.erb (2.4ms)
+App 499 output:   Rendered customizable/_form.html.erb (0.3ms)
+App 499 output:   Rendered projects/form/_project_attributes.html.erb (251.1ms)
+App 499 output:   Rendered projects/_form.html.erb (287.3ms)
+App 499 output:   Rendered projects/new.html.erb within layouts/no_menu (328.7ms)
+App 499 output:   Rendering layouts/base.html.erb
+App 499 output:   Rendered common/_favicons.html.erb (1.0ms)
+App 499 output:   Rendered search/_mini_form.html.erb (0.3ms)
+App 499 output:   Rendered layouts/_action_menu.html.erb (0.1ms)
+App 499 output:   Rendered layouts/base.html.erb (24.9ms)
+App 499 output: Completed 200 OK in 444ms (Views: 401.3ms | ActiveRecord: 10.2ms)
+[ N 2018-11-13 17:26:25.0332 406/T4 age/Cor/CoreMain.cpp:1028 ]: Checking whether to disconnect long-running connections for process 919, application /usr/src/app (production)
+[ N 2018-11-13 17:26:25.1297 406/T4 age/Cor/CoreMain.cpp:1028 ]: Checking whether to disconnect long-running connections for process 951, application /usr/src/app (production)
+App 499 output: Started POST "/projects" for 127.0.0.1 at 2018-11-13 17:26:26 +0000
+App 499 output: Processing by ProjectsController#create as HTML
+App 499 output:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"tCYFrFNk7fncCtfmg67RBWP1edqI4fnNVYmi8wlJPJvCflMnULZOXoaJ9+LRwHYOQGmEcvIHCvpqd6fXwU/pmQ==", "project"=>{"name"=>"Cartola FC", "parent_id"=>"", "description"=>"", "identifier"=>"cartola-fc", "is_public"=>"0"}, "button"=>""}
+App 499 output: Redirected to http://localhost:8080/projects/cartola-fc/work_packages
+App 499 output: Completed 302 Found in 339ms (ActiveRecord: 200.7ms)
+App 499 output: Started GET "/projects/cartola-fc/work_packages" for 127.0.0.1 at 2018-11-13 17:26:26 +0000
+App 499 output: Processing by WorkPackagesController#index as HTML
+App 499 output:   Parameters: {"project_id"=>"cartola-fc"}
+App 499 output:   Rendering work_packages/index.html.erb within layouts/angular
+App 499 output:   Rendered work_packages/_sidebar.html.erb (0.1ms)
+App 499 output:   Rendered work_packages/index.html.erb within layouts/angular (2.3ms)
+App 499 output:   Rendered vendored-plugins/openproject-costs/app/views/hooks/costs/_view_work_package_overview_attributes.html.erb (0.3ms)
+App 499 output:   Rendering layouts/base.html.erb
+App 499 output:   Rendered common/_favicons.html.erb (1.1ms)
+App 499 output:   Rendered work_packages/_menu_query_select.html.erb (0.1ms)
+App 499 output:   Rendered search/_mini_form.html.erb (0.4ms)
+App 499 output:   Rendered layouts/base.html.erb (29.4ms)
+App 499 output: Completed 200 OK in 44ms (Views: 29.8ms | ActiveRecord: 6.1ms)
+App 499 output: Started GET "/api/v3/queries?filters=%5B%7B%22project_identifier%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22cartola-fc%22%5D%7D%7D%5D" for 127.0.0.1 at 2018-11-13 17:26:27 +0000
+App 499 output: Started GET "/api/v3/projects/cartola-fc/queries/default?pageSize=20" for 127.0.0.1 at 2018-11-13 17:26:27 +0000
+App 499 output: Started GET "/api/v3/projects/cartola-fc/types" for 127.0.0.1 at 2018-11-13 17:26:27 +0000
+App 499 output: Started POST "/api/v3/queries/form" for 127.0.0.1 at 2018-11-13 17:26:27 +0000
+App 1154 output: Started GET "/api/v3/configuration" for 127.0.0.1 at 2018-11-13 17:26:27 +0000
+App 1154 output: Fork detected, re-connecting child process...
+App 499 output: Started POST "/api/v3/projects/cartola-fc/work_packages/form" for 127.0.0.1 at 2018-11-13 17:28:30 +0000
+App 499 output: Started GET "/highlighting/styles.css" for 127.0.0.1 at 2018-11-13 17:28:31 +0000
+App 499 output: Processing by HighlightingController#styles as CSS
+App 1154 output: Started GET "/api/v3/configuration" for 127.0.0.1 at 2018-11-13 17:28:31 +0000
+App 499 output: Completed 304 Not Modified in 14ms (ActiveRecord: 3.0ms)
+App 499 output: Started GET "/api/v3/help_texts" for 127.0.0.1 at 2018-11-13 17:28:31 +0000
+App 499 output: Started GET "/api/v3/projects/3/available_assignees" for 127.0.0.1 at 2018-11-13 17:28:31 +0000
+App 1154 output: Started GET "/api/v3/projects/3/available_responsibles" for 127.0.0.1 at 2018-11-13 17:28:31 +0000
+App 499 output: Started POST "/api/v3/projects/cartola-fc/work_packages/form" for 127.0.0.1 at 2018-11-13 17:28:51 +0000
+App 499 output: Started GET "/api/v3/projects/3/available_assignees" for 127.0.0.1 at 2018-11-13 17:28:51 +0000
+App 1154 output: Started GET "/api/v3/projects/3/available_responsibles" for 127.0.0.1 at 2018-11-13 17:28:51 +0000
+App 499 output: Started POST "/api/v3/projects/cartola-fc/work_packages/form" for 127.0.0.1 at 2018-11-13 17:29:26 +0000
+App 499 output: Started GET "/api/v3/projects/3/available_assignees" for 127.0.0.1 at 2018-11-13 17:29:26 +0000
+App 1154 output: Started GET "/api/v3/projects/3/available_responsibles" for 127.0.0.1 at 2018-11-13 17:29:26 +0000
+[ N 2018-11-13 17:31:27.8336 406/T4 age/Cor/CoreMain.cpp:1028 ]: Checking whether to disconnect long-running connections for process 1176, application /usr/src/app (production)
+[ N 2018-11-13 17:34:26.4913 406/T4 age/Cor/CoreMain.cpp:1028 ]: Checking whether to disconnect long-running connections for process 499, application /usr/src/app (production)
+App 1154 output: Started GET "/projects/level_list.json" for 127.0.0.1 at 2018-11-13 17:37:42 +0000
+App 1154 output: Processing by ProjectsController#level_list as JSON
+App 1154 output:   Rendering projects/level_list.api.rabl
+App 1154 output:   Rendered projects/level_list.api.rabl (2.0ms)
+App 1154 output: Completed 200 OK in 298ms (Views: 260.7ms | ActiveRecord: 1.6ms)
+App 1154 output: Started GET "/projects" for 127.0.0.1 at 2018-11-13 17:37:44 +0000
+App 1154 output: Processing by ProjectsController#index as HTML
+App 1154 output:   Rendering projects/index.html.erb within layouts/no_menu
+App 1154 output:   Rendered projects/filters/list/_select.html.erb (1.4ms)
+App 1154 output:   Rendered projects/filters/list/_select.html.erb (0.4ms)
+App 1154 output:   Rendered projects/filters/list/_input_options.html.erb (38.5ms)
+App 1154 output:   Rendered projects/filters/date/_days.html.erb (0.4ms)
+App 1154 output:   Rendered projects/filters/date/_on_date.html.erb (0.4ms)
+App 1154 output:   Rendered projects/filters/date/_between_dates.html.erb (0.6ms)
+App 1154 output:   Rendered projects/filters/date/_input_options.html.erb (105.5ms)
+App 1154 output:   Rendered projects/filters/_text.html.erb (1.2ms)
+App 1154 output:   Rendered projects/filters/date/_days.html.erb (0.3ms)
+App 1154 output:   Rendered projects/filters/date/_on_date.html.erb (0.2ms)
+App 1154 output:   Rendered projects/filters/date/_between_dates.html.erb (0.5ms)
+App 1154 output:   Rendered projects/filters/date/_input_options.html.erb (2.3ms)
+App 1154 output:   Rendered projects/filters/_form.html.erb (267.6ms)
+App 1154 output:   Rendered projects/_hierarchy_header.html.erb (0.5ms)
+App 1154 output:   Rendered projects/index.html.erb within layouts/no_menu (541.6ms)
+App 1154 output:   Rendering layouts/base.html.erb
+App 1154 output:   Rendered common/_favicons.html.erb (0.8ms)
+App 1154 output:   Rendered search/_mini_form.html.erb (0.7ms)
+App 1154 output:   Rendered layouts/_action_menu.html.erb (0.6ms)
+App 1154 output:   Rendered layouts/base.html.erb (203.8ms)
+App 1154 output: Completed 200 OK in 885ms (Views: 748.0ms | ActiveRecord: 117.6ms)
+App 1154 output: Started GET "/projects/demo-project" for 127.0.0.1 at 2018-11-13 17:37:47 +0000
+App 1154 output: Processing by MyProjectsOverviewsController#index as HTML
+App 1154 output:   Parameters: {"id"=>"demo-project"}
+App 1154 output:   Rendering vendored-plugins/openproject-my_project_page/app/views/my_projects_overviews/index.html.erb within layouts/base
+App 1154 output:   Rendered vendored-plugins/openproject-my_project_page/app/views/my_projects_overviews/_textilizable.html.erb (2.9ms)
+App 1154 output:   Rendered vendored-plugins/openproject-my_project_page/app/views/my_projects_overviews/_block_textilizable.html.erb (183.1ms)
+App 1154 output:   Rendered vendored-plugins/openproject-my_project_page/app/views/my_projects_overviews/_textilizable.html.erb (11.7ms)
+App 1154 output:   Rendered vendored-plugins/openproject-my_project_page/app/views/my_projects_overviews/_block_textilizable.html.erb (17.7ms)
+App 1154 output:   Rendered vendored-plugins/openproject-my_project_page/app/views/my_projects_overviews/blocks/_project_description.html.erb (2.8ms)
+App 1154 output:   Rendered vendored-plugins/openproject-my_project_page/app/views/my_projects_overviews/_block.html.erb (17.0ms)
+App 1154 output:   Rendered vendored-plugins/openproject-my_project_page/app/views/my_projects_overviews/blocks/_work_package_tracking.html.erb (37.3ms)
+App 1154 output:   Rendered vendored-plugins/openproject-my_project_page/app/views/my_projects_overviews/_block.html.erb (55.0ms)
+App 1154 output:   Rendered vendored-plugins/openproject-my_project_page/app/views/my_projects_overviews/_members.html.erb (0.9ms)
+App 1154 output:   Rendered vendored-plugins/openproject-my_project_page/app/views/my_projects_overviews/blocks/_members.html.erb (100.1ms)
+App 1154 output:   Rendered vendored-plugins/openproject-my_project_page/app/views/my_projects_overviews/_block.html.erb (113.2ms)
+App 1154 output:   Rendered collection of news/_news.html.erb [1 times] (54.9ms)
+App 1154 output:   Rendered vendored-plugins/openproject-my_project_page/app/views/my_projects_overviews/blocks/_news_latest.html.erb (136.1ms)
+App 1154 output:   Rendered vendored-plugins/openproject-my_project_page/app/views/my_projects_overviews/_block.html.erb (148.8ms)
+App 1154 output:   Rendered vendored-plugins/openproject-my_project_page/app/views/my_projects_overviews/index.html.erb within layouts/base (631.9ms)
+App 1154 output:   Rendered common/_favicons.html.erb (1.0ms)
+App 1154 output:   Rendered work_packages/_menu_query_select.html.erb (0.4ms)
+App 1154 output:   Rendered wiki/_menu_pages_tree.html.erb (29.5ms) [cache hit]
+App 1154 output:   Rendered search/_mini_form.html.erb (0.3ms)
+App 1154 output:   Rendered layouts/_action_menu.html.erb (0.2ms)
+App 1154 output: Completed 200 OK in 875ms (Views: 747.3ms | ActiveRecord: 84.8ms)
+App 1154 output: Started GET "/attachments/8" for 127.0.0.1 at 2018-11-13 17:37:48 +0000
+App 1154 output: Processing by AttachmentsController#download as HTML
+App 1154 output:   Parameters: {"id"=>"8"}
+App 1154 output: Sent file #<File:0x0000561b62c13260> (0.1ms)
+App 1154 output: Completed 200 OK in 17ms (ActiveRecord: 3.3ms)
+App 1154 output: Started GET "/api/v3/configuration" for 127.0.0.1 at 2018-11-13 17:37:49 +0000
+App 1154 output: Started GET "/api/v3/configuration" for 127.0.0.1 at 2018-11-13 17:37:49 +0000
+App 1154 output: Started GET "/projects/demo-project/work_packages" for 127.0.0.1 at 2018-11-13 17:37:58 +0000
+App 1154 output: Processing by WorkPackagesController#index as HTML
+App 1154 output:   Parameters: {"project_id"=>"demo-project"}
+App 1154 output:   Rendering work_packages/index.html.erb within layouts/angular
+App 1154 output:   Rendered work_packages/_sidebar.html.erb (0.7ms)
+App 1154 output:   Rendered work_packages/index.html.erb within layouts/angular (40.3ms)
+App 1154 output:   Rendered vendored-plugins/openproject-costs/app/views/hooks/costs/_view_work_package_overview_attributes.html.erb (1.7ms)
+App 1154 output:   Rendering layouts/base.html.erb
+App 1154 output:   Rendered common/_favicons.html.erb (0.9ms)
+App 1154 output:   Rendered work_packages/_menu_query_select.html.erb (0.4ms)
+App 1154 output:   Rendered wiki/_menu_pages_tree.html.erb (0.6ms) [cache hit]
+App 1154 output:   Rendered search/_mini_form.html.erb (0.3ms)
+App 1154 output:   Rendered layouts/base.html.erb (34.5ms)
+App 1154 output: Completed 200 OK in 247ms (Views: 221.9ms | ActiveRecord: 10.2ms)
+App 1154 output: Started GET "/api/v3/queries?filters=%5B%7B%22project_identifier%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22demo-project%22%5D%7D%7D%5D" for 127.0.0.1 at 2018-11-13 17:37:59 +0000
+App 1154 output: Started GET "/api/v3/projects/demo-project/queries/default?pageSize=20" for 127.0.0.1 at 2018-11-13 17:37:59 +0000
+App 1154 output: Started GET "/api/v3/projects/demo-project/types" for 127.0.0.1 at 2018-11-13 17:38:00 +0000
+App 1154 output: Started GET "/api/v3/configuration" for 127.0.0.1 at 2018-11-13 17:38:00 +0000
+App 1154 output: Started POST "/api/v3/queries/form" for 127.0.0.1 at 2018-11-13 17:38:00 +0000
+App 1154 output: Started POST "/api/v3/work_packages/25/form" for 127.0.0.1 at 2018-11-13 17:38:03 +0000
+App 1154 output: Started GET "/api/v3/projects/2" for 127.0.0.1 at 2018-11-13 17:38:08 +0000
+App 1577 output: Started GET "/api/v3/work_packages/25/attachments" for 127.0.0.1 at 2018-11-13 17:38:08 +0000
+App 1154 output: Started GET "/highlighting/styles.css" for 127.0.0.1 at 2018-11-13 17:38:08 +0000
+App 1154 output: Processing by HighlightingController#styles as CSS
+App 1154 output: Completed 304 Not Modified in 41ms (ActiveRecord: 3.0ms)
+App 1154 output: Started GET "/api/v3/work_packages/25/relations" for 127.0.0.1 at 2018-11-13 17:38:08 +0000
+App 1154 output: Started GET "/api/v3/configuration" for 127.0.0.1 at 2018-11-13 17:38:08 +0000
+App 1154 output: Started GET "/api/v3/projects/demo-project/types" for 127.0.0.1 at 2018-11-13 17:38:08 +0000
+App 1154 output: Started GET "/api/v3/help_texts" for 127.0.0.1 at 2018-11-13 17:38:08 +0000
+App 1154 output: Started GET "/api/v3/work_packages/25/activities" for 127.0.0.1 at 2018-11-13 17:38:08 +0000
+App 1610 output: Started GET "/api/v3/work_packages/25/revisions" for 127.0.0.1 at 2018-11-13 17:38:08 +0000
+App 1577 output: Fork detected, re-connecting child process...
+App 1610 output: Fork detected, re-connecting child process...
+App 1154 output: Started GET "/api/v3/users/2" for 127.0.0.1 at 2018-11-13 17:38:09 +0000
+App 1154 output: Started GET "/api/v3/queries/default?filters=%5B%7B%22parent%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B25%5D%7D%7D%5D&columns%5B%5D=id&columns%5B%5D=type&columns%5B%5D=subject&columns%5B%5D=status&showHierarchies=false" for 127.0.0.1 at 2018-11-13 17:38:13 +0000
+App 1154 output: Started GET "/api/v3/configuration" for 127.0.0.1 at 2018-11-13 17:38:13 +0000
+App 1154 output: Started GET "/api/v3/queries/default?filters=%5B%7B%22parent%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B25%5D%7D%7D%5D&columns%5B%5D=id&columns%5B%5D=type&columns%5B%5D=subject&columns%5B%5D=status&showHierarchies=false" for 127.0.0.1 at 2018-11-13 17:38:16 +0000
+App 1154 output: Started GET "/api/v3/configuration" for 127.0.0.1 at 2018-11-13 17:38:16 +0000
+App 1154 output: Started GET "/projects/demo-project/work_packages" for 127.0.0.1 at 2018-11-13 17:38:27 +0000
+App 1154 output: Processing by WorkPackagesController#index as HTML
+App 1154 output:   Parameters: {"project_id"=>"demo-project"}
+App 1154 output:   Rendering work_packages/index.html.erb within layouts/angular
+App 1154 output:   Rendered work_packages/_sidebar.html.erb (0.1ms)
+App 1154 output:   Rendered work_packages/index.html.erb within layouts/angular (7.7ms)
+App 1154 output:   Rendered vendored-plugins/openproject-costs/app/views/hooks/costs/_view_work_package_overview_attributes.html.erb (0.3ms)
+App 1154 output:   Rendering layouts/base.html.erb
+App 1154 output:   Rendered common/_favicons.html.erb (1.1ms)
+App 1154 output:   Rendered work_packages/_menu_query_select.html.erb (0.1ms)
+App 1154 output:   Rendered wiki/_menu_pages_tree.html.erb (0.6ms) [cache hit]
+App 1154 output:   Rendered search/_mini_form.html.erb (2.3ms)
+App 1154 output:   Rendered layouts/base.html.erb (58.7ms)
+App 1154 output: Completed 200 OK in 87ms (Views: 63.4ms | ActiveRecord: 10.0ms)
+App 1154 output: Started GET "/api/v3/queries?filters=%5B%7B%22project_identifier%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22demo-project%22%5D%7D%7D%5D" for 127.0.0.1 at 2018-11-13 17:38:27 +0000
+App 1577 output: Started GET "/api/v3/projects/demo-project/queries/default?pageSize=20" for 127.0.0.1 at 2018-11-13 17:38:27 +0000
+App 1154 output: Started GET "/api/v3/projects/demo-project/types" for 127.0.0.1 at 2018-11-13 17:38:28 +0000
+App 1154 output: Started GET "/api/v3/configuration" for 127.0.0.1 at 2018-11-13 17:38:28 +0000
+App 1154 output: Started POST "/api/v3/queries/form" for 127.0.0.1 at 2018-11-13 17:38:28 +0000
+App 1154 output: Started GET "/api/v3/projects/2" for 127.0.0.1 at 2018-11-13 17:38:31 +0000
+App 1577 output: Started GET "/highlighting/styles.css" for 127.0.0.1 at 2018-11-13 17:38:31 +0000
+App 1610 output: Started GET "/api/v3/work_packages/25/relations" for 127.0.0.1 at 2018-11-13 17:38:31 +0000
+App 1577 output: Processing by HighlightingController#styles as CSS
+App 1154 output: Started GET "/api/v3/work_packages/25/attachments" for 127.0.0.1 at 2018-11-13 17:38:31 +0000
+App 1610 output: Started GET "/api/v3/projects/demo-project/types" for 127.0.0.1 at 2018-11-13 17:38:31 +0000
+App 1154 output: Started GET "/api/v3/configuration" for 127.0.0.1 at 2018-11-13 17:38:31 +0000
+App 1577 output: Completed 304 Not Modified in 51ms (ActiveRecord: 2.2ms)
+App 1154 output: Started GET "/api/v3/work_packages/25/activities" for 127.0.0.1 at 2018-11-13 17:38:31 +0000
+App 1577 output: Started GET "/api/v3/help_texts" for 127.0.0.1 at 2018-11-13 17:38:31 +0000
+App 1577 output: Started GET "/api/v3/work_packages/25/revisions" for 127.0.0.1 at 2018-11-13 17:38:31 +0000
+App 1154 output: Started GET "/api/v3/users/2" for 127.0.0.1 at 2018-11-13 17:38:32 +0000
+App 1154 output: Started POST "/api/v3/work_packages/25/form" for 127.0.0.1 at 2018-11-13 17:38:46 +0000
+App 1154 output: Started GET "/api/v3/projects/demo-project/types" for 127.0.0.1 at 2018-11-13 17:38:52 +0000
+App 1154 output: Started GET "/api/v3/configuration" for 127.0.0.1 at 2018-11-13 17:38:52 +0000
+App 1154 output: Started GET "/api/v3/projects/demo-project/queries/default?pageSize=20&columns%5B%5D=id&columns%5B%5D=subject&columns%5B%5D=type&columns%5B%5D=status&columns%5B%5D=assignee&columns%5B%5D=updatedAt&showHierarchies=false&groupBy=&filters=%5B%7B%22status%22%3A%7B%22operator%22%3A%22o%22%2C%22values%22%3A%5B%5D%7D%7D%5D&sortBy=%5B%5B%22updatedAt%22%2C%22desc%22%5D%5D" for 127.0.0.1 at 2018-11-13 17:38:57 +0000
+App 1577 output: Started GET "/api/v3/projects/demo-project/queries/default?pageSize=20&columns%5B%5D=id&columns%5B%5D=subject&columns%5B%5D=type&columns%5B%5D=status&columns%5B%5D=assignee&columns%5B%5D=updatedAt&showHierarchies=false&groupBy=&filters=%5B%7B%22status%22%3A%7B%22operator%22%3A%22o%22%2C%22values%22%3A%5B%5D%7D%7D%5D&sortBy=%5B%5B%22updatedAt%22%2C%22desc%22%5D%5D" for 127.0.0.1 at 2018-11-13 17:38:57 +0000
+App 1154 output: Started POST "/api/v3/queries/form" for 127.0.0.1 at 2018-11-13 17:38:57 +0000
+App 1154 output: Started GET "/api/v3/projects/demo-project/queries/default?pageSize=20&columns%5B%5D=id&columns%5B%5D=subject&columns%5B%5D=type&columns%5B%5D=status&columns%5B%5D=assignee&columns%5B%5D=updatedAt&showHierarchies=false&groupBy=&filters=%5B%7B%22status%22%3A%7B%22operator%22%3A%22o%22%2C%22values%22%3A%5B%5D%7D%7D%5D&sortBy=%5B%5B%22updatedAt%22%2C%22desc%22%5D%5D" for 127.0.0.1 at 2018-11-13 17:38:58 +0000
+App 1577 output: Started GET "/api/v3/projects/demo-project/queries/default?pageSize=20&columns%5B%5D=id&columns%5B%5D=subject&columns%5B%5D=type&columns%5B%5D=status&columns%5B%5D=assignee&columns%5B%5D=updatedAt&showHierarchies=false&groupBy=&filters=%5B%7B%22status%22%3A%7B%22operator%22%3A%22o%22%2C%22values%22%3A%5B%5D%7D%7D%5D&sortBy=%5B%5B%22updatedAt%22%2C%22desc%22%5D%5D" for 127.0.0.1 at 2018-11-13 17:38:58 +0000
+App 1154 output: Started POST "/api/v3/queries/form" for 127.0.0.1 at 2018-11-13 17:38:58 +0000
+App 1154 output: Started GET "/api/v3/projects/demo-project/queries/default?pageSize=20" for 127.0.0.1 at 2018-11-13 17:38:59 +0000
+App 1154 output: Started POST "/api/v3/queries/form" for 127.0.0.1 at 2018-11-13 17:38:59 +0000
+App 1154 output: Started GET "/api/v3/relations?filters=%5B%7B%22involved%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B24%2C26%2C27%2C28%2C29%2C30%2C31%2C32%2C33%2C34%2C35%2C36%2C37%2C38%2C39%2C40%2C41%5D%7D%7D%5D" for 127.0.0.1 at 2018-11-13 17:39:02 +0000
+App 1154 output: Started GET "/api/v3/relations?filters=%5B%7B%22involved%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B24%2C26%2C27%2C28%2C29%2C30%2C31%2C32%2C33%2C34%2C35%2C36%2C37%2C38%2C39%2C40%2C41%5D%7D%7D%5D" for 127.0.0.1 at 2018-11-13 17:39:02 +0000
+App 1154 output: Started GET "/projects/level_list.json" for 127.0.0.1 at 2018-11-13 17:39:16 +0000
+App 1154 output: Processing by ProjectsController#level_list as JSON
+App 1154 output:   Rendering projects/level_list.api.rabl
+App 1154 output:   Rendered projects/level_list.api.rabl (1.2ms)
+App 1154 output: Completed 200 OK in 16ms (Views: 2.0ms | ActiveRecord: 2.6ms)
+App 1154 output: Started GET "/projects/new" for 127.0.0.1 at 2018-11-13 17:39:16 +0000
+App 1154 output: Processing by ProjectsController#new as HTML
+App 1154 output:   Rendering projects/new.html.erb within layouts/no_menu
+App 1154 output:   Rendered projects/form/attributes/_name.html.erb (1.5ms)
+App 1154 output:   Rendered customizable/_form.html.erb (1.8ms)
+App 1154 output:   Rendered projects/form/attributes/_parent_id.html.erb (11.4ms)
+App 1154 output:   Rendered projects/form/attributes/_description.html.erb (1.4ms)
+App 1154 output:   Rendered projects/form/attributes/_identifier.html.erb (1.8ms)
+App 1154 output:   Rendered projects/form/attributes/_is_public.html.erb (1.2ms)
+App 1154 output:   Rendered customizable/_form.html.erb (0.2ms)
+App 1154 output:   Rendered projects/form/_project_attributes.html.erb (226.2ms)
+App 1154 output:   Rendered projects/_form.html.erb (265.7ms)
+App 1154 output:   Rendered projects/new.html.erb within layouts/no_menu (345.7ms)
+App 1154 output:   Rendering layouts/base.html.erb
+App 1154 output:   Rendered common/_favicons.html.erb (1.7ms)
+App 1154 output:   Rendered search/_mini_form.html.erb (0.3ms)
+App 1154 output:   Rendered layouts/_action_menu.html.erb (0.1ms)
+App 1154 output:   Rendered layouts/base.html.erb (23.4ms)
+App 1154 output: Completed 200 OK in 438ms (Views: 395.9ms | ActiveRecord: 9.7ms)
+App 1154 output: Started GET "/projects/level_list.json" for 127.0.0.1 at 2018-11-13 17:39:18 +0000
+App 1154 output: Processing by ProjectsController#level_list as JSON
+App 1154 output:   Rendering projects/level_list.api.rabl
+App 1154 output:   Rendered projects/level_list.api.rabl (2.4ms)
+App 1154 output: Completed 200 OK in 26ms (Views: 4.0ms | ActiveRecord: 3.9ms)
+App 1154 output: Started GET "/projects" for 127.0.0.1 at 2018-11-13 17:39:19 +0000
+App 1154 output: Processing by ProjectsController#index as HTML
+App 1154 output:   Rendering projects/index.html.erb within layouts/no_menu
+App 1154 output:   Rendered projects/filters/list/_select.html.erb (0.7ms)
+App 1154 output:   Rendered projects/filters/list/_select.html.erb (0.3ms)
+App 1154 output:   Rendered projects/filters/list/_input_options.html.erb (3.2ms)
+App 1154 output:   Rendered projects/filters/date/_days.html.erb (0.1ms)
+App 1154 output:   Rendered projects/filters/date/_on_date.html.erb (0.3ms)
+App 1154 output:   Rendered projects/filters/date/_between_dates.html.erb (0.2ms)
+App 1154 output:   Rendered projects/filters/date/_input_options.html.erb (1.6ms)
+App 1154 output:   Rendered projects/filters/_text.html.erb (0.3ms)
+App 1154 output:   Rendered projects/filters/date/_days.html.erb (0.1ms)
+App 1154 output:   Rendered projects/filters/date/_on_date.html.erb (0.1ms)
+App 1154 output:   Rendered projects/filters/date/_between_dates.html.erb (0.2ms)
+App 1154 output:   Rendered projects/filters/date/_input_options.html.erb (1.1ms)
+App 1154 output:   Rendered projects/filters/_form.html.erb (16.0ms)
+App 1154 output:   Rendered projects/_hierarchy_header.html.erb (0.2ms)
+App 1154 output:   Rendered projects/index.html.erb within layouts/no_menu (48.7ms)
+App 1154 output:   Rendering layouts/base.html.erb
+App 1154 output:   Rendered common/_favicons.html.erb (0.2ms)
+App 1154 output:   Rendered search/_mini_form.html.erb (0.9ms)
+App 1154 output:   Rendered layouts/_action_menu.html.erb (0.1ms)
+App 1154 output:   Rendered layouts/base.html.erb (19.4ms)
+App 1154 output: Completed 200 OK in 90ms (Views: 61.4ms | ActiveRecord: 10.7ms)
+App 1154 output: Started GET "/projects/cartola-fc" for 127.0.0.1 at 2018-11-13 17:39:21 +0000
+App 1154 output: Processing by MyProjectsOverviewsController#index as HTML
+App 1154 output:   Parameters: {"id"=>"cartola-fc"}
+App 1154 output:   Rendering vendored-plugins/openproject-my_project_page/app/views/my_projects_overviews/index.html.erb within layouts/base
+App 1154 output:   Rendered vendored-plugins/openproject-my_project_page/app/views/my_projects_overviews/blocks/_project_description.html.erb (2.0ms)
+App 1154 output:   Rendered vendored-plugins/openproject-my_project_page/app/views/my_projects_overviews/_block.html.erb (3.2ms)
+App 1154 output:   Rendered vendored-plugins/openproject-my_project_page/app/views/my_projects_overviews/blocks/_project_details.html.erb (9.9ms)
+App 1154 output:   Rendered vendored-plugins/openproject-my_project_page/app/views/my_projects_overviews/_block.html.erb (63.1ms)
+App 1154 output:   Rendered vendored-plugins/openproject-my_project_page/app/views/my_projects_overviews/blocks/_work_package_tracking.html.erb (33.9ms)
+App 1154 output:   Rendered vendored-plugins/openproject-my_project_page/app/views/my_projects_overviews/_block.html.erb (35.4ms)
+App 1154 output:   Rendered vendored-plugins/openproject-my_project_page/app/views/my_projects_overviews/blocks/_members.html.erb (10.6ms)
+App 1154 output:   Rendered vendored-plugins/openproject-my_project_page/app/views/my_projects_overviews/_block.html.erb (11.5ms)
+App 1154 output:   Rendered vendored-plugins/openproject-my_project_page/app/views/my_projects_overviews/blocks/_news_latest.html.erb (5.2ms)
+App 1154 output:   Rendered vendored-plugins/openproject-my_project_page/app/views/my_projects_overviews/_block.html.erb (7.1ms)
+App 1154 output:   Rendered vendored-plugins/openproject-my_project_page/app/views/my_projects_overviews/index.html.erb within layouts/base (181.3ms)
+App 1154 output:   Rendered common/_favicons.html.erb (3.7ms)
+App 1154 output:   Rendered work_packages/_menu_query_select.html.erb (0.2ms)
+App 1154 output:   Rendered search/_mini_form.html.erb (0.3ms)
+App 1154 output:   Rendered layouts/_action_menu.html.erb (0.1ms)
+App 1154 output: Completed 200 OK in 262ms (Views: 175.0ms | ActiveRecord: 70.4ms)
+App 1154 output: Started GET "/projects/cartola-fc/work_packages" for 127.0.0.1 at 2018-11-13 17:39:24 +0000
+App 1154 output: Processing by WorkPackagesController#index as HTML
+App 1154 output:   Parameters: {"project_id"=>"cartola-fc"}
+App 1154 output:   Rendering work_packages/index.html.erb within layouts/angular
+App 1154 output:   Rendered work_packages/_sidebar.html.erb (0.3ms)
+App 1154 output:   Rendered work_packages/index.html.erb within layouts/angular (7.5ms)
+App 1154 output:   Rendered vendored-plugins/openproject-costs/app/views/hooks/costs/_view_work_package_overview_attributes.html.erb (0.6ms)
+App 1154 output:   Rendering layouts/base.html.erb
+App 1154 output:   Rendered common/_favicons.html.erb (1.6ms)
+App 1154 output:   Rendered work_packages/_menu_query_select.html.erb (0.1ms)
+App 1154 output:   Rendered search/_mini_form.html.erb (0.4ms)
+App 1154 output:   Rendered layouts/base.html.erb (30.8ms)
+App 1154 output: Completed 200 OK in 70ms (Views: 38.8ms | ActiveRecord: 9.6ms)
+App 1154 output: Started GET "/api/v3/queries?filters=%5B%7B%22project_identifier%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22cartola-fc%22%5D%7D%7D%5D" for 127.0.0.1 at 2018-11-13 17:39:24 +0000
+App 1577 output: Started GET "/api/v3/projects/cartola-fc/queries/default?pageSize=20" for 127.0.0.1 at 2018-11-13 17:39:24 +0000
+App 1154 output: Started GET "/api/v3/projects/cartola-fc/types" for 127.0.0.1 at 2018-11-13 17:39:24 +0000
+App 1154 output: Started GET "/api/v3/configuration" for 127.0.0.1 at 2018-11-13 17:39:24 +0000
+App 1154 output: Started POST "/api/v3/queries/form" for 127.0.0.1 at 2018-11-13 17:39:24 +0000
+App 1154 output: Started POST "/api/v3/projects/cartola-fc/work_packages/form" for 127.0.0.1 at 2018-11-13 17:39:39 +0000
+App 1154 output: Started GET "/highlighting/styles.css" for 127.0.0.1 at 2018-11-13 17:39:39 +0000
+App 1154 output: Processing by HighlightingController#styles as CSS
+App 1154 output: Completed 304 Not Modified in 9ms (ActiveRecord: 2.4ms)
+App 1577 output: Started GET "/api/v3/configuration" for 127.0.0.1 at 2018-11-13 17:39:39 +0000
+App 1154 output: Started GET "/api/v3/help_texts" for 127.0.0.1 at 2018-11-13 17:39:39 +0000
+App 1154 output: Started GET "/api/v3/projects/3/available_assignees" for 127.0.0.1 at 2018-11-13 17:39:39 +0000
+App 1577 output: Started GET "/api/v3/projects/3/available_responsibles" for 127.0.0.1 at 2018-11-13 17:39:39 +0000
+App 1154 output: Started POST "/api/v3/projects/3/work_packages/form" for 127.0.0.1 at 2018-11-13 17:42:28 +0000
+App 1154 output: Started GET "/api/v3/projects/3/available_assignees" for 127.0.0.1 at 2018-11-13 17:42:28 +0000
+App 1577 output: Started GET "/api/v3/projects/3/available_responsibles" for 127.0.0.1 at 2018-11-13 17:42:28 +0000
+App 1610 output: Started POST "/api/v3/work_packages" for 127.0.0.1 at 2018-11-13 17:42:28 +0000
+App 1154 output: Started GET "/api/v3/work_packages/schemas/3-3" for 127.0.0.1 at 2018-11-13 17:42:29 +0000
+App 1154 output: Started GET "/api/v3/projects/3" for 127.0.0.1 at 2018-11-13 17:42:29 +0000
+App 1577 output: Started GET "/api/v3/work_packages/42/relations" for 127.0.0.1 at 2018-11-13 17:42:29 +0000
+App 1154 output: Started GET "/api/v3/work_packages/42/attachments" for 127.0.0.1 at 2018-11-13 17:42:29 +0000
+App 1154 output: Started GET "/api/v3/work_packages/42/activities" for 127.0.0.1 at 2018-11-13 17:42:29 +0000
+App 1577 output: Started GET "/api/v3/work_packages/42/revisions" for 127.0.0.1 at 2018-11-13 17:42:29 +0000
+App 1154 output: Started GET "/api/v3/projects/3/work_packages?pageSize=20&offset=1&columns%5B%5D=id&columns%5B%5D=subject&columns%5B%5D=type&columns%5B%5D=status&columns%5B%5D=assignee&showSums=false&timelineVisible=false&highlightingMode=none&showHierarchies=true&groupBy=&filters=%5B%7B%22status%22%3A%7B%22operator%22%3A%22o%22%2C%22values%22%3A%5B%5D%7D%7D%5D&sortBy=%5B%5B%22parent%22%2C%22asc%22%5D%5D" for 127.0.0.1 at 2018-11-13 17:42:29 +0000
+App 1577 output: Started GET "/api/v3/users/1" for 127.0.0.1 at 2018-11-13 17:42:29 +0000
+App 1154 output: Started GET "/api/v3/work_packages/42/summarized_costs_by_type" for 127.0.0.1 at 2018-11-13 17:42:29 +0000
+App 1577 output: Started GET "/api/v3/work_packages/42/attachments" for 127.0.0.1 at 2018-11-13 17:42:29 +0000
+App 1154 output: Started POST "/api/v3/work_packages/42/form" for 127.0.0.1 at 2018-11-13 17:42:32 +0000
+App 1154 output: Started GET "/api/v3/projects/3" for 127.0.0.1 at 2018-11-13 17:43:22 +0000
+App 1154 output: Started POST "/api/v3/projects/cartola-fc/work_packages/form" for 127.0.0.1 at 2018-11-13 17:43:22 +0000
+App 1154 output: Started GET "/" for 127.0.0.1 at 2018-11-13 17:44:45 +0000
+App 1154 output: Processing by HomescreenController#index as HTML
+App 1154 output:   Rendering homescreen/index.html.erb within layouts/no_menu
+App 1154 output:   Rendered announcements/_show.html.erb (2.0ms)
+App 1154 output:   Rendered homescreen/blocks/_welcome.html.erb (4.4ms)
+App 1154 output:   Rendered homescreen/blocks/_projects.html.erb (3.2ms)
+App 1154 output:   Rendered homescreen/blocks/_users.html.erb (1.2ms)
+App 1154 output:   Rendered homescreen/blocks/_my_account.html.erb (1.0ms)
+App 1154 output: Failed to create avatar for : Invalid Mail
+App 1154 output: Failed to create avatar for : Invalid Mail
+App 1154 output:   Rendered homescreen/blocks/_news.html.erb (6.6ms)
+App 1154 output:   Rendered homescreen/blocks/_community.html.erb (3.1ms)
+App 1154 output:   Rendered homescreen/blocks/_administration.html.erb (1.9ms)
+App 1154 output:   Rendered homescreen/blocks/_upsale.html.erb (1.5ms)
+App 1154 output:   Rendered homescreen/index.html.erb within layouts/no_menu (320.9ms)
+App 1154 output:   Rendering layouts/base.html.erb
+App 1154 output:   Rendered common/_favicons.html.erb (0.2ms)
+App 1154 output:   Rendered search/_mini_form.html.erb (0.2ms)
+App 1154 output:   Rendered layouts/_action_menu.html.erb (0.3ms)
+App 1154 output:   Rendered layouts/base.html.erb (11.3ms)
+App 1154 output: Completed 200 OK in 423ms (Views: 331.0ms | ActiveRecord: 18.1ms)
+App 1154 output: Started GET "/projects/cartola-fc" for 127.0.0.1 at 2018-11-13 17:44:49 +0000
+App 1154 output: Processing by MyProjectsOverviewsController#index as HTML
+App 1154 output:   Parameters: {"id"=>"cartola-fc"}
+App 1154 output:   Rendering vendored-plugins/openproject-my_project_page/app/views/my_projects_overviews/index.html.erb within layouts/base
+App 1154 output:   Rendered vendored-plugins/openproject-my_project_page/app/views/my_projects_overviews/blocks/_project_description.html.erb (0.8ms)
+App 1154 output:   Rendered vendored-plugins/openproject-my_project_page/app/views/my_projects_overviews/_block.html.erb (1.5ms)
+App 1154 output:   Rendered vendored-plugins/openproject-my_project_page/app/views/my_projects_overviews/blocks/_project_details.html.erb (7.7ms)
+App 1154 output:   Rendered vendored-plugins/openproject-my_project_page/app/views/my_projects_overviews/_block.html.erb (8.3ms)
+App 1154 output:   Rendered vendored-plugins/openproject-my_project_page/app/views/my_projects_overviews/blocks/_work_package_tracking.html.erb (16.5ms)
+App 1154 output:   Rendered vendored-plugins/openproject-my_project_page/app/views/my_projects_overviews/_block.html.erb (16.9ms)
+App 1154 output:   Rendered vendored-plugins/openproject-my_project_page/app/views/my_projects_overviews/blocks/_members.html.erb (2.8ms)
+App 1154 output:   Rendered vendored-plugins/openproject-my_project_page/app/views/my_projects_overviews/_block.html.erb (3.1ms)
+App 1154 output:   Rendered vendored-plugins/openproject-my_project_page/app/views/my_projects_overviews/blocks/_news_latest.html.erb (1.2ms)
+App 1154 output:   Rendered vendored-plugins/openproject-my_project_page/app/views/my_projects_overviews/_block.html.erb (1.4ms)
+App 1154 output:   Rendered vendored-plugins/openproject-my_project_page/app/views/my_projects_overviews/index.html.erb within layouts/base (45.0ms)
+App 1154 output:   Rendered common/_favicons.html.erb (1.0ms)
+App 1154 output:   Rendered work_packages/_menu_query_select.html.erb (0.3ms)
+App 1154 output:   Rendered search/_mini_form.html.erb (0.3ms)
+App 1154 output:   Rendered layouts/_action_menu.html.erb (0.1ms)
+App 1154 output: Completed 200 OK in 103ms (Views: 66.1ms | ActiveRecord: 21.4ms)
+App 1154 output: Started GET "/projects/cartola-fc/work_packages" for 127.0.0.1 at 2018-11-13 17:44:51 +0000
+App 1154 output: Processing by WorkPackagesController#index as HTML
+App 1154 output:   Parameters: {"project_id"=>"cartola-fc"}
+App 1154 output:   Rendering work_packages/index.html.erb within layouts/angular
+App 1154 output:   Rendered work_packages/_sidebar.html.erb (0.3ms)
+App 1154 output:   Rendered work_packages/index.html.erb within layouts/angular (8.4ms)
+App 1154 output:   Rendered vendored-plugins/openproject-costs/app/views/hooks/costs/_view_work_package_overview_attributes.html.erb (0.9ms)
+App 1154 output:   Rendering layouts/base.html.erb
+App 1154 output:   Rendered common/_favicons.html.erb (1.4ms)
+App 1154 output:   Rendered work_packages/_menu_query_select.html.erb (0.1ms)
+App 1154 output:   Rendered search/_mini_form.html.erb (0.3ms)
+App 1154 output:   Rendered layouts/base.html.erb (36.1ms)
+App 1154 output: Completed 200 OK in 76ms (Views: 42.7ms | ActiveRecord: 12.8ms)
+App 1154 output: Started GET "/api/v3/queries?filters=%5B%7B%22project_identifier%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22cartola-fc%22%5D%7D%7D%5D" for 127.0.0.1 at 2018-11-13 17:44:51 +0000
+App 1577 output: Started GET "/api/v3/projects/cartola-fc/queries/default?pageSize=20" for 127.0.0.1 at 2018-11-13 17:44:51 +0000
+App 1154 output: Started GET "/api/v3/projects/cartola-fc/types" for 127.0.0.1 at 2018-11-13 17:44:51 +0000
+App 1154 output: Started GET "/api/v3/configuration" for 127.0.0.1 at 2018-11-13 17:44:51 +0000
+App 1154 output: Started POST "/api/v3/queries/form" for 127.0.0.1 at 2018-11-13 17:44:51 +0000
+App 1154 output: Started GET "/api/v3/projects/3" for 127.0.0.1 at 2018-11-13 17:44:55 +0000
+App 1154 output: Started POST "/api/v3/projects/cartola-fc/work_packages/form" for 127.0.0.1 at 2018-11-13 17:44:55 +0000
+App 1154 output: Started GET "/highlighting/styles.css" for 127.0.0.1 at 2018-11-13 17:44:55 +0000
+App 1154 output: Processing by HighlightingController#styles as CSS
+App 1577 output: Started GET "/api/v3/configuration" for 127.0.0.1 at 2018-11-13 17:44:55 +0000
+App 1154 output: Completed 304 Not Modified in 7ms (ActiveRecord: 1.8ms)
+App 1154 output: Started POST "/api/v3/projects/3/work_packages/form" for 127.0.0.1 at 2018-11-13 17:46:59 +0000
+App 1154 output: Started GET "/api/v3/help_texts" for 127.0.0.1 at 2018-11-13 17:46:59 +0000
+App 1154 output: Started GET "/api/v3/projects/3/available_assignees" for 127.0.0.1 at 2018-11-13 17:46:59 +0000
+App 1577 output: Started GET "/api/v3/projects/3/available_responsibles" for 127.0.0.1 at 2018-11-13 17:46:59 +0000
+[ N 2018-11-13 17:47:28.5134 406/T4 age/Cor/CoreMain.cpp:1028 ]: Checking whether to disconnect long-running connections for process 1610, application /usr/src/app (production)
+App 1154 output: Started POST "/api/v3/projects/3/work_packages/form" for 127.0.0.1 at 2018-11-13 17:48:28 +0000
+App 1154 output: Started GET "/api/v3/projects/3/available_assignees" for 127.0.0.1 at 2018-11-13 17:48:28 +0000
+App 1577 output: Started GET "/api/v3/projects/3/available_responsibles" for 127.0.0.1 at 2018-11-13 17:48:28 +0000
+App 1154 output: Started POST "/api/v3/work_packages" for 127.0.0.1 at 2018-11-13 17:48:28 +0000
+App 1154 output: Started GET "/api/v3/work_packages/schemas/3-1" for 127.0.0.1 at 2018-11-13 17:48:29 +0000
+App 1154 output: Started GET "/api/v3/work_packages/42" for 127.0.0.1 at 2018-11-13 17:48:29 +0000
+App 1577 output: Started GET "/api/v3/projects/3" for 127.0.0.1 at 2018-11-13 17:48:29 +0000
+App 2006 output: Started GET "/api/v3/work_packages/43/relations" for 127.0.0.1 at 2018-11-13 17:48:29 +0000
+App 1577 output: Started GET "/api/v3/work_packages/43/attachments" for 127.0.0.1 at 2018-11-13 17:48:29 +0000
+App 1577 output: Started GET "/api/v3/work_packages/43/revisions" for 127.0.0.1 at 2018-11-13 17:48:29 +0000
+App 1577 output: Started GET "/api/v3/work_packages/43/activities" for 127.0.0.1 at 2018-11-13 17:48:29 +0000
+App 1154 output: Started GET "/api/v3/projects/3/work_packages?pageSize=20&offset=1&columns%5B%5D=id&columns%5B%5D=subject&columns%5B%5D=type&columns%5B%5D=status&columns%5B%5D=assignee&showSums=false&timelineVisible=false&highlightingMode=none&showHierarchies=true&groupBy=&filters=%5B%7B%22status%22%3A%7B%22operator%22%3A%22o%22%2C%22values%22%3A%5B%5D%7D%7D%5D&sortBy=%5B%5B%22parent%22%2C%22asc%22%5D%5D" for 127.0.0.1 at 2018-11-13 17:48:29 +0000
+App 1577 output: Started GET "/api/v3/users/1" for 127.0.0.1 at 2018-11-13 17:48:29 +0000
+App 1154 output: Started GET "/api/v3/work_packages/43/summarized_costs_by_type" for 127.0.0.1 at 2018-11-13 17:48:29 +0000
+App 1577 output: Started GET "/api/v3/work_packages/43/attachments" for 127.0.0.1 at 2018-11-13 17:48:29 +0000
+App 2006 output: Fork detected, re-connecting child process...
+App 1154 output: Started GET "/api/v3/work_packages/42/relations" for 127.0.0.1 at 2018-11-13 17:48:30 +0000
+App 1577 output: Started GET "/api/v3/work_packages/42/attachments" for 127.0.0.1 at 2018-11-13 17:48:30 +0000
+App 2006 output: Started GET "/api/v3/work_packages/42/summarized_costs_by_type" for 127.0.0.1 at 2018-11-13 17:48:30 +0000
+App 1154 output: Started GET "/api/v3/work_packages/42/activities" for 127.0.0.1 at 2018-11-13 17:48:30 +0000
+App 1577 output: Started GET "/api/v3/work_packages/42/revisions" for 127.0.0.1 at 2018-11-13 17:48:30 +0000
+[ N 2018-11-13 17:53:30.8489 406/T4 age/Cor/CoreMain.cpp:1028 ]: Checking whether to disconnect long-running connections for process 2006, application /usr/src/app (production)
+[ N 2018-11-13 17:53:30.8893 406/T4 age/Cor/CoreMain.cpp:1028 ]: Checking whether to disconnect long-running connections for process 1154, application /usr/src/app (production)
+App 1577 output: Started GET "/api/v3/projects/cartola-fc/queries/default?pageSize=20&columns%5B%5D=id&columns%5B%5D=subject&columns%5B%5D=type&columns%5B%5D=status&columns%5B%5D=assignee&columns%5B%5D=updatedAt&showHierarchies=false&groupBy=&filters=%5B%7B%22status%22%3A%7B%22operator%22%3A%22o%22%2C%22values%22%3A%5B%5D%7D%7D%2C%7B%22author%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22me%22%5D%7D%7D%5D&sortBy=%5B%5B%22updatedAt%22%2C%22desc%22%5D%2C%5B%22parent%22%2C%22asc%22%5D%5D&offset=1" for 127.0.0.1 at 2018-11-13 17:53:40 +0000
+App 1577 output: Started GET "/api/v3/projects/cartola-fc/queries/default?pageSize=20&columns%5B%5D=id&columns%5B%5D=subject&columns%5B%5D=type&columns%5B%5D=status&columns%5B%5D=assignee&columns%5B%5D=updatedAt&showHierarchies=false&groupBy=&filters=%5B%7B%22status%22%3A%7B%22operator%22%3A%22o%22%2C%22values%22%3A%5B%5D%7D%7D%2C%7B%22author%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22me%22%5D%7D%7D%5D&sortBy=%5B%5B%22updatedAt%22%2C%22desc%22%5D%2C%5B%22parent%22%2C%22asc%22%5D%5D&offset=1" for 127.0.0.1 at 2018-11-13 17:53:40 +0000
+App 1577 output: Started POST "/api/v3/queries/form" for 127.0.0.1 at 2018-11-13 17:53:40 +0000
+App 2228 output: Started GET "/api/v3/projects/cartola-fc/queries/default?pageSize=20&columns%5B%5D=id&columns%5B%5D=subject&columns%5B%5D=type&columns%5B%5D=status&columns%5B%5D=author&columns%5B%5D=updatedAt&groupBy=&filters=%5B%7B%22status%22%3A%7B%22operator%22%3A%22o%22%2C%22values%22%3A%5B%5D%7D%7D%2C%7B%22assignee%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22me%22%5D%7D%7D%5D&sortBy=%5B%5B%22updatedAt%22%2C%22desc%22%5D%2C%5B%22parent%22%2C%22asc%22%5D%5D" for 127.0.0.1 at 2018-11-13 17:53:40 +0000
+App 1577 output: Started GET "/api/v3/projects/cartola-fc/queries/default?pageSize=20&columns%5B%5D=id&columns%5B%5D=subject&columns%5B%5D=type&columns%5B%5D=status&columns%5B%5D=author&columns%5B%5D=updatedAt&groupBy=&filters=%5B%7B%22status%22%3A%7B%22operator%22%3A%22o%22%2C%22values%22%3A%5B%5D%7D%7D%2C%7B%22assignee%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22me%22%5D%7D%7D%5D&sortBy=%5B%5B%22updatedAt%22%2C%22desc%22%5D%2C%5B%22parent%22%2C%22asc%22%5D%5D" for 127.0.0.1 at 2018-11-13 17:53:40 +0000
+App 2255 output: Started GET "/api/v3/principals?filters=%5B%7B%22type%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22User%22%5D%7D%7D%2C%7B%22status%22%3A%7B%22operator%22%3A%22%21%22%2C%22values%22%3A%5B%220%22%2C%223%22%5D%7D%7D%2C%7B%22member%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%223%22%5D%7D%7D%5D&pageSize=0" for 127.0.0.1 at 2018-11-13 17:53:40 +0000
+App 1577 output: Started GET "/api/v3/" for 127.0.0.1 at 2018-11-13 17:53:41 +0000
+App 1577 output: Started POST "/api/v3/queries/form" for 127.0.0.1 at 2018-11-13 17:53:41 +0000
+App 2228 output: Fork detected, re-connecting child process...
+App 1577 output: Started GET "/api/v3/principals?filters=%5B%7B%22status%22%3A%7B%22operator%22%3A%22%21%22%2C%22values%22%3A%5B%220%22%2C%223%22%5D%7D%7D%2C%7B%22member%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%223%22%5D%7D%7D%5D&pageSize=0" for 127.0.0.1 at 2018-11-13 17:53:41 +0000
+App 1577 output: Started GET "/api/v3/" for 127.0.0.1 at 2018-11-13 17:53:41 +0000
+App 2255 output: Fork detected, re-connecting child process...
+App 1577 output: Started POST "/api/v3/projects/cartola-fc/work_packages/form" for 127.0.0.1 at 2018-11-13 17:53:43 +0000
+App 1577 output: Started GET "/api/v3/projects/3/available_assignees" for 127.0.0.1 at 2018-11-13 17:53:43 +0000
+App 1577 output: Started POST "/api/v3/projects/3/work_packages/form" for 127.0.0.1 at 2018-11-13 17:53:43 +0000
+App 1577 output: Started GET "/api/v3/projects/3/available_assignees" for 127.0.0.1 at 2018-11-13 17:53:43 +0000
+App 1577 output: Started GET "/api/v3/projects/cartola-fc/queries/default?pageSize=20&columns%5B%5D=id&columns%5B%5D=subject&columns%5B%5D=type&columns%5B%5D=status&columns%5B%5D=assignee&columns%5B%5D=updatedAt&showHierarchies=false&groupBy=&filters=%5B%7B%22status%22%3A%7B%22operator%22%3A%22o%22%2C%22values%22%3A%5B%5D%7D%7D%2C%7B%22author%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22me%22%5D%7D%7D%5D&sortBy=%5B%5B%22updatedAt%22%2C%22desc%22%5D%2C%5B%22parent%22%2C%22asc%22%5D%5D&offset=1" for 127.0.0.1 at 2018-11-13 17:53:57 +0000
+App 2228 output: Started GET "/api/v3/projects/cartola-fc/queries/default?pageSize=20&columns%5B%5D=id&columns%5B%5D=subject&columns%5B%5D=type&columns%5B%5D=status&columns%5B%5D=assignee&columns%5B%5D=updatedAt&showHierarchies=false&groupBy=&filters=%5B%7B%22status%22%3A%7B%22operator%22%3A%22o%22%2C%22values%22%3A%5B%5D%7D%7D%2C%7B%22author%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22me%22%5D%7D%7D%5D&sortBy=%5B%5B%22updatedAt%22%2C%22desc%22%5D%2C%5B%22parent%22%2C%22asc%22%5D%5D&offset=1" for 127.0.0.1 at 2018-11-13 17:53:57 +0000
+App 1577 output: Started POST "/api/v3/queries/form" for 127.0.0.1 at 2018-11-13 17:53:58 +0000
+App 2228 output: Started GET "/api/v3/" for 127.0.0.1 at 2018-11-13 17:53:58 +0000
+App 1577 output: Started GET "/api/v3/principals?filters=%5B%7B%22type%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22User%22%5D%7D%7D%2C%7B%22status%22%3A%7B%22operator%22%3A%22%21%22%2C%22values%22%3A%5B%220%22%2C%223%22%5D%7D%7D%2C%7B%22member%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%223%22%5D%7D%7D%5D&pageSize=0" for 127.0.0.1 at 2018-11-13 17:53:58 +0000
+App 1577 output: Started GET "/api/v3/projects/cartola-fc/queries/default?pageSize=20" for 127.0.0.1 at 2018-11-13 17:54:02 +0000
+App 1577 output: Started POST "/api/v3/queries/form" for 127.0.0.1 at 2018-11-13 17:54:02 +0000
+App 1577 output: Started GET "/api/v3/work_packages/43/activities" for 127.0.0.1 at 2018-11-13 17:54:10 +0000
+App 2228 output: Started GET "/api/v3/work_packages/43/revisions" for 127.0.0.1 at 2018-11-13 17:54:10 +0000
+App 1577 output: Started GET "/api/v3/projects/cartola-fc/queries/default?pageSize=20&columns%5B%5D=id&columns%5B%5D=subject&timelineVisible=true&showHierarchies=true&groupBy=" for 127.0.0.1 at 2018-11-13 17:54:15 +0000
+App 2228 output: Started GET "/api/v3/projects/cartola-fc/queries/default?pageSize=20&columns%5B%5D=id&columns%5B%5D=subject&timelineVisible=true&showHierarchies=true&groupBy=" for 127.0.0.1 at 2018-11-13 17:54:16 +0000
+App 1577 output: Started POST "/api/v3/queries/form" for 127.0.0.1 at 2018-11-13 17:54:16 +0000
+App 1577 output: Started GET "/api/v3/projects/cartola-fc/queries/default?pageSize=20&columns%5B%5D=id&columns%5B%5D=subject&columns%5B%5D=type&columns%5B%5D=status&columns%5B%5D=assignee&columns%5B%5D=createdAt&showHierarchies=false&groupBy=&filters=%5B%7B%22status%22%3A%7B%22operator%22%3A%22o%22%2C%22values%22%3A%5B%5D%7D%7D%5D&sortBy=%5B%5B%22createdAt%22%2C%22desc%22%5D%2C%5B%22%22%5D%5D" for 127.0.0.1 at 2018-11-13 17:54:17 +0000
+App 2228 output: Started GET "/api/v3/projects/cartola-fc/queries/default?pageSize=20&columns%5B%5D=id&columns%5B%5D=subject&columns%5B%5D=type&columns%5B%5D=status&columns%5B%5D=assignee&columns%5B%5D=createdAt&showHierarchies=false&groupBy=&filters=%5B%7B%22status%22%3A%7B%22operator%22%3A%22o%22%2C%22values%22%3A%5B%5D%7D%7D%5D&sortBy=%5B%5B%22createdAt%22%2C%22desc%22%5D%2C%5B%22%22%5D%5D" for 127.0.0.1 at 2018-11-13 17:54:17 +0000
+App 1577 output: Started POST "/api/v3/queries/form" for 127.0.0.1 at 2018-11-13 17:54:18 +0000
+App 1577 output: Started GET "/api/v3/projects/cartola-fc/queries/default?pageSize=20" for 127.0.0.1 at 2018-11-13 17:54:19 +0000
+App 1577 output: Started POST "/api/v3/queries/form" for 127.0.0.1 at 2018-11-13 17:54:19 +0000
+App 1577 output: Started GET "/api/v3/projects/cartola-fc/queries/default?pageSize=20&columns%5B%5D=id&columns%5B%5D=subject&columns%5B%5D=type&columns%5B%5D=status&columns%5B%5D=assignee&columns%5B%5D=updatedAt&showHierarchies=false&groupBy=&filters=%5B%7B%22status%22%3A%7B%22operator%22%3A%22o%22%2C%22values%22%3A%5B%5D%7D%7D%5D&sortBy=%5B%5B%22updatedAt%22%2C%22desc%22%5D%5D" for 127.0.0.1 at 2018-11-13 17:54:20 +0000
+App 2228 output: Started GET "/api/v3/projects/cartola-fc/queries/default?pageSize=20&columns%5B%5D=id&columns%5B%5D=subject&columns%5B%5D=type&columns%5B%5D=status&columns%5B%5D=assignee&columns%5B%5D=updatedAt&showHierarchies=false&groupBy=&filters=%5B%7B%22status%22%3A%7B%22operator%22%3A%22o%22%2C%22values%22%3A%5B%5D%7D%7D%5D&sortBy=%5B%5B%22updatedAt%22%2C%22desc%22%5D%5D" for 127.0.0.1 at 2018-11-13 17:54:20 +0000
+App 1577 output: Started POST "/api/v3/queries/form" for 127.0.0.1 at 2018-11-13 17:54:20 +0000
+App 1577 output: Started GET "/api/v3/projects/cartola-fc/queries/default?pageSize=20" for 127.0.0.1 at 2018-11-13 17:54:20 +0000
+App 1577 output: Started POST "/api/v3/queries/form" for 127.0.0.1 at 2018-11-13 17:54:21 +0000
+App 1577 output: Started GET "/work_packages/43/cost_entries/new" for 127.0.0.1 at 2018-11-13 17:54:25 +0000
+App 1577 output: Processing by CostlogController#new as HTML
+App 1577 output:   Parameters: {"work_package_id"=>"43"}
+App 1577 output:   Rendering vendored-plugins/openproject-costs/app/views/costlog/edit.html.erb within layouts/base
+App 1577 output:   Rendered vendored-plugins/openproject-costs/app/views/shared/_costs_header.html.erb (0.8ms)
+App 1577 output:   Rendered vendored-plugins/openproject-costs/app/views/costlog/edit.html.erb within layouts/base (41.9ms)
+App 1577 output:   Rendered common/_favicons.html.erb (1.4ms)
+App 1577 output:   Rendered work_packages/_menu_query_select.html.erb (0.5ms)
+App 1577 output:   Rendered search/_mini_form.html.erb (1.1ms)
+App 1577 output:   Rendered layouts/_action_menu.html.erb (0.5ms)
+App 1577 output: Completed 200 OK in 395ms (Views: 338.9ms | ActiveRecord: 27.3ms)
+App 1577 output: Started GET "/projects/cartola-fc/work_packages" for 127.0.0.1 at 2018-11-13 17:54:40 +0000
+App 1577 output: Processing by WorkPackagesController#index as HTML
+App 1577 output:   Parameters: {"project_id"=>"cartola-fc"}
+App 1577 output:   Rendering work_packages/index.html.erb within layouts/angular
+App 1577 output:   Rendered work_packages/_sidebar.html.erb (0.5ms)
+App 1577 output:   Rendered work_packages/index.html.erb within layouts/angular (42.3ms)
+App 1577 output:   Rendered vendored-plugins/openproject-costs/app/views/hooks/costs/_view_work_package_overview_attributes.html.erb (0.8ms)
+App 1577 output:   Rendering layouts/base.html.erb
+App 1577 output:   Rendered common/_favicons.html.erb (1.0ms)
+App 1577 output:   Rendered work_packages/_menu_query_select.html.erb (0.2ms)
+App 1577 output:   Rendered search/_mini_form.html.erb (0.3ms)
+App 1577 output:   Rendered layouts/base.html.erb (23.7ms)
+App 1577 output: Completed 200 OK in 222ms (Views: 185.5ms | ActiveRecord: 13.9ms)
+App 1577 output: Started GET "/api/v3/queries?filters=%5B%7B%22project_identifier%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22cartola-fc%22%5D%7D%7D%5D" for 127.0.0.1 at 2018-11-13 17:54:40 +0000
+App 2228 output: Started GET "/api/v3/projects/cartola-fc/queries/default?pageSize=20" for 127.0.0.1 at 2018-11-13 17:54:40 +0000
+App 1577 output: Started GET "/api/v3/projects/cartola-fc/types" for 127.0.0.1 at 2018-11-13 17:54:40 +0000
+App 1577 output: Started GET "/api/v3/configuration" for 127.0.0.1 at 2018-11-13 17:54:40 +0000
+App 1577 output: Started POST "/api/v3/queries/form" for 127.0.0.1 at 2018-11-13 17:54:41 +0000
+App 1577 output: Started GET "/api/v3/projects/3" for 127.0.0.1 at 2018-11-13 17:54:54 +0000
+App 1577 output: Started POST "/api/v3/projects/cartola-fc/work_packages/form" for 127.0.0.1 at 2018-11-13 17:54:54 +0000
+App 1577 output: Started GET "/highlighting/styles.css" for 127.0.0.1 at 2018-11-13 17:54:54 +0000
+App 1577 output: Processing by HighlightingController#styles as CSS
+App 2228 output: Started GET "/api/v3/configuration" for 127.0.0.1 at 2018-11-13 17:54:54 +0000
+App 1577 output: Completed 304 Not Modified in 8ms (ActiveRecord: 2.2ms)
+App 1577 output: Started POST "/api/v3/projects/3/work_packages/form" for 127.0.0.1 at 2018-11-13 17:55:45 +0000
+App 1577 output: Started GET "/api/v3/help_texts" for 127.0.0.1 at 2018-11-13 17:55:45 +0000
+App 1577 output: Started GET "/api/v3/projects/3/available_assignees" for 127.0.0.1 at 2018-11-13 17:55:45 +0000
+App 2228 output: Started GET "/api/v3/projects/3/available_responsibles" for 127.0.0.1 at 2018-11-13 17:55:45 +0000
+App 1577 output: Started POST "/api/v3/work_packages/43/form" for 127.0.0.1 at 2018-11-13 17:56:27 +0000
+App 1577 output: Started GET "/projects/cartola-fc/members" for 127.0.0.1 at 2018-11-13 17:56:38 +0000
+App 1577 output: Processing by MembersController#index as HTML
+App 1577 output:   Parameters: {"project_id"=>"cartola-fc"}
+App 1577 output:   Rendering members/index.html.erb within layouts/base
+App 1577 output:   Rendered members/_member_form_non_impaired.html.erb (26.1ms)
+App 1577 output:   Rendered members/_member_form.html.erb (63.1ms)
+App 1577 output:   Rendered common/_no_results.html.erb (0.6ms)
+App 1577 output:   Rendered members/index.html.erb within layouts/base (238.5ms)
+App 1577 output:   Rendered common/_favicons.html.erb (0.2ms)
+App 1577 output:   Rendered work_packages/_menu_query_select.html.erb (0.1ms)
+App 1577 output:   Rendered search/_mini_form.html.erb (0.3ms)
+App 1577 output:   Rendered layouts/_action_menu.html.erb (0.3ms)
+App 1577 output: Completed 200 OK in 370ms (Views: 254.6ms | ActiveRecord: 24.5ms)
+App 1577 output: Started GET "/projects/cartola-fc/members/autocomplete_for_member?q=&page_limit=10&page=1&project_id=3&_=1542131799477" for 127.0.0.1 at 2018-11-13 17:56:42 +0000
+App 1577 output: Processing by MembersController#autocomplete_for_member as JSON
+App 1577 output:   Parameters: {"q"=>"", "page_limit"=>"10", "page"=>"1", "project_id"=>"cartola-fc", "_"=>"1542131799477"}
+App 1577 output:   Rendering members/autocomplete_for_member.json.erb
+App 1577 output:   Rendered members/autocomplete_for_member.json.erb (0.8ms)
+App 1577 output: Completed 200 OK in 378ms (Views: 276.7ms | ActiveRecord: 25.3ms)
+App 1577 output: Started GET "/projects/cartola-fc/members/autocomplete_for_member?q=&page_limit=10&page=1&project_id=3&_=1542131799478" for 127.0.0.1 at 2018-11-13 17:56:45 +0000
+App 1577 output: Processing by MembersController#autocomplete_for_member as JSON
+App 1577 output:   Parameters: {"q"=>"", "page_limit"=>"10", "page"=>"1", "project_id"=>"cartola-fc", "_"=>"1542131799478"}
+App 1577 output:   Rendering members/autocomplete_for_member.json.erb
+App 1577 output:   Rendered members/autocomplete_for_member.json.erb (0.5ms)
+App 1577 output: Completed 200 OK in 32ms (Views: 1.8ms | ActiveRecord: 8.0ms)
+App 1577 output: Started GET "/projects/cartola-fc/members/autocomplete_for_member?q=&page_limit=10&page=1&project_id=3&_=1542131799479" for 127.0.0.1 at 2018-11-13 17:56:48 +0000
+App 1577 output: Processing by MembersController#autocomplete_for_member as JSON
+App 1577 output:   Parameters: {"q"=>"", "page_limit"=>"10", "page"=>"1", "project_id"=>"cartola-fc", "_"=>"1542131799479"}
+App 1577 output:   Rendering members/autocomplete_for_member.json.erb
+App 1577 output:   Rendered members/autocomplete_for_member.json.erb (0.6ms)
+App 1577 output: Completed 200 OK in 25ms (Views: 1.7ms | ActiveRecord: 5.8ms)
+App 1577 output: Started GET "/projects/cartola-fc/members/autocomplete_for_member?q=&page_limit=10&page=1&project_id=3&_=1542131799480" for 127.0.0.1 at 2018-11-13 17:56:50 +0000
+App 1577 output: Processing by MembersController#autocomplete_for_member as JSON
+App 1577 output:   Parameters: {"q"=>"", "page_limit"=>"10", "page"=>"1", "project_id"=>"cartola-fc", "_"=>"1542131799480"}
+App 1577 output:   Rendering members/autocomplete_for_member.json.erb
+App 1577 output:   Rendered members/autocomplete_for_member.json.erb (0.4ms)
+App 1577 output: Completed 200 OK in 25ms (Views: 1.5ms | ActiveRecord: 6.1ms)
+App 1577 output: Started POST "/projects/cartola-fc/members" for 127.0.0.1 at 2018-11-13 17:56:52 +0000
+App 1577 output: Processing by MembersController#create as HTML
+App 1577 output:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"DDj1aze7p0KOqyaAUnAzqp8NzrcSNYQOYfEtIEwb8qR6YKPgNGkE5dQoBoQAHpShvJEzH2jTdzleDygEhB0npg==", "member"=>{"user_ids"=>["1"], "role_ids"=>["3"]}, "button"=>"", "project_id"=>"cartola-fc"}
+App 1577 output: Redirected to http://localhost:8080/projects/cartola-fc/members?status=all
+App 1577 output: Completed 302 Found in 104ms (ActiveRecord: 59.5ms)
+App 1577 output: Started GET "/projects/cartola-fc/members?status=all" for 127.0.0.1 at 2018-11-13 17:56:52 +0000
+App 1577 output: Processing by MembersController#index as HTML
+App 1577 output:   Parameters: {"status"=>"all", "project_id"=>"cartola-fc"}
+App 1577 output:   Rendering members/index.html.erb within layouts/base
+App 1577 output:   Rendered members/_member_form_non_impaired.html.erb (12.7ms)
+App 1577 output:   Rendered members/_member_form.html.erb (14.6ms)
+App 1577 output:   Rendered members/index.html.erb within layouts/base (120.2ms)
+App 1577 output:   Rendered common/_favicons.html.erb (0.3ms)
+App 1577 output:   Rendered work_packages/_menu_query_select.html.erb (0.1ms)
+App 1577 output:   Rendered search/_mini_form.html.erb (0.3ms)
+App 1577 output:   Rendered layouts/_action_menu.html.erb (0.1ms)
+App 1577 output: Completed 200 OK in 168ms (Views: 119.6ms | ActiveRecord: 32.8ms)
+App 1577 output: Started GET "/projects/cartola-fc/members/autocomplete_for_member?q=&page_limit=10&page=1&project_id=3&_=1542131812944" for 127.0.0.1 at 2018-11-13 17:56:58 +0000
+App 1577 output: Processing by MembersController#autocomplete_for_member as JSON
+App 1577 output:   Parameters: {"q"=>"", "page_limit"=>"10", "page"=>"1", "project_id"=>"cartola-fc", "_"=>"1542131812944"}
+App 1577 output:   Rendering members/autocomplete_for_member.json.erb
+App 1577 output:   Rendered members/autocomplete_for_member.json.erb (0.3ms)
+App 1577 output: Completed 200 OK in 36ms (Views: 1.3ms | ActiveRecord: 8.6ms)
+App 1577 output: Started GET "/projects/cartola-fc/members/autocomplete_for_member?q=cas&page_limit=10&page=1&project_id=3&_=1542131812945" for 127.0.0.1 at 2018-11-13 17:57:00 +0000
+App 1577 output: Processing by MembersController#autocomplete_for_member as JSON
+App 1577 output:   Parameters: {"q"=>"cas", "page_limit"=>"10", "page"=>"1", "project_id"=>"cartola-fc", "_"=>"1542131812945"}
+App 1577 output:   Rendering members/autocomplete_for_member.json.erb
+App 1577 output:   Rendered members/autocomplete_for_member.json.erb (0.1ms)
+App 1577 output: Completed 200 OK in 19ms (Views: 1.0ms | ActiveRecord: 2.9ms)
+App 1577 output: Started GET "/projects/cartola-fc/members/autocomplete_for_member?q=c&page_limit=10&page=1&project_id=3&_=1542131812946" for 127.0.0.1 at 2018-11-13 17:57:01 +0000
+App 1577 output: Processing by MembersController#autocomplete_for_member as JSON
+App 1577 output:   Parameters: {"q"=>"c", "page_limit"=>"10", "page"=>"1", "project_id"=>"cartola-fc", "_"=>"1542131812946"}
+App 1577 output:   Rendering members/autocomplete_for_member.json.erb
+App 1577 output:   Rendered members/autocomplete_for_member.json.erb (0.1ms)
+App 1577 output: Completed 200 OK in 22ms (Views: 1.0ms | ActiveRecord: 4.2ms)
+App 1577 output: Started GET "/projects/cartola-fc/members/autocomplete_for_member?q=christian&page_limit=10&page=1&project_id=3&_=1542131812947" for 127.0.0.1 at 2018-11-13 17:57:02 +0000
+App 1577 output: Processing by MembersController#autocomplete_for_member as JSON
+App 1577 output:   Parameters: {"q"=>"christian", "page_limit"=>"10", "page"=>"1", "project_id"=>"cartola-fc", "_"=>"1542131812947"}
+App 1577 output:   Rendering members/autocomplete_for_member.json.erb
+App 1577 output:   Rendered members/autocomplete_for_member.json.erb (0.3ms)
+App 1577 output: Completed 200 OK in 39ms (Views: 2.6ms | ActiveRecord: 7.4ms)
+App 1577 output: Started GET "/projects/cartola-fc/members/autocomplete_for_member?q=&page_limit=10&page=1&project_id=3&_=1542131812948" for 127.0.0.1 at 2018-11-13 17:57:05 +0000
+App 1577 output: Processing by MembersController#autocomplete_for_member as JSON
+App 1577 output:   Parameters: {"q"=>"", "page_limit"=>"10", "page"=>"1", "project_id"=>"cartola-fc", "_"=>"1542131812948"}
+App 1577 output:   Rendering members/autocomplete_for_member.json.erb
+App 1577 output:   Rendered members/autocomplete_for_member.json.erb (0.3ms)
+App 1577 output: Completed 200 OK in 41ms (Views: 2.0ms | ActiveRecord: 8.2ms)
+App 1577 output: Started GET "/projects/cartola-fc/hourly_rates/1/edit" for 127.0.0.1 at 2018-11-13 17:57:09 +0000
+App 1577 output: Processing by HourlyRatesController#edit as HTML
+App 1577 output:   Parameters: {"project_id"=>"cartola-fc", "id"=>"1"}
+App 1577 output:   Rendering vendored-plugins/openproject-costs/app/views/hourly_rates/edit.html.erb within layouts/base
+App 1577 output:   Rendered vendored-plugins/openproject-costs/app/views/shared/_costs_header.html.erb (0.7ms)
+App 1577 output:   Rendered vendored-plugins/openproject-costs/app/views/hourly_rates/_rate.html.erb (2.8ms)
+App 1577 output:   Rendered vendored-plugins/openproject-costs/app/views/hourly_rates/_rate.html.erb (2.3ms)
+App 1577 output:   Rendered vendored-plugins/openproject-costs/app/views/hourly_rates/edit.html.erb within layouts/base (40.8ms)
+App 1577 output:   Rendered common/_favicons.html.erb (1.6ms)
+App 1577 output:   Rendered work_packages/_menu_query_select.html.erb (0.1ms)
+App 1577 output:   Rendered search/_mini_form.html.erb (0.4ms)
+App 1577 output:   Rendered layouts/_action_menu.html.erb (0.1ms)
+App 1577 output: Completed 200 OK in 172ms (Views: 115.9ms | ActiveRecord: 10.2ms)
+App 1577 output: Started GET "/projects/cartola-fc/cost_objects" for 127.0.0.1 at 2018-11-13 17:57:17 +0000
+App 1577 output: Processing by CostObjectsController#index as HTML
+App 1577 output:   Parameters: {"project_id"=>"cartola-fc"}
+App 1577 output:   Rendering vendored-plugins/openproject-costs/app/views/cost_objects/index.html.erb within layouts/base
+App 1577 output:   Rendered vendored-plugins/openproject-costs/app/views/shared/_costs_header.html.erb (0.7ms)
+App 1577 output:   Rendered common/_no_results.html.erb (0.2ms)
+App 1577 output:   Rendered vendored-plugins/openproject-costs/app/views/cost_objects/index.html.erb within layouts/base (14.8ms)
+App 1577 output:   Rendered common/_favicons.html.erb (0.9ms)
+App 1577 output:   Rendered work_packages/_menu_query_select.html.erb (0.3ms)
+App 1577 output:   Rendered search/_mini_form.html.erb (0.8ms)
+App 1577 output:   Rendered layouts/_action_menu.html.erb (0.1ms)
+App 1577 output: Completed 200 OK in 119ms (Views: 84.5ms | ActiveRecord: 9.7ms)
+App 1577 output: Started GET "/projects/cartola-fc/members" for 127.0.0.1 at 2018-11-13 17:57:18 +0000
+App 1577 output: Processing by MembersController#index as HTML
+App 1577 output:   Parameters: {"project_id"=>"cartola-fc"}
+App 1577 output:   Rendering members/index.html.erb within layouts/base
+App 1577 output:   Rendered members/_member_form_non_impaired.html.erb (10.6ms)
+App 1577 output:   Rendered members/_member_form.html.erb (12.3ms)
+App 1577 output:   Rendered members/index.html.erb within layouts/base (78.5ms)
+App 1577 output:   Rendered common/_favicons.html.erb (0.3ms)
+App 1577 output:   Rendered work_packages/_menu_query_select.html.erb (0.1ms)
+App 1577 output:   Rendered search/_mini_form.html.erb (0.3ms)
+App 1577 output:   Rendered layouts/_action_menu.html.erb (0.1ms)
+App 1577 output: Completed 200 OK in 128ms (Views: 82.8ms | ActiveRecord: 22.4ms)
+App 1577 output: Started GET "/projects/cartola-fc/members?page=1&per_page=100" for 127.0.0.1 at 2018-11-13 17:57:23 +0000
+App 1577 output: Processing by MembersController#index as HTML
+App 1577 output:   Parameters: {"page"=>"1", "per_page"=>"100", "project_id"=>"cartola-fc"}
+App 1577 output:   Rendering members/index.html.erb within layouts/base
+App 1577 output:   Rendered members/_member_form_non_impaired.html.erb (15.0ms)
+App 1577 output:   Rendered members/_member_form.html.erb (18.7ms)
+App 1577 output:   Rendered members/index.html.erb within layouts/base (67.5ms)
+App 1577 output:   Rendered common/_favicons.html.erb (0.2ms)
+App 1577 output:   Rendered work_packages/_menu_query_select.html.erb (0.1ms)
+App 1577 output:   Rendered search/_mini_form.html.erb (0.2ms)
+App 1577 output:   Rendered layouts/_action_menu.html.erb (0.1ms)
+App 1577 output: Completed 200 OK in 114ms (Views: 66.4ms | ActiveRecord: 26.3ms)
+App 1577 output: Started GET "/projects/cartola-fc/work_packages" for 127.0.0.1 at 2018-11-13 17:57:25 +0000
+App 1577 output: Processing by WorkPackagesController#index as HTML
+App 1577 output:   Parameters: {"project_id"=>"cartola-fc"}
+App 1577 output:   Rendering work_packages/index.html.erb within layouts/angular
+App 1577 output:   Rendered work_packages/_sidebar.html.erb (0.2ms)
+App 1577 output:   Rendered work_packages/index.html.erb within layouts/angular (5.5ms)
+App 1577 output:   Rendered vendored-plugins/openproject-costs/app/views/hooks/costs/_view_work_package_overview_attributes.html.erb (0.7ms)
+App 1577 output:   Rendering layouts/base.html.erb
+App 1577 output:   Rendered common/_favicons.html.erb (3.1ms)
+App 1577 output:   Rendered work_packages/_menu_query_select.html.erb (0.1ms)
+App 1577 output:   Rendered search/_mini_form.html.erb (0.3ms)
+App 1577 output:   Rendered layouts/base.html.erb (36.5ms)
+App 1577 output: Completed 200 OK in 73ms (Views: 40.4ms | ActiveRecord: 12.2ms)
+App 1577 output: Started GET "/api/v3/queries?filters=%5B%7B%22project_identifier%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22cartola-fc%22%5D%7D%7D%5D" for 127.0.0.1 at 2018-11-13 17:57:26 +0000
+App 2228 output: Started GET "/api/v3/projects/cartola-fc/queries/default?pageSize=20" for 127.0.0.1 at 2018-11-13 17:57:26 +0000
+App 1577 output: Started GET "/api/v3/projects/cartola-fc/types" for 127.0.0.1 at 2018-11-13 17:57:26 +0000
+App 1577 output: Started GET "/api/v3/configuration" for 127.0.0.1 at 2018-11-13 17:57:26 +0000
+App 1577 output: Started POST "/api/v3/queries/form" for 127.0.0.1 at 2018-11-13 17:57:26 +0000
+App 1577 output: Started GET "/api/v3/projects/3" for 127.0.0.1 at 2018-11-13 17:57:30 +0000
+App 2228 output: Started GET "/api/v3/work_packages/42/attachments" for 127.0.0.1 at 2018-11-13 17:57:30 +0000
+App 1577 output: Started GET "/highlighting/styles.css" for 127.0.0.1 at 2018-11-13 17:57:30 +0000
+App 1577 output: Processing by HighlightingController#styles as CSS
+App 2255 output: Started GET "/api/v3/work_packages/42/relations" for 127.0.0.1 at 2018-11-13 17:57:30 +0000
+App 1577 output: Completed 304 Not Modified in 14ms (ActiveRecord: 7.0ms)
+App 2228 output: Started GET "/api/v3/work_packages/42/summarized_costs_by_type" for 127.0.0.1 at 2018-11-13 17:57:31 +0000
+App 1577 output: Started GET "/api/v3/projects/cartola-fc/types" for 127.0.0.1 at 2018-11-13 17:57:31 +0000
+App 1577 output: Started GET "/api/v3/configuration" for 127.0.0.1 at 2018-11-13 17:57:31 +0000
+App 2228 output: Started GET "/api/v3/help_texts" for 127.0.0.1 at 2018-11-13 17:57:31 +0000
+App 1577 output: Started GET "/api/v3/work_packages/42/activities" for 127.0.0.1 at 2018-11-13 17:57:31 +0000
+App 2228 output: Started GET "/api/v3/work_packages/42/revisions" for 127.0.0.1 at 2018-11-13 17:57:31 +0000
+App 1577 output: Started GET "/api/v3/users/1" for 127.0.0.1 at 2018-11-13 17:57:31 +0000
+App 1577 output: Started GET "/api/v3/queries/default?filters=%5B%7B%22parent%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B42%5D%7D%7D%5D&columns%5B%5D=id&columns%5B%5D=type&columns%5B%5D=subject&columns%5B%5D=status&showHierarchies=false" for 127.0.0.1 at 2018-11-13 17:57:38 +0000
+App 1577 output: Started GET "/api/v3/configuration" for 127.0.0.1 at 2018-11-13 17:57:38 +0000
+App 1577 output: Started GET "/api/v3/projects/cartola-fc/queries/default?pageSize=20" for 127.0.0.1 at 2018-11-13 17:57:43 +0000
+App 2228 output: Started GET "/api/v3/projects/cartola-fc/types" for 127.0.0.1 at 2018-11-13 17:57:43 +0000
+App 2255 output: Started GET "/api/v3/configuration" for 127.0.0.1 at 2018-11-13 17:57:43 +0000
+App 1577 output: Started POST "/api/v3/queries/form" for 127.0.0.1 at 2018-11-13 17:57:43 +0000
+App 1577 output: Started GET "/api/v3/projects/3" for 127.0.0.1 at 2018-11-13 17:57:49 +0000
+App 1577 output: Started GET "/api/v3/queries/default?filters=%5B%7B%22parent%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B42%5D%7D%7D%5D&columns%5B%5D=id&columns%5B%5D=type&columns%5B%5D=subject&columns%5B%5D=status&showHierarchies=false" for 127.0.0.1 at 2018-11-13 17:57:58 +0000
+App 1577 output: Started GET "/api/v3/configuration" for 127.0.0.1 at 2018-11-13 17:57:59 +0000
+App 1577 output: Started GET "/api/v3/work_packages/42/watchers" for 127.0.0.1 at 2018-11-13 17:58:03 +0000
+App 1577 output: Started GET "/api/v3/work_packages/43/attachments" for 127.0.0.1 at 2018-11-13 17:58:08 +0000
+App 2228 output: Started GET "/api/v3/work_packages/43/summarized_costs_by_type" for 127.0.0.1 at 2018-11-13 17:58:08 +0000
+App 2255 output: Started GET "/api/v3/work_packages/43/relations" for 127.0.0.1 at 2018-11-13 17:58:08 +0000
+App 1577 output: Started GET "/api/v3/projects/cartola-fc/types" for 127.0.0.1 at 2018-11-13 17:58:08 +0000
+App 2255 output: Started GET "/api/v3/work_packages/43/activities" for 127.0.0.1 at 2018-11-13 17:58:08 +0000
+App 2228 output: Started GET "/api/v3/work_packages/43/revisions" for 127.0.0.1 at 2018-11-13 17:58:08 +0000
+App 1577 output: Started GET "/api/v3/projects/cartola-fc/types" for 127.0.0.1 at 2018-11-13 17:58:15 +0000
+App 1577 output: Started GET "/api/v3/configuration" for 127.0.0.1 at 2018-11-13 17:58:15 +0000
+App 1577 output: Started GET "/work_packages/43/time_entries/new" for 127.0.0.1 at 2018-11-13 17:59:27 +0000
+App 1577 output: Processing by TimelogController#new as HTML
+App 1577 output:   Parameters: {"work_package_id"=>"43"}
+App 1577 output:   Rendering timelog/edit.html.erb within layouts/base
+App 1577 output:   Rendered customizable/_form.html.erb (3.4ms)
+App 1577 output:   Rendered timelog/edit.html.erb within layouts/base (70.0ms)
+App 1577 output:   Rendered common/_favicons.html.erb (1.7ms)
+App 1577 output:   Rendered work_packages/_menu_query_select.html.erb (0.2ms)
+App 1577 output:   Rendered search/_mini_form.html.erb (0.4ms)
+App 1577 output:   Rendered layouts/_action_menu.html.erb (0.1ms)
+App 1577 output: Completed 200 OK in 219ms (Views: 167.6ms | ActiveRecord: 10.1ms)
+App 1577 output: Started GET "/projects/cartola-fc/work_packages" for 127.0.0.1 at 2018-11-13 17:59:31 +0000
+App 1577 output: Processing by WorkPackagesController#index as HTML
+App 1577 output:   Parameters: {"project_id"=>"cartola-fc"}
+App 1577 output:   Rendering work_packages/index.html.erb within layouts/angular
+App 1577 output:   Rendered work_packages/_sidebar.html.erb (0.3ms)
+App 1577 output:   Rendered work_packages/index.html.erb within layouts/angular (5.7ms)
+App 1577 output:   Rendered vendored-plugins/openproject-costs/app/views/hooks/costs/_view_work_package_overview_attributes.html.erb (1.3ms)
+App 1577 output:   Rendering layouts/base.html.erb
+App 1577 output:   Rendered common/_favicons.html.erb (2.9ms)
+App 1577 output:   Rendered work_packages/_menu_query_select.html.erb (0.1ms)
+App 1577 output:   Rendered search/_mini_form.html.erb (0.3ms)
+App 1577 output:   Rendered layouts/base.html.erb (34.0ms)
+App 1577 output: Completed 200 OK in 71ms (Views: 38.9ms | ActiveRecord: 11.0ms)
+App 1577 output: Started GET "/api/v3/queries?filters=%5B%7B%22project_identifier%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22cartola-fc%22%5D%7D%7D%5D" for 127.0.0.1 at 2018-11-13 17:59:31 +0000
+App 2228 output: Started GET "/api/v3/projects/cartola-fc/queries/default?pageSize=20" for 127.0.0.1 at 2018-11-13 17:59:31 +0000
+App 1577 output: Started GET "/api/v3/projects/cartola-fc/types" for 127.0.0.1 at 2018-11-13 17:59:31 +0000
+App 1577 output: Started GET "/api/v3/configuration" for 127.0.0.1 at 2018-11-13 17:59:31 +0000
+App 1577 output: Started POST "/api/v3/queries/form" for 127.0.0.1 at 2018-11-13 17:59:31 +0000
+App 1577 output: Started DELETE "/work_packages/bulk?ids%5B%5D=43" for 127.0.0.1 at 2018-11-13 17:59:39 +0000
+App 1577 output: Processing by WorkPackages::BulkController#destroy as JSON
+App 1577 output:   Parameters: {"ids"=>["43"]}
+App 1577 output: Completed 200 OK in 117ms (ActiveRecord: 53.0ms)
+App 1577 output: Started GET "/api/v3/projects/3/work_packages?pageSize=20&offset=1&columns%5B%5D=id&columns%5B%5D=subject&columns%5B%5D=type&columns%5B%5D=status&columns%5B%5D=assignee&showSums=false&timelineVisible=false&highlightingMode=none&showHierarchies=true&groupBy=&filters=%5B%7B%22status%22%3A%7B%22operator%22%3A%22o%22%2C%22values%22%3A%5B%5D%7D%7D%5D&sortBy=%5B%5B%22parent%22%2C%22asc%22%5D%5D" for 127.0.0.1 at 2018-11-13 17:59:39 +0000
+App 1577 output: Started DELETE "/work_packages/bulk?ids%5B%5D=43&ids%5B%5D=42" for 127.0.0.1 at 2018-11-13 17:59:44 +0000
+App 1577 output: Processing by WorkPackages::BulkController#destroy as JSON
+App 1577 output:   Parameters: {"ids"=>["43", "42"]}
+App 1577 output: Completed 200 OK in 111ms (ActiveRecord: 55.5ms)
+App 1577 output: Started GET "/api/v3/projects/3/work_packages?pageSize=20&offset=1&columns%5B%5D=id&columns%5B%5D=subject&columns%5B%5D=type&columns%5B%5D=status&columns%5B%5D=assignee&showSums=false&timelineVisible=false&highlightingMode=none&showHierarchies=true&groupBy=&filters=%5B%7B%22status%22%3A%7B%22operator%22%3A%22o%22%2C%22values%22%3A%5B%5D%7D%7D%5D&sortBy=%5B%5B%22parent%22%2C%22asc%22%5D%5D" for 127.0.0.1 at 2018-11-13 17:59:44 +0000
+[ N 2018-11-13 18:03:08.1206 406/T4 age/Cor/CoreMain.cpp:1028 ]: Checking whether to disconnect long-running connections for process 2255, application /usr/src/app (production)
+[ N 2018-11-13 18:04:31.5071 406/T4 age/Cor/CoreMain.cpp:1028 ]: Checking whether to disconnect long-running connections for process 2228, application /usr/src/app (production)
+App 1577 output: Started GET "/api/v3/projects/cartola-fc/queries/default?pageSize=20" for 127.0.0.1 at 2018-11-13 18:06:57 +0000
+App 1577 output: Started POST "/api/v3/projects/cartola-fc/work_packages/form" for 127.0.0.1 at 2018-11-13 18:06:57 +0000
+App 1577 output: Started POST "/api/v3/queries/form" for 127.0.0.1 at 2018-11-13 18:06:57 +0000
+App 2737 output: Started GET "/highlighting/styles.css" for 127.0.0.1 at 2018-11-13 18:06:57 +0000
+App 1577 output: Started GET "/api/v3/configuration" for 127.0.0.1 at 2018-11-13 18:06:58 +0000
+App 1577 output: Started GET "/api/v3/help_texts" for 127.0.0.1 at 2018-11-13 18:06:58 +0000
+App 1577 output: Started GET "/api/v3/projects/3/available_assignees" for 127.0.0.1 at 2018-11-13 18:06:58 +0000
+App 1577 output: Started GET "/api/v3/projects/3/available_responsibles" for 127.0.0.1 at 2018-11-13 18:06:58 +0000
+App 2737 output: Processing by HighlightingController#styles as CSS
+App 2737 output: Fork detected, re-connecting child process...
+App 2737 output: Completed 304 Not Modified in 96ms (ActiveRecord: 12.5ms)
+App 1577 output: Started POST "/api/v3/projects/3/work_packages/form" for 127.0.0.1 at 2018-11-13 18:07:29 +0000
+App 1577 output: Started GET "/api/v3/projects/3/available_assignees" for 127.0.0.1 at 2018-11-13 18:07:29 +0000
+App 2737 output: Started GET "/api/v3/projects/3/available_responsibles" for 127.0.0.1 at 2018-11-13 18:07:29 +0000
+App 2760 output: Started POST "/api/v3/work_packages" for 127.0.0.1 at 2018-11-13 18:07:29 +0000
+App 2760 output: Fork detected, re-connecting child process...
+App 1577 output: Started GET "/api/v3/projects/3" for 127.0.0.1 at 2018-11-13 18:07:30 +0000
+App 2737 output: Started GET "/api/v3/work_packages/44/relations" for 127.0.0.1 at 2018-11-13 18:07:30 +0000
+App 1577 output: Started GET "/api/v3/work_packages/44/attachments" for 127.0.0.1 at 2018-11-13 18:07:30 +0000
+App 2760 output: Started GET "/api/v3/work_packages/44/activities" for 127.0.0.1 at 2018-11-13 18:07:30 +0000
+App 1577 output: Started GET "/api/v3/work_packages/44/revisions" for 127.0.0.1 at 2018-11-13 18:07:30 +0000
+App 1577 output: Started GET "/api/v3/projects/3/work_packages?pageSize=20&offset=1&columns%5B%5D=id&columns%5B%5D=subject&columns%5B%5D=type&columns%5B%5D=status&columns%5B%5D=assignee&showSums=false&timelineVisible=false&highlightingMode=none&showHierarchies=true&groupBy=&filters=%5B%7B%22status%22%3A%7B%22operator%22%3A%22o%22%2C%22values%22%3A%5B%5D%7D%7D%5D&sortBy=%5B%5B%22parent%22%2C%22asc%22%5D%5D" for 127.0.0.1 at 2018-11-13 18:07:30 +0000
+App 2737 output: Started GET "/api/v3/users/1" for 127.0.0.1 at 2018-11-13 18:07:30 +0000
+App 1577 output: Started GET "/api/v3/work_packages/44/summarized_costs_by_type" for 127.0.0.1 at 2018-11-13 18:07:30 +0000
+App 2737 output: Started GET "/api/v3/work_packages/44/attachments" for 127.0.0.1 at 2018-11-13 18:07:30 +0000
+App 1577 output: Started GET "/api/v3/projects/3" for 127.0.0.1 at 2018-11-13 18:07:36 +0000
+App 1577 output: Started POST "/api/v3/work_packages/44/form" for 127.0.0.1 at 2018-11-13 18:07:43 +0000
+App 1577 output: Started POST "/api/v3/work_packages/44/form" for 127.0.0.1 at 2018-11-13 18:07:48 +0000
+App 1577 output: Started PATCH "/api/v3/work_packages/44" for 127.0.0.1 at 2018-11-13 18:07:48 +0000
+App 2737 output: Started GET "/api/v3/work_packages/44/revisions" for 127.0.0.1 at 2018-11-13 18:07:48 +0000
+App 1577 output: Started GET "/api/v3/work_packages/44/activities" for 127.0.0.1 at 2018-11-13 18:07:48 +0000
+App 2760 output: Started GET "/api/v3/work_packages/44/attachments" for 127.0.0.1 at 2018-11-13 18:07:48 +0000
+App 2760 output: Started GET "/api/v3/projects/3/work_packages?pageSize=20&offset=1&columns%5B%5D=id&columns%5B%5D=subject&columns%5B%5D=type&columns%5B%5D=status&columns%5B%5D=assignee&showSums=false&timelineVisible=false&highlightingMode=none&showHierarchies=true&groupBy=&filters=%5B%7B%22status%22%3A%7B%22operator%22%3A%22o%22%2C%22values%22%3A%5B%5D%7D%7D%5D&sortBy=%5B%5B%22parent%22%2C%22asc%22%5D%5D" for 127.0.0.1 at 2018-11-13 18:07:48 +0000
+App 1577 output: Started GET "/api/v3/work_packages/44/summarized_costs_by_type" for 127.0.0.1 at 2018-11-13 18:07:49 +0000
+App 2737 output: Started GET "/api/v3/work_packages/44/attachments" for 127.0.0.1 at 2018-11-13 18:07:49 +0000
+App 1577 output: Started GET "/api/v3/projects/cartola-fc/types" for 127.0.0.1 at 2018-11-13 18:07:54 +0000
+App 1577 output: Started GET "/api/v3/queries/default?filters=%5B%7B%22parent%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B44%5D%7D%7D%5D&columns%5B%5D=id&columns%5B%5D=type&columns%5B%5D=subject&columns%5B%5D=status&showHierarchies=false" for 127.0.0.1 at 2018-11-13 18:07:58 +0000
+App 1577 output: Started GET "/api/v3/configuration" for 127.0.0.1 at 2018-11-13 18:07:58 +0000
+App 1577 output: Started GET "/api/v3/work_packages/44/watchers" for 127.0.0.1 at 2018-11-13 18:07:59 +0000
+App 1577 output: Started GET "/api/v3/queries/default?filters=%5B%7B%22parent%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B44%5D%7D%7D%5D&columns%5B%5D=id&columns%5B%5D=type&columns%5B%5D=subject&columns%5B%5D=status&showHierarchies=false" for 127.0.0.1 at 2018-11-13 18:07:59 +0000
+App 1577 output: Started GET "/api/v3/configuration" for 127.0.0.1 at 2018-11-13 18:07:59 +0000
+App 1577 output: Started POST "/api/v3/work_packages/44/form" for 127.0.0.1 at 2018-11-13 18:08:04 +0000
+App 1577 output: Started GET "/api/v3/projects/cartola-fc/types" for 127.0.0.1 at 2018-11-13 18:08:22 +0000
+App 2737 output: Started GET "/api/v3/configuration" for 127.0.0.1 at 2018-11-13 18:08:22 +0000
+App 1577 output: Started DELETE "/work_packages/bulk?ids%5B%5D=43&ids%5B%5D=44" for 127.0.0.1 at 2018-11-13 18:08:27 +0000
+App 1577 output: Processing by WorkPackages::BulkController#destroy as JSON
+App 1577 output:   Parameters: {"ids"=>["43", "44"]}
+App 1577 output: Completed 200 OK in 84ms (ActiveRecord: 41.2ms)
+App 1577 output: Started GET "/api/v3/projects/3/work_packages?pageSize=20&offset=1&columns%5B%5D=id&columns%5B%5D=subject&columns%5B%5D=type&columns%5B%5D=status&columns%5B%5D=assignee&showSums=false&timelineVisible=false&highlightingMode=none&showHierarchies=true&groupBy=&filters=%5B%7B%22status%22%3A%7B%22operator%22%3A%22o%22%2C%22values%22%3A%5B%5D%7D%7D%5D&sortBy=%5B%5B%22parent%22%2C%22asc%22%5D%5D" for 127.0.0.1 at 2018-11-13 18:08:28 +0000
+App 1577 output: Started POST "/api/v3/projects/cartola-fc/work_packages/form" for 127.0.0.1 at 2018-11-13 18:08:34 +0000
+App 1577 output: Started GET "/api/v3/projects/3/available_assignees" for 127.0.0.1 at 2018-11-13 18:08:34 +0000
+App 2737 output: Started GET "/api/v3/projects/3/available_responsibles" for 127.0.0.1 at 2018-11-13 18:08:34 +0000
+App 1577 output: Started POST "/api/v3/projects/3/work_packages/form" for 127.0.0.1 at 2018-11-13 18:11:18 +0000
+App 1577 output: Started GET "/api/v3/projects/3/available_assignees" for 127.0.0.1 at 2018-11-13 18:11:18 +0000
+App 2737 output: Started GET "/api/v3/projects/3/available_responsibles" for 127.0.0.1 at 2018-11-13 18:11:18 +0000
+App 2760 output: Started POST "/api/v3/work_packages" for 127.0.0.1 at 2018-11-13 18:11:18 +0000
+App 1577 output: Started GET "/api/v3/work_packages/45/relations" for 127.0.0.1 at 2018-11-13 18:11:19 +0000
+App 2737 output: Started GET "/api/v3/work_packages/45/attachments" for 127.0.0.1 at 2018-11-13 18:11:19 +0000
+App 1577 output: Started GET "/api/v3/work_packages/45/activities" for 127.0.0.1 at 2018-11-13 18:11:19 +0000
+App 2737 output: Started GET "/api/v3/work_packages/45/revisions" for 127.0.0.1 at 2018-11-13 18:11:19 +0000
+App 2737 output: Started GET "/api/v3/projects/3/work_packages?pageSize=20&offset=1&columns%5B%5D=id&columns%5B%5D=subject&columns%5B%5D=type&columns%5B%5D=status&columns%5B%5D=assignee&showSums=false&timelineVisible=false&highlightingMode=none&showHierarchies=true&groupBy=&filters=%5B%7B%22status%22%3A%7B%22operator%22%3A%22o%22%2C%22values%22%3A%5B%5D%7D%7D%5D&sortBy=%5B%5B%22parent%22%2C%22asc%22%5D%5D" for 127.0.0.1 at 2018-11-13 18:11:19 +0000
+App 1577 output: Started GET "/api/v3/work_packages/45/summarized_costs_by_type" for 127.0.0.1 at 2018-11-13 18:11:19 +0000
+App 2737 output: Started GET "/api/v3/work_packages/45/attachments" for 127.0.0.1 at 2018-11-13 18:11:19 +0000

@@ -1,0 +1,72 @@
+`/root` is not writable.
+Bundler will use `/tmp/bundler/home/unknown' as your home directory temporarily.
+hook registered
+[auth_saml] Missing settings from '/usr/src/app/config/plugins/auth_saml/settings.yml', skipping omniauth registration.
+Creating scope :order_by_name. Overwriting existing method Sprint.order_by_name.
+[Worker(host:934e348393db pid:165)] Starting job worker
+2018-11-13T17:08:30+0000: [Worker(host:934e348393db pid:165)] Starting job worker
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=1) RUNNING
+2018-11-13T17:47:31+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=1) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=1) COMPLETED after 0.2250
+2018-11-13T17:47:31+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=1) COMPLETED after 0.2250
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=2) RUNNING
+2018-11-13T17:47:31+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=2) RUNNING
+  Rendering user_mailer/work_package_added.html.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.html.erb (44.3ms)
+  Rendered user_mailer/work_package_added.html.erb within layouts/user_mailer (58.6ms)
+  Rendering user_mailer/work_package_added.text.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.text.erb (1.7ms)
+  Rendered user_mailer/work_package_added.text.erb within layouts/user_mailer (14.1ms)
+Sent mail to  (15.8ms)
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=2) COMPLETED after 0.4247
+2018-11-13T17:47:32+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=2) COMPLETED after 0.4247
+[Worker(host:934e348393db pid:165)] 2 jobs processed at 2.9424 j/s, 0 failed
+2018-11-13T17:47:32+0000: [Worker(host:934e348393db pid:165)] 2 jobs processed at 2.9424 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=3) RUNNING
+2018-11-13T17:53:32+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=3) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=3) COMPLETED after 0.0905
+2018-11-13T17:53:32+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=3) COMPLETED after 0.0905
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=4) RUNNING
+2018-11-13T17:53:32+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=4) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=4) COMPLETED after 0.0162
+2018-11-13T17:53:32+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=4) COMPLETED after 0.0162
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=5) RUNNING
+2018-11-13T17:53:32+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=5) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=5) COMPLETED after 0.0825
+2018-11-13T17:53:32+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=5) COMPLETED after 0.0825
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=6) RUNNING
+2018-11-13T17:53:32+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=6) RUNNING
+  Rendering user_mailer/work_package_added.html.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.html.erb (14.2ms)
+  Rendered user_mailer/work_package_added.html.erb within layouts/user_mailer (14.6ms)
+  Rendering user_mailer/work_package_added.text.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.text.erb (1.0ms)
+  Rendered user_mailer/work_package_added.text.erb within layouts/user_mailer (1.4ms)
+Sent mail to  (1.7ms)
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=6) COMPLETED after 0.0494
+2018-11-13T17:53:32+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=6) COMPLETED after 0.0494
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=7) RUNNING
+2018-11-13T17:53:32+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=7) RUNNING
+  Rendering user_mailer/work_package_updated.html.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.html.erb (6.5ms)
+  Rendered user_mailer/work_package_updated.html.erb within layouts/user_mailer (47.6ms)
+  Rendering user_mailer/work_package_updated.text.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.text.erb (1.0ms)
+  Rendered user_mailer/work_package_updated.text.erb within layouts/user_mailer (2.6ms)
+Sent mail to  (1.4ms)
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=7) COMPLETED after 0.1657
+2018-11-13T17:53:33+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=7) COMPLETED after 0.1657
+[Worker(host:934e348393db pid:165)] 5 jobs processed at 10.6575 j/s, 0 failed
+2018-11-13T17:53:33+0000: [Worker(host:934e348393db pid:165)] 5 jobs processed at 10.6575 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=8) RUNNING
+2018-11-13T18:12:33+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=8) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=8) COMPLETED after 0.0153
+2018-11-13T18:12:33+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=8) COMPLETED after 0.0153
+[Worker(host:934e348393db pid:165)] 1 jobs processed at 23.6126 j/s, 0 failed
+2018-11-13T18:12:33+0000: [Worker(host:934e348393db pid:165)] 1 jobs processed at 23.6126 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=9) RUNNING
+2018-11-13T18:12:48+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=9) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=9) COMPLETED after 0.0157
+2018-11-13T18:12:48+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=9) COMPLETED after 0.0157
+[Worker(host:934e348393db pid:165)] 1 jobs processed at 21.4704 j/s, 0 failed
+2018-11-13T18:12:48+0000: [Worker(host:934e348393db pid:165)] 1 jobs processed at 21.4704 j/s, 0 failed

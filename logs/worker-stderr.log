@@ -1,0 +1,2 @@
+Forcefully loading the application. Use :environment to avoid eager loading.
+Rails Error: Unable to access log file. Please ensure that /usr/src/app/log/production.log exists and is writable (ie, make it writable for user and group: chmod 0664 /usr/src/app/log/production.log). The log level has been raised to WARN and the output directed to STDERR until the problem is fixed.

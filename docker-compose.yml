@@ -1,0 +1,14 @@
+# Development project infrastructure generated over the Docker
+version: "3.4"
+
+services:
+  openproject:
+    image: openproject/community:8
+    volumes:
+      - ./pgdata:/var/lib/postgresql/9.6/main
+      - ./logs:/var/log/supervisor
+      - ./static:/var/db/openproject
+    environment:
+      - SECRET_KEY_BASE=secret
+    ports:
+      - "8080:80"
