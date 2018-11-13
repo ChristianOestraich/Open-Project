@@ -1076,3 +1076,5 @@ App 2737 output: Started GET "/api/v3/work_packages/45/revisions" for 127.0.0.1 
 App 2737 output: Started GET "/api/v3/projects/3/work_packages?pageSize=20&offset=1&columns%5B%5D=id&columns%5B%5D=subject&columns%5B%5D=type&columns%5B%5D=status&columns%5B%5D=assignee&showSums=false&timelineVisible=false&highlightingMode=none&showHierarchies=true&groupBy=&filters=%5B%7B%22status%22%3A%7B%22operator%22%3A%22o%22%2C%22values%22%3A%5B%5D%7D%7D%5D&sortBy=%5B%5B%22parent%22%2C%22asc%22%5D%5D" for 127.0.0.1 at 2018-11-13 18:11:19 +0000
 App 1577 output: Started GET "/api/v3/work_packages/45/summarized_costs_by_type" for 127.0.0.1 at 2018-11-13 18:11:19 +0000
 App 2737 output: Started GET "/api/v3/work_packages/45/attachments" for 127.0.0.1 at 2018-11-13 18:11:19 +0000
+[ N 2018-11-13 18:16:18.8686 406/T4 age/Cor/CoreMain.cpp:1028 ]: Checking whether to disconnect long-running connections for process 2760, application /usr/src/app (production)
+[ N 2018-11-13 18:16:19.6502 406/T4 age/Cor/CoreMain.cpp:1028 ]: Checking whether to disconnect long-running connections for process 1577, application /usr/src/app (production)
