@@ -87,3 +87,1897 @@ Sent mail to  (1.5ms)
 2018-11-13T18:16:19+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=11) COMPLETED after 0.0652
 [Worker(host:934e348393db pid:165)] 2 jobs processed at 6.0098 j/s, 0 failed
 2018-11-13T18:16:19+0000: [Worker(host:934e348393db pid:165)] 2 jobs processed at 6.0098 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=12) RUNNING
+2018-11-13T19:20:57+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=12) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=12) COMPLETED after 0.2064
+2018-11-13T19:20:57+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=12) COMPLETED after 0.2064
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=13) RUNNING
+2018-11-13T19:20:57+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=13) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=13) COMPLETED after 0.1507
+2018-11-13T19:20:57+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=13) COMPLETED after 0.1507
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=14) RUNNING
+2018-11-13T19:20:57+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=14) RUNNING
+  Rendering user_mailer/work_package_added.html.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.html.erb (20.5ms)
+  Rendered user_mailer/work_package_added.html.erb within layouts/user_mailer (21.5ms)
+  Rendering user_mailer/work_package_added.text.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.text.erb (1.2ms)
+  Rendered user_mailer/work_package_added.text.erb within layouts/user_mailer (1.7ms)
+Sent mail to  (1.9ms)
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=14) COMPLETED after 0.0898
+2018-11-13T19:20:57+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=14) COMPLETED after 0.0898
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=15) RUNNING
+2018-11-13T19:20:57+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=15) RUNNING
+  Rendering user_mailer/work_package_updated.html.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.html.erb (18.1ms)
+  Rendered user_mailer/work_package_updated.html.erb within layouts/user_mailer (50.4ms)
+  Rendering user_mailer/work_package_updated.text.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.text.erb (1.2ms)
+  Rendered user_mailer/work_package_updated.text.erb within layouts/user_mailer (4.8ms)
+Sent mail to  (2.3ms)
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=15) COMPLETED after 0.1246
+2018-11-13T19:20:57+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=15) COMPLETED after 0.1246
+[Worker(host:934e348393db pid:165)] 4 jobs processed at 5.5784 j/s, 0 failed
+2018-11-13T19:20:57+0000: [Worker(host:934e348393db pid:165)] 4 jobs processed at 5.5784 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=16) RUNNING
+2018-11-13T19:28:43+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=16) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=16) COMPLETED after 0.0579
+2018-11-13T19:28:43+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=16) COMPLETED after 0.0579
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=17) RUNNING
+2018-11-13T19:28:43+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=17) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=17) COMPLETED after 0.1072
+2018-11-13T19:28:43+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=17) COMPLETED after 0.1072
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=20) RUNNING
+2018-11-13T19:28:43+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=20) RUNNING
+  Rendering user_mailer/work_package_added.html.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.html.erb (21.5ms)
+  Rendered user_mailer/work_package_added.html.erb within layouts/user_mailer (22.3ms)
+  Rendering user_mailer/work_package_added.text.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.text.erb (2.1ms)
+  Rendered user_mailer/work_package_added.text.erb within layouts/user_mailer (3.0ms)
+Sent mail to  (3.1ms)
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=20) COMPLETED after 0.0828
+2018-11-13T19:28:43+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=20) COMPLETED after 0.0828
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=21) RUNNING
+2018-11-13T19:28:43+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=21) RUNNING
+  Rendering user_mailer/work_package_updated.html.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.html.erb (7.7ms)
+  Rendered user_mailer/work_package_updated.html.erb within layouts/user_mailer (28.1ms)
+  Rendering user_mailer/work_package_updated.text.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.text.erb (0.9ms)
+  Rendered user_mailer/work_package_updated.text.erb within layouts/user_mailer (2.1ms)
+Sent mail to  (1.5ms)
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=21) COMPLETED after 0.0737
+2018-11-13T19:28:43+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=21) COMPLETED after 0.0737
+[Worker(host:934e348393db pid:165)] 4 jobs processed at 10.7776 j/s, 0 failed
+2018-11-13T19:28:43+0000: [Worker(host:934e348393db pid:165)] 4 jobs processed at 10.7776 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=18) RUNNING
+2018-11-13T19:31:28+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=18) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=18) COMPLETED after 0.1074
+2018-11-13T19:31:28+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=18) COMPLETED after 0.1074
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=19) RUNNING
+2018-11-13T19:31:28+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=19) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=19) COMPLETED after 0.0907
+2018-11-13T19:31:28+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=19) COMPLETED after 0.0907
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=22) RUNNING
+2018-11-13T19:31:28+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=22) RUNNING
+  Rendering user_mailer/work_package_added.html.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.html.erb (13.3ms)
+  Rendered user_mailer/work_package_added.html.erb within layouts/user_mailer (13.9ms)
+  Rendering user_mailer/work_package_added.text.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.text.erb (1.1ms)
+  Rendered user_mailer/work_package_added.text.erb within layouts/user_mailer (1.5ms)
+Sent mail to  (1.7ms)
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=22) COMPLETED after 0.0656
+2018-11-13T19:31:28+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=22) COMPLETED after 0.0656
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=23) RUNNING
+2018-11-13T19:31:29+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=23) RUNNING
+  Rendering user_mailer/work_package_updated.html.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.html.erb (13.1ms)
+  Rendered user_mailer/work_package_updated.html.erb within layouts/user_mailer (29.2ms)
+  Rendering user_mailer/work_package_updated.text.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.text.erb (1.0ms)
+  Rendered user_mailer/work_package_updated.text.erb within layouts/user_mailer (2.2ms)
+Sent mail to  (1.5ms)
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=23) COMPLETED after 0.0579
+2018-11-13T19:31:29+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=23) COMPLETED after 0.0579
+[Worker(host:934e348393db pid:165)] 4 jobs processed at 10.7750 j/s, 0 failed
+2018-11-13T19:31:29+0000: [Worker(host:934e348393db pid:165)] 4 jobs processed at 10.7750 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=24) RUNNING
+2018-11-13T19:38:14+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=24) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=24) COMPLETED after 0.0985
+2018-11-13T19:38:14+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=24) COMPLETED after 0.0985
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=25) RUNNING
+2018-11-13T19:38:14+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=25) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=25) COMPLETED after 0.0245
+2018-11-13T19:38:14+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=25) COMPLETED after 0.0245
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=29) RUNNING
+2018-11-13T19:38:14+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=29) RUNNING
+  Rendering user_mailer/work_package_added.html.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.html.erb (21.1ms)
+  Rendered user_mailer/work_package_added.html.erb within layouts/user_mailer (22.0ms)
+  Rendering user_mailer/work_package_added.text.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.text.erb (2.0ms)
+  Rendered user_mailer/work_package_added.text.erb within layouts/user_mailer (2.7ms)
+Sent mail to  (3.0ms)
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=29) COMPLETED after 0.0824
+2018-11-13T19:38:14+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=29) COMPLETED after 0.0824
+[Worker(host:934e348393db pid:165)] 3 jobs processed at 12.6587 j/s, 0 failed
+2018-11-13T19:38:14+0000: [Worker(host:934e348393db pid:165)] 3 jobs processed at 12.6587 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=26) RUNNING
+2018-11-13T19:38:39+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=26) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=26) COMPLETED after 0.1072
+2018-11-13T19:38:39+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=26) COMPLETED after 0.1072
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=27) RUNNING
+2018-11-13T19:38:39+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=27) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=27) COMPLETED after 0.1155
+2018-11-13T19:38:39+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=27) COMPLETED after 0.1155
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=30) RUNNING
+2018-11-13T19:38:39+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=30) RUNNING
+  Rendering user_mailer/work_package_updated.html.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.html.erb (14.5ms)
+  Rendered user_mailer/work_package_updated.html.erb within layouts/user_mailer (23.9ms)
+  Rendering user_mailer/work_package_updated.text.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.text.erb (1.5ms)
+  Rendered user_mailer/work_package_updated.text.erb within layouts/user_mailer (2.7ms)
+Sent mail to  (2.5ms)
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=30) COMPLETED after 0.1078
+2018-11-13T19:38:39+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=30) COMPLETED after 0.1078
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=31) RUNNING
+2018-11-13T19:38:39+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=31) RUNNING
+  Rendering user_mailer/work_package_updated.html.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.html.erb (8.0ms)
+  Rendered user_mailer/work_package_updated.html.erb within layouts/user_mailer (31.7ms)
+  Rendering user_mailer/work_package_updated.text.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.text.erb (0.9ms)
+  Rendered user_mailer/work_package_updated.text.erb within layouts/user_mailer (2.6ms)
+Sent mail to  (1.5ms)
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=31) COMPLETED after 0.0907
+2018-11-13T19:38:40+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=31) COMPLETED after 0.0907
+[Worker(host:934e348393db pid:165)] 4 jobs processed at 8.4210 j/s, 0 failed
+2018-11-13T19:38:40+0000: [Worker(host:934e348393db pid:165)] 4 jobs processed at 8.4210 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=28) RUNNING
+2018-11-13T19:38:50+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=28) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=28) COMPLETED after 0.0827
+2018-11-13T19:38:50+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=28) COMPLETED after 0.0827
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=32) RUNNING
+2018-11-13T19:38:50+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=32) RUNNING
+  Rendering user_mailer/work_package_updated.html.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.html.erb (19.8ms)
+  Rendered user_mailer/work_package_updated.html.erb within layouts/user_mailer (35.0ms)
+  Rendering user_mailer/work_package_updated.text.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.text.erb (1.2ms)
+  Rendered user_mailer/work_package_updated.text.erb within layouts/user_mailer (3.9ms)
+Sent mail to  (1.8ms)
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=32) COMPLETED after 0.0988
+2018-11-13T19:38:50+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=32) COMPLETED after 0.0988
+[Worker(host:934e348393db pid:165)] 2 jobs processed at 9.1476 j/s, 0 failed
+2018-11-13T19:38:50+0000: [Worker(host:934e348393db pid:165)] 2 jobs processed at 9.1476 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=33) RUNNING
+2018-11-13T19:47:30+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=33) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=33) COMPLETED after 0.1731
+2018-11-13T19:47:30+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=33) COMPLETED after 0.1731
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=34) RUNNING
+2018-11-13T19:47:30+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=34) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=34) COMPLETED after 0.1732
+2018-11-13T19:47:31+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=34) COMPLETED after 0.1732
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=37) RUNNING
+2018-11-13T19:47:31+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=37) RUNNING
+  Rendering user_mailer/work_package_added.html.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.html.erb (24.3ms)
+  Rendered user_mailer/work_package_added.html.erb within layouts/user_mailer (25.2ms)
+  Rendering user_mailer/work_package_added.text.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.text.erb (2.5ms)
+  Rendered user_mailer/work_package_added.text.erb within layouts/user_mailer (3.5ms)
+Sent mail to  (2.5ms)
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=37) COMPLETED after 0.0908
+2018-11-13T19:47:31+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=37) COMPLETED after 0.0908
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=38) RUNNING
+2018-11-13T19:47:31+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=38) RUNNING
+  Rendering user_mailer/work_package_updated.html.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.html.erb (17.5ms)
+  Rendered user_mailer/work_package_updated.html.erb within layouts/user_mailer (44.5ms)
+  Rendering user_mailer/work_package_updated.text.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.text.erb (1.1ms)
+  Rendered user_mailer/work_package_updated.text.erb within layouts/user_mailer (2.7ms)
+Sent mail to  (1.6ms)
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=38) COMPLETED after 0.1318
+2018-11-13T19:47:31+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=38) COMPLETED after 0.1318
+[Worker(host:934e348393db pid:165)] 4 jobs processed at 6.3681 j/s, 0 failed
+2018-11-13T19:47:31+0000: [Worker(host:934e348393db pid:165)] 4 jobs processed at 6.3681 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=35) RUNNING
+2018-11-13T19:48:16+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=35) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=35) COMPLETED after 0.1227
+2018-11-13T19:48:16+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=35) COMPLETED after 0.1227
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=36) RUNNING
+2018-11-13T19:48:16+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=36) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=36) COMPLETED after 0.0987
+2018-11-13T19:48:16+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=36) COMPLETED after 0.0987
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=39) RUNNING
+2018-11-13T19:48:16+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=39) RUNNING
+  Rendering user_mailer/work_package_added.html.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.html.erb (15.8ms)
+  Rendered user_mailer/work_package_added.html.erb within layouts/user_mailer (16.5ms)
+  Rendering user_mailer/work_package_added.text.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.text.erb (1.4ms)
+  Rendered user_mailer/work_package_added.text.erb within layouts/user_mailer (2.0ms)
+Sent mail to  (3.3ms)
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=39) COMPLETED after 0.0907
+2018-11-13T19:48:16+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=39) COMPLETED after 0.0907
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=40) RUNNING
+2018-11-13T19:48:16+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=40) RUNNING
+  Rendering user_mailer/work_package_updated.html.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.html.erb (9.6ms)
+  Rendered user_mailer/work_package_updated.html.erb within layouts/user_mailer (35.0ms)
+  Rendering user_mailer/work_package_updated.text.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.text.erb (2.3ms)
+  Rendered user_mailer/work_package_updated.text.erb within layouts/user_mailer (6.0ms)
+Sent mail to  (1.5ms)
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=40) COMPLETED after 0.0909
+2018-11-13T19:48:16+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=40) COMPLETED after 0.0909
+[Worker(host:934e348393db pid:165)] 4 jobs processed at 8.7905 j/s, 0 failed
+2018-11-13T19:48:16+0000: [Worker(host:934e348393db pid:165)] 4 jobs processed at 8.7905 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=41) RUNNING
+2018-11-13T19:54:42+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=41) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=41) COMPLETED after 0.0990
+2018-11-13T19:54:42+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=41) COMPLETED after 0.0990
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=42) RUNNING
+2018-11-13T19:54:42+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=42) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=42) COMPLETED after 0.1317
+2018-11-13T19:54:42+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=42) COMPLETED after 0.1317
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=46) RUNNING
+2018-11-13T19:54:42+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=46) RUNNING
+  Rendering user_mailer/work_package_added.html.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.html.erb (22.2ms)
+  Rendered user_mailer/work_package_added.html.erb within layouts/user_mailer (22.7ms)
+  Rendering user_mailer/work_package_added.text.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.text.erb (2.7ms)
+  Rendered user_mailer/work_package_added.text.erb within layouts/user_mailer (3.5ms)
+Sent mail to  (3.0ms)
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=46) COMPLETED after 0.0743
+2018-11-13T19:54:42+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=46) COMPLETED after 0.0743
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=47) RUNNING
+2018-11-13T19:54:42+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=47) RUNNING
+  Rendering user_mailer/work_package_updated.html.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.html.erb (16.9ms)
+  Rendered user_mailer/work_package_updated.html.erb within layouts/user_mailer (57.5ms)
+  Rendering user_mailer/work_package_updated.text.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.text.erb (1.1ms)
+  Rendered user_mailer/work_package_updated.text.erb within layouts/user_mailer (2.4ms)
+Sent mail to  (2.4ms)
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=47) COMPLETED after 0.1157
+2018-11-13T19:54:42+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=47) COMPLETED after 0.1157
+[Worker(host:934e348393db pid:165)] 4 jobs processed at 6.7550 j/s, 0 failed
+2018-11-13T19:54:42+0000: [Worker(host:934e348393db pid:165)] 4 jobs processed at 6.7550 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=43) RUNNING
+2018-11-13T19:57:42+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=43) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=43) COMPLETED after 0.0980
+2018-11-13T19:57:42+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=43) COMPLETED after 0.0980
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=44) RUNNING
+2018-11-13T19:57:42+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=44) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=44) COMPLETED after 0.0580
+2018-11-13T19:57:42+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=44) COMPLETED after 0.0580
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=48) RUNNING
+2018-11-13T19:57:42+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=48) RUNNING
+  Rendering user_mailer/work_package_added.html.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.html.erb (15.8ms)
+  Rendered user_mailer/work_package_added.html.erb within layouts/user_mailer (16.5ms)
+  Rendering user_mailer/work_package_added.text.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.text.erb (1.4ms)
+  Rendered user_mailer/work_package_added.text.erb within layouts/user_mailer (2.0ms)
+Sent mail to  (2.5ms)
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=48) COMPLETED after 0.0740
+2018-11-13T19:57:43+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=48) COMPLETED after 0.0740
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=49) RUNNING
+2018-11-13T19:57:43+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=49) RUNNING
+  Rendering user_mailer/work_package_updated.html.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.html.erb (13.5ms)
+  Rendered user_mailer/work_package_updated.html.erb within layouts/user_mailer (39.1ms)
+  Rendering user_mailer/work_package_updated.text.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.text.erb (1.0ms)
+  Rendered user_mailer/work_package_updated.text.erb within layouts/user_mailer (2.2ms)
+Sent mail to  (2.9ms)
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=49) COMPLETED after 0.1073
+2018-11-13T19:57:43+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=49) COMPLETED after 0.1073
+[Worker(host:934e348393db pid:165)] 4 jobs processed at 10.5434 j/s, 0 failed
+2018-11-13T19:57:43+0000: [Worker(host:934e348393db pid:165)] 4 jobs processed at 10.5434 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=45) RUNNING
+2018-11-13T19:59:18+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=45) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=45) COMPLETED after 0.0241
+2018-11-13T19:59:18+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=45) COMPLETED after 0.0241
+[Worker(host:934e348393db pid:165)] 1 jobs processed at 19.3970 j/s, 0 failed
+2018-11-13T19:59:18+0000: [Worker(host:934e348393db pid:165)] 1 jobs processed at 19.3970 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=50) RUNNING
+2018-11-13T20:03:28+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=50) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=50) COMPLETED after 0.1147
+2018-11-13T20:03:28+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=50) COMPLETED after 0.1147
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=51) RUNNING
+2018-11-13T20:03:28+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=51) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=51) COMPLETED after 0.1241
+2018-11-13T20:03:28+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=51) COMPLETED after 0.1241
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=58) RUNNING
+2018-11-13T20:03:28+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=58) RUNNING
+  Rendering user_mailer/work_package_added.html.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.html.erb (10.6ms)
+  Rendered user_mailer/work_package_added.html.erb within layouts/user_mailer (11.2ms)
+  Rendering user_mailer/work_package_added.text.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.text.erb (1.3ms)
+  Rendered user_mailer/work_package_added.text.erb within layouts/user_mailer (1.9ms)
+Sent mail to  (2.1ms)
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=58) COMPLETED after 0.0744
+2018-11-13T20:03:28+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=58) COMPLETED after 0.0744
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=59) RUNNING
+2018-11-13T20:03:28+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=59) RUNNING
+  Rendering user_mailer/work_package_added.html.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.html.erb (6.7ms)
+  Rendered user_mailer/work_package_added.html.erb within layouts/user_mailer (27.7ms)
+  Rendering user_mailer/work_package_added.text.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.text.erb (1.1ms)
+  Rendered user_mailer/work_package_added.text.erb within layouts/user_mailer (1.8ms)
+Sent mail to  (1.6ms)
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=59) COMPLETED after 0.0910
+2018-11-13T20:03:28+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=59) COMPLETED after 0.0910
+[Worker(host:934e348393db pid:165)] 4 jobs processed at 8.7184 j/s, 0 failed
+2018-11-13T20:03:28+0000: [Worker(host:934e348393db pid:165)] 4 jobs processed at 8.7184 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=52) RUNNING
+2018-11-13T20:04:29+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=52) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=52) COMPLETED after 0.0321
+2018-11-13T20:04:29+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=52) COMPLETED after 0.0321
+[Worker(host:934e348393db pid:165)] 1 jobs processed at 16.0431 j/s, 0 failed
+2018-11-13T20:04:29+0000: [Worker(host:934e348393db pid:165)] 1 jobs processed at 16.0431 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=53) RUNNING
+2018-11-13T20:04:34+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=53) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=53) COMPLETED after 0.0323
+2018-11-13T20:04:34+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=53) COMPLETED after 0.0323
+[Worker(host:934e348393db pid:165)] 1 jobs processed at 15.9473 j/s, 0 failed
+2018-11-13T20:04:34+0000: [Worker(host:934e348393db pid:165)] 1 jobs processed at 15.9473 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=54) RUNNING
+2018-11-13T20:06:19+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=54) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=54) COMPLETED after 0.0905
+2018-11-13T20:06:19+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=54) COMPLETED after 0.0905
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=55) RUNNING
+2018-11-13T20:06:19+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=55) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=55) COMPLETED after 0.1071
+2018-11-13T20:06:19+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=55) COMPLETED after 0.1071
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=63) RUNNING
+2018-11-13T20:06:19+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=63) RUNNING
+  Rendering user_mailer/work_package_added.html.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.html.erb (10.9ms)
+  Rendered user_mailer/work_package_added.html.erb within layouts/user_mailer (11.5ms)
+  Rendering user_mailer/work_package_added.text.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.text.erb (1.2ms)
+  Rendered user_mailer/work_package_added.text.erb within layouts/user_mailer (1.7ms)
+Sent mail to  (2.7ms)
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=63) COMPLETED after 0.0580
+2018-11-13T20:06:19+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=63) COMPLETED after 0.0580
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=64) RUNNING
+2018-11-13T20:06:19+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=64) RUNNING
+  Rendering user_mailer/work_package_updated.html.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.html.erb (6.6ms)
+  Rendered user_mailer/work_package_updated.html.erb within layouts/user_mailer (24.3ms)
+  Rendering user_mailer/work_package_updated.text.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.text.erb (1.0ms)
+  Rendered user_mailer/work_package_updated.text.erb within layouts/user_mailer (5.5ms)
+Sent mail to  (1.8ms)
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=64) COMPLETED after 0.0581
+2018-11-13T20:06:19+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=64) COMPLETED after 0.0581
+[Worker(host:934e348393db pid:165)] 4 jobs processed at 11.1505 j/s, 0 failed
+2018-11-13T20:06:19+0000: [Worker(host:934e348393db pid:165)] 4 jobs processed at 11.1505 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=56) RUNNING
+2018-11-13T20:07:24+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=56) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=56) COMPLETED after 0.0155
+2018-11-13T20:07:24+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=56) COMPLETED after 0.0155
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=57) RUNNING
+2018-11-13T20:07:24+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=57) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=57) COMPLETED after 0.1075
+2018-11-13T20:07:24+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=57) COMPLETED after 0.1075
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=65) RUNNING
+2018-11-13T20:07:24+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=65) RUNNING
+  Rendering user_mailer/work_package_updated.html.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.html.erb (12.2ms)
+  Rendered user_mailer/work_package_updated.html.erb within layouts/user_mailer (53.7ms)
+  Rendering user_mailer/work_package_updated.text.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.text.erb (1.2ms)
+  Rendered user_mailer/work_package_updated.text.erb within layouts/user_mailer (2.7ms)
+Sent mail to  (2.2ms)
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=65) COMPLETED after 0.1073
+2018-11-13T20:07:24+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=65) COMPLETED after 0.1073
+[Worker(host:934e348393db pid:165)] 3 jobs processed at 10.7819 j/s, 0 failed
+2018-11-13T20:07:24+0000: [Worker(host:934e348393db pid:165)] 3 jobs processed at 10.7819 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=60) RUNNING
+2018-11-13T20:11:05+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=60) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=60) COMPLETED after 0.0236
+2018-11-13T20:11:05+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=60) COMPLETED after 0.0236
+[Worker(host:934e348393db pid:165)] 1 jobs processed at 21.8292 j/s, 0 failed
+2018-11-13T20:11:05+0000: [Worker(host:934e348393db pid:165)] 1 jobs processed at 21.8292 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=61) RUNNING
+2018-11-13T20:11:15+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=61) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=61) COMPLETED after 0.0241
+2018-11-13T20:11:15+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=61) COMPLETED after 0.0241
+[Worker(host:934e348393db pid:165)] 1 jobs processed at 19.8316 j/s, 0 failed
+2018-11-13T20:11:15+0000: [Worker(host:934e348393db pid:165)] 1 jobs processed at 19.8316 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=62) RUNNING
+2018-11-13T20:11:20+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=62) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=62) COMPLETED after 0.1489
+2018-11-13T20:11:20+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=62) COMPLETED after 0.1489
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=68) RUNNING
+2018-11-13T20:11:20+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=68) RUNNING
+  Rendering user_mailer/work_package_added.html.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.html.erb (16.5ms)
+  Rendered user_mailer/work_package_added.html.erb within layouts/user_mailer (17.4ms)
+  Rendering user_mailer/work_package_added.text.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.text.erb (1.2ms)
+  Rendered user_mailer/work_package_added.text.erb within layouts/user_mailer (1.6ms)
+Sent mail to  (1.7ms)
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=68) COMPLETED after 0.0739
+2018-11-13T20:11:20+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=68) COMPLETED after 0.0739
+[Worker(host:934e348393db pid:165)] 2 jobs processed at 7.6252 j/s, 0 failed
+2018-11-13T20:11:20+0000: [Worker(host:934e348393db pid:165)] 2 jobs processed at 7.6252 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=66) RUNNING
+2018-11-13T20:15:20+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=66) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=66) COMPLETED after 0.0902
+2018-11-13T20:15:20+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=66) COMPLETED after 0.0902
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=67) RUNNING
+2018-11-13T20:15:20+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=67) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=67) COMPLETED after 0.0825
+2018-11-13T20:15:20+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=67) COMPLETED after 0.0825
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=69) RUNNING
+2018-11-13T20:15:20+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=69) RUNNING
+  Rendering user_mailer/work_package_added.html.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.html.erb (12.8ms)
+  Rendered user_mailer/work_package_added.html.erb within layouts/user_mailer (13.3ms)
+  Rendering user_mailer/work_package_added.text.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.text.erb (1.4ms)
+  Rendered user_mailer/work_package_added.text.erb within layouts/user_mailer (1.9ms)
+Sent mail to  (2.5ms)
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=69) COMPLETED after 0.0496
+2018-11-13T20:15:20+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=69) COMPLETED after 0.0496
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=70) RUNNING
+2018-11-13T20:15:20+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=70) RUNNING
+  Rendering user_mailer/work_package_added.html.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.html.erb (7.3ms)
+  Rendered user_mailer/work_package_added.html.erb within layouts/user_mailer (21.0ms)
+  Rendering user_mailer/work_package_added.text.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.text.erb (1.0ms)
+  Rendered user_mailer/work_package_added.text.erb within layouts/user_mailer (1.4ms)
+Sent mail to  (1.4ms)
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=70) COMPLETED after 0.0742
+2018-11-13T20:15:20+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=70) COMPLETED after 0.0742
+[Worker(host:934e348393db pid:165)] 4 jobs processed at 11.4174 j/s, 0 failed
+2018-11-13T20:15:20+0000: [Worker(host:934e348393db pid:165)] 4 jobs processed at 11.4174 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=71) RUNNING
+2018-11-13T20:20:51+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=71) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=71) COMPLETED after 0.1232
+2018-11-13T20:20:51+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=71) COMPLETED after 0.1232
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=72) RUNNING
+2018-11-13T20:20:51+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=72) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=72) COMPLETED after 0.0988
+2018-11-13T20:20:51+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=72) COMPLETED after 0.0988
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=75) RUNNING
+2018-11-13T20:20:51+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=75) RUNNING
+  Rendering user_mailer/work_package_added.html.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.html.erb (15.9ms)
+  Rendered user_mailer/work_package_added.html.erb within layouts/user_mailer (16.6ms)
+  Rendering user_mailer/work_package_added.text.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.text.erb (1.7ms)
+  Rendered user_mailer/work_package_added.text.erb within layouts/user_mailer (2.3ms)
+Sent mail to  (1.5ms)
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=75) COMPLETED after 0.0585
+2018-11-13T20:20:51+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=75) COMPLETED after 0.0585
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=76) RUNNING
+2018-11-13T20:20:51+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=76) RUNNING
+  Rendering user_mailer/work_package_updated.html.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.html.erb (13.0ms)
+  Rendered user_mailer/work_package_updated.html.erb within layouts/user_mailer (34.6ms)
+  Rendering user_mailer/work_package_updated.text.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.text.erb (1.2ms)
+  Rendered user_mailer/work_package_updated.text.erb within layouts/user_mailer (2.7ms)
+Sent mail to  (2.0ms)
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=76) COMPLETED after 0.0985
+2018-11-13T20:20:51+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=76) COMPLETED after 0.0985
+[Worker(host:934e348393db pid:165)] 4 jobs processed at 8.8820 j/s, 0 failed
+2018-11-13T20:20:51+0000: [Worker(host:934e348393db pid:165)] 4 jobs processed at 8.8820 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=73) RUNNING
+2018-11-13T20:23:41+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=73) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=73) COMPLETED after 0.0485
+2018-11-13T20:23:41+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=73) COMPLETED after 0.0485
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=74) RUNNING
+2018-11-13T20:23:41+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=74) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=74) COMPLETED after 0.0906
+2018-11-13T20:23:41+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=74) COMPLETED after 0.0906
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=77) RUNNING
+2018-11-13T20:23:41+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=77) RUNNING
+  Rendering user_mailer/work_package_added.html.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.html.erb (20.6ms)
+  Rendered user_mailer/work_package_added.html.erb within layouts/user_mailer (21.5ms)
+  Rendering user_mailer/work_package_added.text.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.text.erb (1.3ms)
+  Rendered user_mailer/work_package_added.text.erb within layouts/user_mailer (1.8ms)
+Sent mail to  (2.0ms)
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=77) COMPLETED after 0.0739
+2018-11-13T20:23:41+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=77) COMPLETED after 0.0739
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=78) RUNNING
+2018-11-13T20:23:42+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=78) RUNNING
+  Rendering user_mailer/work_package_updated.html.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.html.erb (6.5ms)
+  Rendered user_mailer/work_package_updated.html.erb within layouts/user_mailer (27.0ms)
+  Rendering user_mailer/work_package_updated.text.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.text.erb (0.9ms)
+  Rendered user_mailer/work_package_updated.text.erb within layouts/user_mailer (2.2ms)
+Sent mail to  (1.6ms)
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=78) COMPLETED after 0.0825
+2018-11-13T20:23:42+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=78) COMPLETED after 0.0825
+[Worker(host:934e348393db pid:165)] 4 jobs processed at 11.6919 j/s, 0 failed
+2018-11-13T20:23:42+0000: [Worker(host:934e348393db pid:165)] 4 jobs processed at 11.6919 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=79) RUNNING
+2018-11-13T20:30:27+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=79) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=79) COMPLETED after 0.1566
+2018-11-13T20:30:27+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=79) COMPLETED after 0.1566
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=80) RUNNING
+2018-11-13T20:30:27+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=80) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=80) COMPLETED after 0.0803
+2018-11-13T20:30:27+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=80) COMPLETED after 0.0803
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=86) RUNNING
+2018-11-13T20:30:27+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=86) RUNNING
+  Rendering user_mailer/work_package_added.html.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.html.erb (17.3ms)
+  Rendered user_mailer/work_package_added.html.erb within layouts/user_mailer (17.8ms)
+  Rendering user_mailer/work_package_added.text.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.text.erb (1.8ms)
+  Rendered user_mailer/work_package_added.text.erb within layouts/user_mailer (2.8ms)
+Sent mail to  (2.3ms)
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=86) COMPLETED after 0.0663
+2018-11-13T20:30:27+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=86) COMPLETED after 0.0663
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=87) RUNNING
+2018-11-13T20:30:27+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=87) RUNNING
+  Rendering user_mailer/work_package_updated.html.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.html.erb (16.8ms)
+  Rendered user_mailer/work_package_updated.html.erb within layouts/user_mailer (49.4ms)
+  Rendering user_mailer/work_package_updated.text.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.text.erb (1.6ms)
+  Rendered user_mailer/work_package_updated.text.erb within layouts/user_mailer (3.5ms)
+Sent mail to  (2.0ms)
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=87) COMPLETED after 0.1153
+2018-11-13T20:30:27+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=87) COMPLETED after 0.1153
+[Worker(host:934e348393db pid:165)] 4 jobs processed at 8.3573 j/s, 0 failed
+2018-11-13T20:30:27+0000: [Worker(host:934e348393db pid:165)] 4 jobs processed at 8.3573 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=81) RUNNING
+2018-11-13T20:31:47+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=81) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=81) COMPLETED after 0.0238
+2018-11-13T20:31:47+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=81) COMPLETED after 0.0238
+[Worker(host:934e348393db pid:165)] 1 jobs processed at 19.3718 j/s, 0 failed
+2018-11-13T20:31:47+0000: [Worker(host:934e348393db pid:165)] 1 jobs processed at 19.3718 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=82) RUNNING
+2018-11-13T20:33:53+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=82) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=82) COMPLETED after 0.0904
+2018-11-13T20:33:53+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=82) COMPLETED after 0.0904
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=83) RUNNING
+2018-11-13T20:33:53+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=83) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=83) COMPLETED after 0.0908
+2018-11-13T20:33:53+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=83) COMPLETED after 0.0908
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=90) RUNNING
+2018-11-13T20:33:53+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=90) RUNNING
+  Rendering user_mailer/work_package_added.html.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.html.erb (17.5ms)
+  Rendered user_mailer/work_package_added.html.erb within layouts/user_mailer (18.2ms)
+  Rendering user_mailer/work_package_added.text.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.text.erb (1.2ms)
+  Rendered user_mailer/work_package_added.text.erb within layouts/user_mailer (1.7ms)
+Sent mail to  (1.7ms)
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=90) COMPLETED after 0.0657
+2018-11-13T20:33:53+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=90) COMPLETED after 0.0657
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=91) RUNNING
+2018-11-13T20:33:53+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=91) RUNNING
+  Rendering user_mailer/work_package_added.html.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.html.erb (7.3ms)
+  Rendered user_mailer/work_package_added.html.erb within layouts/user_mailer (20.2ms)
+  Rendering user_mailer/work_package_added.text.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.text.erb (1.0ms)
+  Rendered user_mailer/work_package_added.text.erb within layouts/user_mailer (1.5ms)
+Sent mail to  (1.4ms)
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=91) COMPLETED after 0.0823
+2018-11-13T20:33:53+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=91) COMPLETED after 0.0823
+[Worker(host:934e348393db pid:165)] 4 jobs processed at 10.4223 j/s, 0 failed
+2018-11-13T20:33:53+0000: [Worker(host:934e348393db pid:165)] 4 jobs processed at 10.4223 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=84) RUNNING
+2018-11-13T20:35:18+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=84) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=84) COMPLETED after 0.0990
+2018-11-13T20:35:18+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=84) COMPLETED after 0.0990
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=85) RUNNING
+2018-11-13T20:35:18+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=85) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=85) COMPLETED after 0.1158
+2018-11-13T20:35:18+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=85) COMPLETED after 0.1158
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=93) RUNNING
+2018-11-13T20:35:18+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=93) RUNNING
+  Rendering user_mailer/work_package_added.html.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.html.erb (34.5ms)
+  Rendered user_mailer/work_package_added.html.erb within layouts/user_mailer (35.9ms)
+  Rendering user_mailer/work_package_added.text.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.text.erb (2.9ms)
+  Rendered user_mailer/work_package_added.text.erb within layouts/user_mailer (3.7ms)
+Sent mail to  (2.0ms)
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=93) COMPLETED after 0.1240
+2018-11-13T20:35:18+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=93) COMPLETED after 0.1240
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=94) RUNNING
+2018-11-13T20:35:18+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=94) RUNNING
+  Rendering user_mailer/work_package_updated.html.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.html.erb (6.5ms)
+  Rendered user_mailer/work_package_updated.html.erb within layouts/user_mailer (28.7ms)
+  Rendering user_mailer/work_package_updated.text.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.text.erb (0.9ms)
+  Rendered user_mailer/work_package_updated.text.erb within layouts/user_mailer (2.3ms)
+Sent mail to  (1.5ms)
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=94) COMPLETED after 0.0748
+2018-11-13T20:35:18+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=94) COMPLETED after 0.0748
+[Worker(host:934e348393db pid:165)] 4 jobs processed at 8.4589 j/s, 0 failed
+2018-11-13T20:35:18+0000: [Worker(host:934e348393db pid:165)] 4 jobs processed at 8.4589 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=88) RUNNING
+2018-11-13T20:36:29+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=88) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=88) COMPLETED after 0.0158
+2018-11-13T20:36:29+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=88) COMPLETED after 0.0158
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=89) RUNNING
+2018-11-13T20:36:29+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=89) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=89) COMPLETED after 0.1570
+2018-11-13T20:36:29+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=89) COMPLETED after 0.1570
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=96) RUNNING
+2018-11-13T20:36:29+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=96) RUNNING
+  Rendering user_mailer/work_package_updated.html.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.html.erb (39.2ms)
+  Rendered user_mailer/work_package_updated.html.erb within layouts/user_mailer (89.6ms)
+  Rendering user_mailer/work_package_updated.text.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.text.erb (3.8ms)
+  Rendered user_mailer/work_package_updated.text.erb within layouts/user_mailer (8.9ms)
+Sent mail to  (5.4ms)
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=96) COMPLETED after 0.3064
+2018-11-13T20:36:29+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=96) COMPLETED after 0.3064
+[Worker(host:934e348393db pid:165)] 3 jobs processed at 5.6658 j/s, 0 failed
+2018-11-13T20:36:29+0000: [Worker(host:934e348393db pid:165)] 3 jobs processed at 5.6658 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=92) RUNNING
+2018-11-13T20:39:44+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=92) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=92) COMPLETED after 0.0324
+2018-11-13T20:39:44+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=92) COMPLETED after 0.0324
+[Worker(host:934e348393db pid:165)] 1 jobs processed at 18.0269 j/s, 0 failed
+2018-11-13T20:39:44+0000: [Worker(host:934e348393db pid:165)] 1 jobs processed at 18.0269 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=95) RUNNING
+2018-11-13T20:40:54+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=95) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=95) COMPLETED after 0.0157
+2018-11-13T20:40:54+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=95) COMPLETED after 0.0157
+[Worker(host:934e348393db pid:165)] 1 jobs processed at 23.3592 j/s, 0 failed
+2018-11-13T20:40:54+0000: [Worker(host:934e348393db pid:165)] 1 jobs processed at 23.3592 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=97) RUNNING
+2018-11-13T20:43:29+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=97) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=97) COMPLETED after 0.0903
+2018-11-13T20:43:30+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=97) COMPLETED after 0.0903
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=98) RUNNING
+2018-11-13T20:43:30+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=98) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=98) COMPLETED after 0.0989
+2018-11-13T20:43:30+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=98) COMPLETED after 0.0989
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=103) RUNNING
+2018-11-13T20:43:30+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=103) RUNNING
+  Rendering user_mailer/work_package_added.html.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.html.erb (22.7ms)
+  Rendered user_mailer/work_package_added.html.erb within layouts/user_mailer (23.3ms)
+  Rendering user_mailer/work_package_added.text.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.text.erb (1.2ms)
+  Rendered user_mailer/work_package_added.text.erb within layouts/user_mailer (1.7ms)
+Sent mail to  (2.1ms)
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=103) COMPLETED after 0.0662
+2018-11-13T20:43:30+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=103) COMPLETED after 0.0662
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=104) RUNNING
+2018-11-13T20:43:30+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=104) RUNNING
+  Rendering user_mailer/work_package_added.html.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.html.erb (8.7ms)
+  Rendered user_mailer/work_package_added.html.erb within layouts/user_mailer (27.4ms)
+  Rendering user_mailer/work_package_added.text.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.text.erb (1.1ms)
+  Rendered user_mailer/work_package_added.text.erb within layouts/user_mailer (1.5ms)
+Sent mail to  (1.4ms)
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=104) COMPLETED after 0.0742
+2018-11-13T20:43:30+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=104) COMPLETED after 0.0742
+[Worker(host:934e348393db pid:165)] 4 jobs processed at 10.4707 j/s, 0 failed
+2018-11-13T20:43:30+0000: [Worker(host:934e348393db pid:165)] 4 jobs processed at 10.4707 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=99) RUNNING
+2018-11-13T20:45:45+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=99) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=99) COMPLETED after 0.0901
+2018-11-13T20:45:45+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=99) COMPLETED after 0.0901
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=100) RUNNING
+2018-11-13T20:45:45+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=100) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=100) COMPLETED after 0.0888
+2018-11-13T20:45:45+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=100) COMPLETED after 0.0888
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=105) RUNNING
+2018-11-13T20:45:45+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=105) RUNNING
+  Rendering user_mailer/work_package_added.html.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.html.erb (14.1ms)
+  Rendered user_mailer/work_package_added.html.erb within layouts/user_mailer (14.6ms)
+  Rendering user_mailer/work_package_added.text.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.text.erb (1.0ms)
+  Rendered user_mailer/work_package_added.text.erb within layouts/user_mailer (1.4ms)
+Sent mail to  (1.6ms)
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=105) COMPLETED after 0.0490
+2018-11-13T20:45:45+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=105) COMPLETED after 0.0490
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=106) RUNNING
+2018-11-13T20:45:45+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=106) RUNNING
+  Rendering user_mailer/work_package_updated.html.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.html.erb (6.4ms)
+  Rendered user_mailer/work_package_updated.html.erb within layouts/user_mailer (26.0ms)
+  Rendering user_mailer/work_package_updated.text.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.text.erb (1.0ms)
+  Rendered user_mailer/work_package_updated.text.erb within layouts/user_mailer (2.2ms)
+Sent mail to  (2.0ms)
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=106) COMPLETED after 0.0825
+2018-11-13T20:45:45+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=106) COMPLETED after 0.0825
+[Worker(host:934e348393db pid:165)] 4 jobs processed at 10.9247 j/s, 0 failed
+2018-11-13T20:45:45+0000: [Worker(host:934e348393db pid:165)] 4 jobs processed at 10.9247 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=101) RUNNING
+2018-11-13T20:47:20+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=101) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=101) COMPLETED after 0.1155
+2018-11-13T20:47:20+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=101) COMPLETED after 0.1155
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=102) RUNNING
+2018-11-13T20:47:20+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=102) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=102) COMPLETED after 0.0655
+2018-11-13T20:47:21+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=102) COMPLETED after 0.0655
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=107) RUNNING
+2018-11-13T20:47:21+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=107) RUNNING
+  Rendering user_mailer/work_package_added.html.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.html.erb (17.7ms)
+  Rendered user_mailer/work_package_added.html.erb within layouts/user_mailer (18.2ms)
+  Rendering user_mailer/work_package_added.text.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.text.erb (1.3ms)
+  Rendered user_mailer/work_package_added.text.erb within layouts/user_mailer (2.0ms)
+Sent mail to  (1.4ms)
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=107) COMPLETED after 0.0585
+2018-11-13T20:47:21+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=107) COMPLETED after 0.0585
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=108) RUNNING
+2018-11-13T20:47:21+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=108) RUNNING
+  Rendering user_mailer/work_package_updated.html.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.html.erb (11.7ms)
+  Rendered user_mailer/work_package_updated.html.erb within layouts/user_mailer (45.2ms)
+  Rendering user_mailer/work_package_updated.text.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.text.erb (0.9ms)
+  Rendered user_mailer/work_package_updated.text.erb within layouts/user_mailer (2.2ms)
+Sent mail to  (1.9ms)
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=108) COMPLETED after 0.1155
+2018-11-13T20:47:21+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=108) COMPLETED after 0.1155
+[Worker(host:934e348393db pid:165)] 4 jobs processed at 10.0201 j/s, 0 failed
+2018-11-13T20:47:21+0000: [Worker(host:934e348393db pid:165)] 4 jobs processed at 10.0201 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=109) RUNNING
+2018-11-13T20:53:21+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=109) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=109) COMPLETED after 0.0324
+2018-11-13T20:53:21+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=109) COMPLETED after 0.0324
+[Worker(host:934e348393db pid:165)] 1 jobs processed at 18.2742 j/s, 0 failed
+2018-11-13T20:53:21+0000: [Worker(host:934e348393db pid:165)] 1 jobs processed at 18.2742 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=110) RUNNING
+2018-11-13T20:54:56+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=110) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=110) COMPLETED after 0.0412
+2018-11-13T20:54:56+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=110) COMPLETED after 0.0412
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=111) RUNNING
+2018-11-13T20:54:56+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=111) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=111) COMPLETED after 0.0412
+2018-11-13T20:54:56+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=111) COMPLETED after 0.0412
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=116) RUNNING
+2018-11-13T20:54:56+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=116) RUNNING
+  Rendering user_mailer/work_package_added.html.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.html.erb (19.3ms)
+  Rendered user_mailer/work_package_added.html.erb within layouts/user_mailer (20.3ms)
+  Rendering user_mailer/work_package_added.text.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.text.erb (1.2ms)
+  Rendered user_mailer/work_package_added.text.erb within layouts/user_mailer (1.6ms)
+Sent mail to  (1.8ms)
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=116) COMPLETED after 0.0995
+2018-11-13T20:54:56+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=116) COMPLETED after 0.0995
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=117) RUNNING
+2018-11-13T20:54:56+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=117) RUNNING
+  Rendering user_mailer/work_package_added.html.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.html.erb (7.3ms)
+  Rendered user_mailer/work_package_added.html.erb within layouts/user_mailer (19.7ms)
+  Rendering user_mailer/work_package_added.text.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.text.erb (1.1ms)
+  Rendered user_mailer/work_package_added.text.erb within layouts/user_mailer (1.6ms)
+Sent mail to  (1.5ms)
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=117) COMPLETED after 0.0580
+2018-11-13T20:54:57+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=117) COMPLETED after 0.0580
+[Worker(host:934e348393db pid:165)] 4 jobs processed at 10.3851 j/s, 0 failed
+2018-11-13T20:54:57+0000: [Worker(host:934e348393db pid:165)] 4 jobs processed at 10.3851 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=112) RUNNING
+2018-11-13T20:57:27+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=112) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=112) COMPLETED after 0.0157
+2018-11-13T20:57:27+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=112) COMPLETED after 0.0157
+[Worker(host:934e348393db pid:165)] 1 jobs processed at 22.9928 j/s, 0 failed
+2018-11-13T20:57:27+0000: [Worker(host:934e348393db pid:165)] 1 jobs processed at 22.9928 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=113) RUNNING
+2018-11-13T20:58:22+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=113) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=113) COMPLETED after 0.0902
+2018-11-13T20:58:22+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=113) COMPLETED after 0.0902
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=114) RUNNING
+2018-11-13T20:58:22+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=114) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=114) COMPLETED after 0.0909
+2018-11-13T20:58:22+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=114) COMPLETED after 0.0909
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=121) RUNNING
+2018-11-13T20:58:22+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=121) RUNNING
+  Rendering user_mailer/work_package_added.html.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.html.erb (13.8ms)
+  Rendered user_mailer/work_package_added.html.erb within layouts/user_mailer (14.5ms)
+  Rendering user_mailer/work_package_added.text.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.text.erb (1.1ms)
+  Rendered user_mailer/work_package_added.text.erb within layouts/user_mailer (1.5ms)
+Sent mail to  (1.5ms)
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=121) COMPLETED after 0.0658
+2018-11-13T20:58:22+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=121) COMPLETED after 0.0658
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=122) RUNNING
+2018-11-13T20:58:22+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=122) RUNNING
+  Rendering user_mailer/work_package_added.html.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.html.erb (11.6ms)
+  Rendered user_mailer/work_package_added.html.erb within layouts/user_mailer (37.7ms)
+  Rendering user_mailer/work_package_added.text.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.text.erb (1.2ms)
+  Rendered user_mailer/work_package_added.text.erb within layouts/user_mailer (1.7ms)
+Sent mail to  (1.6ms)
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=122) COMPLETED after 0.0906
+2018-11-13T20:58:22+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=122) COMPLETED after 0.0906
+[Worker(host:934e348393db pid:165)] 4 jobs processed at 10.1625 j/s, 0 failed
+2018-11-13T20:58:22+0000: [Worker(host:934e348393db pid:165)] 4 jobs processed at 10.1625 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=115) RUNNING
+2018-11-13T20:59:07+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=115) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=115) COMPLETED after 0.0236
+2018-11-13T20:59:07+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=115) COMPLETED after 0.0236
+[Worker(host:934e348393db pid:165)] 1 jobs processed at 21.5636 j/s, 0 failed
+2018-11-13T20:59:07+0000: [Worker(host:934e348393db pid:165)] 1 jobs processed at 21.5636 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=118) RUNNING
+2018-11-13T21:00:02+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=118) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=118) COMPLETED after 0.0903
+2018-11-13T21:00:02+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=118) COMPLETED after 0.0903
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=119) RUNNING
+2018-11-13T21:00:02+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=119) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=119) COMPLETED after 0.0908
+2018-11-13T21:00:02+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=119) COMPLETED after 0.0908
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=123) RUNNING
+2018-11-13T21:00:02+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=123) RUNNING
+  Rendering user_mailer/work_package_added.html.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.html.erb (12.8ms)
+  Rendered user_mailer/work_package_added.html.erb within layouts/user_mailer (13.5ms)
+  Rendering user_mailer/work_package_added.text.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.text.erb (1.0ms)
+  Rendered user_mailer/work_package_added.text.erb within layouts/user_mailer (1.5ms)
+Sent mail to  (1.8ms)
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=123) COMPLETED after 0.0738
+2018-11-13T21:00:03+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=123) COMPLETED after 0.0738
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=124) RUNNING
+2018-11-13T21:00:03+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=124) RUNNING
+  Rendering user_mailer/work_package_added.html.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.html.erb (7.0ms)
+  Rendered user_mailer/work_package_added.html.erb within layouts/user_mailer (17.8ms)
+  Rendering user_mailer/work_package_added.text.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.text.erb (1.0ms)
+  Rendered user_mailer/work_package_added.text.erb within layouts/user_mailer (1.5ms)
+Sent mail to  (1.6ms)
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=124) COMPLETED after 0.0574
+2018-11-13T21:00:03+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=124) COMPLETED after 0.0574
+[Worker(host:934e348393db pid:165)] 4 jobs processed at 10.7955 j/s, 0 failed
+2018-11-13T21:00:03+0000: [Worker(host:934e348393db pid:165)] 4 jobs processed at 10.7955 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=120) RUNNING
+2018-11-13T21:00:53+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=120) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=120) COMPLETED after 0.0579
+2018-11-13T21:00:53+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=120) COMPLETED after 0.0579
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=125) RUNNING
+2018-11-13T21:00:53+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=125) RUNNING
+  Rendering user_mailer/work_package_updated.html.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.html.erb (11.0ms)
+  Rendered user_mailer/work_package_updated.html.erb within layouts/user_mailer (20.6ms)
+  Rendering user_mailer/work_package_updated.text.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.text.erb (1.0ms)
+  Rendered user_mailer/work_package_updated.text.erb within layouts/user_mailer (1.7ms)
+Sent mail to  (1.7ms)
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=125) COMPLETED after 0.0738
+2018-11-13T21:00:53+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=125) COMPLETED after 0.0738
+[Worker(host:934e348393db pid:165)] 2 jobs processed at 12.9624 j/s, 0 failed
+2018-11-13T21:00:53+0000: [Worker(host:934e348393db pid:165)] 2 jobs processed at 12.9624 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=126) RUNNING
+2018-11-13T21:08:58+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=126) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=126) COMPLETED after 0.0239
+2018-11-13T21:08:58+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=126) COMPLETED after 0.0239
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=127) RUNNING
+2018-11-13T21:08:58+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=127) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=127) COMPLETED after 0.0239
+2018-11-13T21:08:58+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=127) COMPLETED after 0.0239
+[Worker(host:934e348393db pid:165)] 2 jobs processed at 21.8492 j/s, 0 failed
+2018-11-13T21:08:58+0000: [Worker(host:934e348393db pid:165)] 2 jobs processed at 21.8492 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=128) RUNNING
+2018-11-13T21:09:28+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=128) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=128) COMPLETED after 0.0163
+2018-11-13T21:09:28+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=128) COMPLETED after 0.0163
+[Worker(host:934e348393db pid:165)] 1 jobs processed at 22.7438 j/s, 0 failed
+2018-11-13T21:09:28+0000: [Worker(host:934e348393db pid:165)] 1 jobs processed at 22.7438 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=129) RUNNING
+2018-11-13T21:09:33+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=129) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=129) COMPLETED after 0.0156
+2018-11-13T21:09:33+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=129) COMPLETED after 0.0156
+[Worker(host:934e348393db pid:165)] 1 jobs processed at 25.6327 j/s, 0 failed
+2018-11-13T21:09:33+0000: [Worker(host:934e348393db pid:165)] 1 jobs processed at 25.6327 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=130) RUNNING
+2018-11-13T21:09:43+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=130) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=130) COMPLETED after 0.0147
+2018-11-13T21:09:43+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=130) COMPLETED after 0.0147
+[Worker(host:934e348393db pid:165)] 1 jobs processed at 22.1276 j/s, 0 failed
+2018-11-13T21:09:43+0000: [Worker(host:934e348393db pid:165)] 1 jobs processed at 22.1276 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=131) RUNNING
+2018-11-13T21:09:53+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=131) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=131) COMPLETED after 0.0246
+2018-11-13T21:09:53+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=131) COMPLETED after 0.0246
+[Worker(host:934e348393db pid:165)] 1 jobs processed at 18.3507 j/s, 0 failed
+2018-11-13T21:09:53+0000: [Worker(host:934e348393db pid:165)] 1 jobs processed at 18.3507 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=132) RUNNING
+2018-11-13T21:09:58+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=132) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=132) COMPLETED after 0.0161
+2018-11-13T21:09:58+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=132) COMPLETED after 0.0161
+[Worker(host:934e348393db pid:165)] 1 jobs processed at 22.8974 j/s, 0 failed
+2018-11-13T21:09:58+0000: [Worker(host:934e348393db pid:165)] 1 jobs processed at 22.8974 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=133) RUNNING
+2018-11-13T21:10:43+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=133) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=133) COMPLETED after 0.0241
+2018-11-13T21:10:44+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=133) COMPLETED after 0.0241
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=134) RUNNING
+2018-11-13T21:10:44+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=134) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=134) COMPLETED after 0.0165
+2018-11-13T21:10:44+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=134) COMPLETED after 0.0165
+[Worker(host:934e348393db pid:165)] 2 jobs processed at 30.7396 j/s, 0 failed
+2018-11-13T21:10:44+0000: [Worker(host:934e348393db pid:165)] 2 jobs processed at 30.7396 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=135) RUNNING
+2018-11-13T21:10:49+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=135) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=135) COMPLETED after 0.0163
+2018-11-13T21:10:49+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=135) COMPLETED after 0.0163
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=136) RUNNING
+2018-11-13T21:10:49+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=136) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=136) COMPLETED after 0.0163
+2018-11-13T21:10:49+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=136) COMPLETED after 0.0163
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=137) RUNNING
+2018-11-13T21:10:49+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=137) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=137) COMPLETED after 0.0161
+2018-11-13T21:10:49+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=137) COMPLETED after 0.0161
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=138) RUNNING
+2018-11-13T21:10:49+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=138) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=138) COMPLETED after 0.0163
+2018-11-13T21:10:49+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=138) COMPLETED after 0.0163
+[Worker(host:934e348393db pid:165)] 4 jobs processed at 33.3554 j/s, 0 failed
+2018-11-13T21:10:49+0000: [Worker(host:934e348393db pid:165)] 4 jobs processed at 33.3554 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=139) RUNNING
+2018-11-13T21:10:54+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=139) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=139) COMPLETED after 0.0244
+2018-11-13T21:10:54+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=139) COMPLETED after 0.0244
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=140) RUNNING
+2018-11-13T21:10:54+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=140) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=140) COMPLETED after 0.0166
+2018-11-13T21:10:54+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=140) COMPLETED after 0.0166
+[Worker(host:934e348393db pid:165)] 2 jobs processed at 34.3865 j/s, 0 failed
+2018-11-13T21:10:54+0000: [Worker(host:934e348393db pid:165)] 2 jobs processed at 34.3865 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=141) RUNNING
+2018-11-13T21:11:09+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=141) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=141) COMPLETED after 0.0411
+2018-11-13T21:11:09+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=141) COMPLETED after 0.0411
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=142) RUNNING
+2018-11-13T21:11:09+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=142) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=142) COMPLETED after 0.0167
+2018-11-13T21:11:09+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=142) COMPLETED after 0.0167
+[Worker(host:934e348393db pid:165)] 2 jobs processed at 17.1090 j/s, 0 failed
+2018-11-13T21:11:09+0000: [Worker(host:934e348393db pid:165)] 2 jobs processed at 17.1090 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=143) RUNNING
+2018-11-13T21:11:14+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=143) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=143) COMPLETED after 0.0994
+2018-11-13T21:11:14+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=143) COMPLETED after 0.0994
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=144) RUNNING
+2018-11-13T21:11:14+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=144) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=144) COMPLETED after 0.0570
+2018-11-13T21:11:14+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=144) COMPLETED after 0.0570
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=170) RUNNING
+2018-11-13T21:11:14+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=170) RUNNING
+  Rendering user_mailer/work_package_updated.html.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.html.erb (12.8ms)
+  Rendered user_mailer/work_package_updated.html.erb within layouts/user_mailer (18.4ms)
+  Rendering user_mailer/work_package_updated.text.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.text.erb (1.5ms)
+  Rendered user_mailer/work_package_updated.text.erb within layouts/user_mailer (2.6ms)
+Sent mail to  (1.5ms)
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=170) COMPLETED after 0.0660
+2018-11-13T21:11:14+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=170) COMPLETED after 0.0660
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=171) RUNNING
+2018-11-13T21:11:14+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=171) RUNNING
+  Rendering user_mailer/work_package_updated.html.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.html.erb (11.1ms)
+  Rendered user_mailer/work_package_updated.html.erb within layouts/user_mailer (20.7ms)
+  Rendering user_mailer/work_package_updated.text.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.text.erb (1.1ms)
+  Rendered user_mailer/work_package_updated.text.erb within layouts/user_mailer (2.9ms)
+Sent mail to  (1.5ms)
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=171) COMPLETED after 0.0584
+2018-11-13T21:11:14+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=171) COMPLETED after 0.0584
+[Worker(host:934e348393db pid:165)] 4 jobs processed at 11.6819 j/s, 0 failed
+2018-11-13T21:11:14+0000: [Worker(host:934e348393db pid:165)] 4 jobs processed at 11.6819 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=145) RUNNING
+2018-11-13T21:11:24+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=145) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=145) COMPLETED after 0.0323
+2018-11-13T21:11:24+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=145) COMPLETED after 0.0323
+[Worker(host:934e348393db pid:165)] 1 jobs processed at 15.9145 j/s, 0 failed
+2018-11-13T21:11:24+0000: [Worker(host:934e348393db pid:165)] 1 jobs processed at 15.9145 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=146) RUNNING
+2018-11-13T21:11:34+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=146) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=146) COMPLETED after 0.1642
+2018-11-13T21:11:34+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=146) COMPLETED after 0.1642
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=172) RUNNING
+2018-11-13T21:11:34+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=172) RUNNING
+  Rendering user_mailer/work_package_updated.html.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.html.erb (36.6ms)
+  Rendered user_mailer/work_package_updated.html.erb within layouts/user_mailer (59.5ms)
+  Rendering user_mailer/work_package_updated.text.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.text.erb (4.6ms)
+  Rendered user_mailer/work_package_updated.text.erb within layouts/user_mailer (6.9ms)
+Sent mail to  (6.7ms)
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=172) COMPLETED after 0.1561
+2018-11-13T21:11:35+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=172) COMPLETED after 0.1561
+[Worker(host:934e348393db pid:165)] 2 jobs processed at 5.5345 j/s, 0 failed
+2018-11-13T21:11:35+0000: [Worker(host:934e348393db pid:165)] 2 jobs processed at 5.5345 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=147) RUNNING
+2018-11-13T21:11:50+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=147) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=147) COMPLETED after 0.0471
+2018-11-13T21:11:50+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=147) COMPLETED after 0.0471
+[Worker(host:934e348393db pid:165)] 1 jobs processed at 9.3978 j/s, 0 failed
+2018-11-13T21:11:50+0000: [Worker(host:934e348393db pid:165)] 1 jobs processed at 9.3978 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=148) RUNNING
+2018-11-13T21:12:50+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=148) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=148) COMPLETED after 0.0830
+2018-11-13T21:12:50+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=148) COMPLETED after 0.0830
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=173) RUNNING
+2018-11-13T21:12:50+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=173) RUNNING
+  Rendering user_mailer/work_package_updated.html.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.html.erb (15.6ms)
+  Rendered user_mailer/work_package_updated.html.erb within layouts/user_mailer (21.8ms)
+  Rendering user_mailer/work_package_updated.text.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.text.erb (1.5ms)
+  Rendered user_mailer/work_package_updated.text.erb within layouts/user_mailer (2.7ms)
+Sent mail to  (1.8ms)
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=173) COMPLETED after 0.0660
+2018-11-13T21:12:50+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=173) COMPLETED after 0.0660
+[Worker(host:934e348393db pid:165)] 2 jobs processed at 10.9689 j/s, 0 failed
+2018-11-13T21:12:50+0000: [Worker(host:934e348393db pid:165)] 2 jobs processed at 10.9689 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=149) RUNNING
+2018-11-13T21:13:10+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=149) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=149) COMPLETED after 0.0162
+2018-11-13T21:13:10+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=149) COMPLETED after 0.0162
+[Worker(host:934e348393db pid:165)] 1 jobs processed at 36.1785 j/s, 0 failed
+2018-11-13T21:13:10+0000: [Worker(host:934e348393db pid:165)] 1 jobs processed at 36.1785 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=150) RUNNING
+2018-11-13T21:13:25+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=150) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=150) COMPLETED after 0.0238
+2018-11-13T21:13:25+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=150) COMPLETED after 0.0238
+[Worker(host:934e348393db pid:165)] 1 jobs processed at 24.8353 j/s, 0 failed
+2018-11-13T21:13:25+0000: [Worker(host:934e348393db pid:165)] 1 jobs processed at 24.8353 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=151) RUNNING
+2018-11-13T21:13:40+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=151) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=151) COMPLETED after 0.0656
+2018-11-13T21:13:40+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=151) COMPLETED after 0.0656
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=174) RUNNING
+2018-11-13T21:13:40+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=174) RUNNING
+  Rendering user_mailer/work_package_updated.html.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.html.erb (14.3ms)
+  Rendered user_mailer/work_package_updated.html.erb within layouts/user_mailer (20.5ms)
+  Rendering user_mailer/work_package_updated.text.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.text.erb (1.0ms)
+  Rendered user_mailer/work_package_updated.text.erb within layouts/user_mailer (2.0ms)
+Sent mail to  (1.7ms)
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=174) COMPLETED after 0.0581
+2018-11-13T21:13:40+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=174) COMPLETED after 0.0581
+[Worker(host:934e348393db pid:165)] 2 jobs processed at 12.5281 j/s, 0 failed
+2018-11-13T21:13:40+0000: [Worker(host:934e348393db pid:165)] 2 jobs processed at 12.5281 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=152) RUNNING
+2018-11-13T21:13:50+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=152) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=152) COMPLETED after 0.0162
+2018-11-13T21:13:50+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=152) COMPLETED after 0.0162
+[Worker(host:934e348393db pid:165)] 1 jobs processed at 24.9194 j/s, 0 failed
+2018-11-13T21:13:50+0000: [Worker(host:934e348393db pid:165)] 1 jobs processed at 24.9194 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=153) RUNNING
+2018-11-13T21:13:55+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=153) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=153) COMPLETED after 0.0322
+2018-11-13T21:13:55+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=153) COMPLETED after 0.0322
+[Worker(host:934e348393db pid:165)] 1 jobs processed at 17.5566 j/s, 0 failed
+2018-11-13T21:13:55+0000: [Worker(host:934e348393db pid:165)] 1 jobs processed at 17.5566 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=154) RUNNING
+2018-11-13T21:14:05+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=154) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=154) COMPLETED after 0.0580
+2018-11-13T21:14:05+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=154) COMPLETED after 0.0580
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=175) RUNNING
+2018-11-13T21:14:05+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=175) RUNNING
+  Rendering user_mailer/work_package_updated.html.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.html.erb (11.4ms)
+  Rendered user_mailer/work_package_updated.html.erb within layouts/user_mailer (22.3ms)
+  Rendering user_mailer/work_package_updated.text.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.text.erb (1.0ms)
+  Rendered user_mailer/work_package_updated.text.erb within layouts/user_mailer (2.1ms)
+Sent mail to  (1.7ms)
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=175) COMPLETED after 0.0747
+2018-11-13T21:14:05+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=175) COMPLETED after 0.0747
+[Worker(host:934e348393db pid:165)] 2 jobs processed at 12.8947 j/s, 0 failed
+2018-11-13T21:14:05+0000: [Worker(host:934e348393db pid:165)] 2 jobs processed at 12.8947 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=155) RUNNING
+2018-11-13T21:14:11+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=155) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=155) COMPLETED after 0.0743
+2018-11-13T21:14:11+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=155) COMPLETED after 0.0743
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=156) RUNNING
+2018-11-13T21:14:11+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=156) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=156) COMPLETED after 0.0580
+2018-11-13T21:14:11+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=156) COMPLETED after 0.0580
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=176) RUNNING
+2018-11-13T21:14:11+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=176) RUNNING
+  Rendering user_mailer/work_package_updated.html.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.html.erb (15.3ms)
+  Rendered user_mailer/work_package_updated.html.erb within layouts/user_mailer (22.1ms)
+  Rendering user_mailer/work_package_updated.text.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.text.erb (1.0ms)
+  Rendered user_mailer/work_package_updated.text.erb within layouts/user_mailer (1.9ms)
+Sent mail to  (2.3ms)
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=176) COMPLETED after 0.0917
+2018-11-13T21:14:11+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=176) COMPLETED after 0.0917
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=177) RUNNING
+2018-11-13T21:14:11+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=177) RUNNING
+  Rendering user_mailer/work_package_updated.html.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.html.erb (11.9ms)
+  Rendered user_mailer/work_package_updated.html.erb within layouts/user_mailer (18.2ms)
+  Rendering user_mailer/work_package_updated.text.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.text.erb (1.0ms)
+  Rendered user_mailer/work_package_updated.text.erb within layouts/user_mailer (1.8ms)
+Sent mail to  (3.9ms)
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=177) COMPLETED after 0.0826
+2018-11-13T21:14:11+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=177) COMPLETED after 0.0826
+[Worker(host:934e348393db pid:165)] 4 jobs processed at 9.7678 j/s, 0 failed
+2018-11-13T21:14:11+0000: [Worker(host:934e348393db pid:165)] 4 jobs processed at 9.7678 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=157) RUNNING
+2018-11-13T21:14:16+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=157) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=157) COMPLETED after 0.0897
+2018-11-13T21:14:16+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=157) COMPLETED after 0.0897
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=178) RUNNING
+2018-11-13T21:14:16+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=178) RUNNING
+  Rendering user_mailer/work_package_updated.html.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.html.erb (16.4ms)
+  Rendered user_mailer/work_package_updated.html.erb within layouts/user_mailer (29.4ms)
+  Rendering user_mailer/work_package_updated.text.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.text.erb (1.6ms)
+  Rendered user_mailer/work_package_updated.text.erb within layouts/user_mailer (2.7ms)
+Sent mail to  (2.9ms)
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=178) COMPLETED after 0.0738
+2018-11-13T21:14:16+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=178) COMPLETED after 0.0738
+[Worker(host:934e348393db pid:165)] 2 jobs processed at 9.7428 j/s, 0 failed
+2018-11-13T21:14:16+0000: [Worker(host:934e348393db pid:165)] 2 jobs processed at 9.7428 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=158) RUNNING
+2018-11-13T21:14:56+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=158) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=158) COMPLETED after 0.0661
+2018-11-13T21:14:56+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=158) COMPLETED after 0.0661
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=159) RUNNING
+2018-11-13T21:14:56+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=159) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=159) COMPLETED after 0.0154
+2018-11-13T21:14:56+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=159) COMPLETED after 0.0154
+[Worker(host:934e348393db pid:165)] 2 jobs processed at 16.1256 j/s, 0 failed
+2018-11-13T21:14:56+0000: [Worker(host:934e348393db pid:165)] 2 jobs processed at 16.1256 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=160) RUNNING
+2018-11-13T21:15:06+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=160) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=160) COMPLETED after 0.0153
+2018-11-13T21:15:06+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=160) COMPLETED after 0.0153
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=161) RUNNING
+2018-11-13T21:15:06+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=161) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=161) COMPLETED after 0.0163
+2018-11-13T21:15:06+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=161) COMPLETED after 0.0163
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=162) RUNNING
+2018-11-13T21:15:06+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=162) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=162) COMPLETED after 0.0167
+2018-11-13T21:15:06+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=162) COMPLETED after 0.0167
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=163) RUNNING
+2018-11-13T21:15:06+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=163) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=163) COMPLETED after 0.0162
+2018-11-13T21:15:06+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=163) COMPLETED after 0.0162
+[Worker(host:934e348393db pid:165)] 4 jobs processed at 40.3545 j/s, 0 failed
+2018-11-13T21:15:06+0000: [Worker(host:934e348393db pid:165)] 4 jobs processed at 40.3545 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=164) RUNNING
+2018-11-13T21:15:21+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=164) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=164) COMPLETED after 0.0237
+2018-11-13T21:15:21+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=164) COMPLETED after 0.0237
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=165) RUNNING
+2018-11-13T21:15:21+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=165) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=165) COMPLETED after 0.0232
+2018-11-13T21:15:21+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=165) COMPLETED after 0.0232
+[Worker(host:934e348393db pid:165)] 2 jobs processed at 26.0398 j/s, 0 failed
+2018-11-13T21:15:21+0000: [Worker(host:934e348393db pid:165)] 2 jobs processed at 26.0398 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=166) RUNNING
+2018-11-13T21:15:26+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=166) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=166) COMPLETED after 0.0805
+2018-11-13T21:15:27+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=166) COMPLETED after 0.0805
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=167) RUNNING
+2018-11-13T21:15:27+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=167) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=167) COMPLETED after 0.0165
+2018-11-13T21:15:27+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=167) COMPLETED after 0.0165
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=188) RUNNING
+2018-11-13T21:15:27+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=188) RUNNING
+  Rendering user_mailer/work_package_updated.html.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.html.erb (11.7ms)
+  Rendered user_mailer/work_package_updated.html.erb within layouts/user_mailer (19.0ms)
+  Rendering user_mailer/work_package_updated.text.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.text.erb (1.0ms)
+  Rendered user_mailer/work_package_updated.text.erb within layouts/user_mailer (1.8ms)
+Sent mail to  (3.4ms)
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=188) COMPLETED after 0.1081
+2018-11-13T21:15:27+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=188) COMPLETED after 0.1081
+[Worker(host:934e348393db pid:165)] 3 jobs processed at 12.4210 j/s, 0 failed
+2018-11-13T21:15:27+0000: [Worker(host:934e348393db pid:165)] 3 jobs processed at 12.4210 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=168) RUNNING
+2018-11-13T21:15:47+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=168) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=168) COMPLETED after 0.0161
+2018-11-13T21:15:47+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=168) COMPLETED after 0.0161
+[Worker(host:934e348393db pid:165)] 1 jobs processed at 43.9858 j/s, 0 failed
+2018-11-13T21:15:47+0000: [Worker(host:934e348393db pid:165)] 1 jobs processed at 43.9858 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=169) RUNNING
+2018-11-13T21:15:57+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=169) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=169) COMPLETED after 0.0654
+2018-11-13T21:15:57+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=169) COMPLETED after 0.0654
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=196) RUNNING
+2018-11-13T21:15:57+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=196) RUNNING
+  Rendering user_mailer/work_package_updated.html.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.html.erb (17.8ms)
+  Rendered user_mailer/work_package_updated.html.erb within layouts/user_mailer (25.1ms)
+  Rendering user_mailer/work_package_updated.text.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.text.erb (3.2ms)
+  Rendered user_mailer/work_package_updated.text.erb within layouts/user_mailer (7.2ms)
+Sent mail to  (1.8ms)
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=196) COMPLETED after 0.0828
+2018-11-13T21:15:57+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=196) COMPLETED after 0.0828
+[Worker(host:934e348393db pid:165)] 2 jobs processed at 10.5987 j/s, 0 failed
+2018-11-13T21:15:57+0000: [Worker(host:934e348393db pid:165)] 2 jobs processed at 10.5987 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=179) RUNNING
+2018-11-13T21:19:52+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=179) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=179) COMPLETED after 0.0231
+2018-11-13T21:19:52+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=179) COMPLETED after 0.0231
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=180) RUNNING
+2018-11-13T21:19:52+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=180) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=180) COMPLETED after 0.0160
+2018-11-13T21:19:52+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=180) COMPLETED after 0.0160
+[Worker(host:934e348393db pid:165)] 2 jobs processed at 31.2692 j/s, 0 failed
+2018-11-13T21:19:52+0000: [Worker(host:934e348393db pid:165)] 2 jobs processed at 31.2692 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=181) RUNNING
+2018-11-13T21:20:02+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=181) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=181) COMPLETED after 0.0276
+2018-11-13T21:20:02+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=181) COMPLETED after 0.0276
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=182) RUNNING
+2018-11-13T21:20:02+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=182) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=182) COMPLETED after 0.0337
+2018-11-13T21:20:02+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=182) COMPLETED after 0.0337
+[Worker(host:934e348393db pid:165)] 2 jobs processed at 17.0236 j/s, 0 failed
+2018-11-13T21:20:02+0000: [Worker(host:934e348393db pid:165)] 2 jobs processed at 17.0236 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=183) RUNNING
+2018-11-13T21:20:07+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=183) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=183) COMPLETED after 0.0429
+2018-11-13T21:20:07+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=183) COMPLETED after 0.0429
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=184) RUNNING
+2018-11-13T21:20:07+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=184) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=184) COMPLETED after 0.0248
+2018-11-13T21:20:07+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=184) COMPLETED after 0.0248
+[Worker(host:934e348393db pid:165)] 2 jobs processed at 20.5613 j/s, 0 failed
+2018-11-13T21:20:07+0000: [Worker(host:934e348393db pid:165)] 2 jobs processed at 20.5613 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=185) RUNNING
+2018-11-13T21:20:17+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=185) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=185) COMPLETED after 0.0330
+2018-11-13T21:20:17+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=185) COMPLETED after 0.0330
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=186) RUNNING
+2018-11-13T21:20:17+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=186) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=186) COMPLETED after 0.0646
+2018-11-13T21:20:17+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=186) COMPLETED after 0.0646
+[Worker(host:934e348393db pid:165)] 2 jobs processed at 14.4674 j/s, 0 failed
+2018-11-13T21:20:17+0000: [Worker(host:934e348393db pid:165)] 2 jobs processed at 14.4674 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=187) RUNNING
+2018-11-13T21:20:28+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=187) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=187) COMPLETED after 0.0325
+2018-11-13T21:20:28+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=187) COMPLETED after 0.0325
+[Worker(host:934e348393db pid:165)] 1 jobs processed at 17.9364 j/s, 0 failed
+2018-11-13T21:20:28+0000: [Worker(host:934e348393db pid:165)] 1 jobs processed at 17.9364 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=189) RUNNING
+2018-11-13T21:20:33+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=189) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=189) COMPLETED after 0.0158
+2018-11-13T21:20:33+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=189) COMPLETED after 0.0158
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=190) RUNNING
+2018-11-13T21:20:33+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=190) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=190) COMPLETED after 0.0159
+2018-11-13T21:20:33+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=190) COMPLETED after 0.0159
+[Worker(host:934e348393db pid:165)] 2 jobs processed at 32.6471 j/s, 0 failed
+2018-11-13T21:20:33+0000: [Worker(host:934e348393db pid:165)] 2 jobs processed at 32.6471 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=191) RUNNING
+2018-11-13T21:20:48+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=191) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=191) COMPLETED after 0.0754
+2018-11-13T21:20:48+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=191) COMPLETED after 0.0754
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=192) RUNNING
+2018-11-13T21:20:48+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=192) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=192) COMPLETED after 0.0575
+2018-11-13T21:20:48+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=192) COMPLETED after 0.0575
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=193) RUNNING
+2018-11-13T21:20:48+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=193) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=193) COMPLETED after 0.0496
+2018-11-13T21:20:48+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=193) COMPLETED after 0.0496
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=242) RUNNING
+2018-11-13T21:20:48+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=242) RUNNING
+  Rendering user_mailer/work_package_updated.html.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.html.erb (10.6ms)
+  Rendered user_mailer/work_package_updated.html.erb within layouts/user_mailer (16.3ms)
+  Rendering user_mailer/work_package_updated.text.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.text.erb (1.1ms)
+  Rendered user_mailer/work_package_updated.text.erb within layouts/user_mailer (1.9ms)
+Sent mail to  (1.7ms)
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=242) COMPLETED after 0.0492
+2018-11-13T21:20:48+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=242) COMPLETED after 0.0492
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=243) RUNNING
+2018-11-13T21:20:48+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=243) RUNNING
+  Rendering user_mailer/work_package_updated.html.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.html.erb (9.2ms)
+  Rendered user_mailer/work_package_updated.html.erb within layouts/user_mailer (15.9ms)
+  Rendering user_mailer/work_package_updated.text.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.text.erb (1.2ms)
+  Rendered user_mailer/work_package_updated.text.erb within layouts/user_mailer (1.9ms)
+Sent mail to  (1.6ms)
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=243) COMPLETED after 0.0581
+2018-11-13T21:20:48+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=243) COMPLETED after 0.0581
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=244) RUNNING
+2018-11-13T21:20:48+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=244) RUNNING
+  Rendering user_mailer/work_package_updated.html.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.html.erb (12.2ms)
+  Rendered user_mailer/work_package_updated.html.erb within layouts/user_mailer (18.0ms)
+  Rendering user_mailer/work_package_updated.text.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.text.erb (1.0ms)
+  Rendered user_mailer/work_package_updated.text.erb within layouts/user_mailer (2.1ms)
+Sent mail to  (1.5ms)
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=244) COMPLETED after 0.0575
+2018-11-13T21:20:48+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=244) COMPLETED after 0.0575
+[Worker(host:934e348393db pid:165)] 6 jobs processed at 14.4215 j/s, 0 failed
+2018-11-13T21:20:48+0000: [Worker(host:934e348393db pid:165)] 6 jobs processed at 14.4215 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=194) RUNNING
+2018-11-13T21:20:58+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=194) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=194) COMPLETED after 0.0323
+2018-11-13T21:20:58+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=194) COMPLETED after 0.0323
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=195) RUNNING
+2018-11-13T21:20:58+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=195) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=195) COMPLETED after 0.0303
+2018-11-13T21:20:58+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=195) COMPLETED after 0.0303
+[Worker(host:934e348393db pid:165)] 2 jobs processed at 19.5146 j/s, 0 failed
+2018-11-13T21:20:58+0000: [Worker(host:934e348393db pid:165)] 2 jobs processed at 19.5146 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=197) RUNNING
+2018-11-13T21:21:03+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=197) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=197) COMPLETED after 0.0241
+2018-11-13T21:21:03+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=197) COMPLETED after 0.0241
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=198) RUNNING
+2018-11-13T21:21:03+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=198) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=198) COMPLETED after 0.0239
+2018-11-13T21:21:03+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=198) COMPLETED after 0.0239
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=199) RUNNING
+2018-11-13T21:21:03+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=199) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=199) COMPLETED after 0.0161
+2018-11-13T21:21:03+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=199) COMPLETED after 0.0161
+[Worker(host:934e348393db pid:165)] 3 jobs processed at 26.2289 j/s, 0 failed
+2018-11-13T21:21:03+0000: [Worker(host:934e348393db pid:165)] 3 jobs processed at 26.2289 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=200) RUNNING
+2018-11-13T21:21:08+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=200) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=200) COMPLETED after 0.1369
+2018-11-13T21:21:08+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=200) COMPLETED after 0.1369
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=201) RUNNING
+2018-11-13T21:21:08+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=201) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=201) COMPLETED after 0.0281
+2018-11-13T21:21:08+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=201) COMPLETED after 0.0281
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=249) RUNNING
+2018-11-13T21:21:09+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=249) RUNNING
+  Rendering user_mailer/work_package_updated.html.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.html.erb (42.1ms)
+  Rendered user_mailer/work_package_updated.html.erb within layouts/user_mailer (70.6ms)
+  Rendering user_mailer/work_package_updated.text.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.text.erb (1.6ms)
+  Rendered user_mailer/work_package_updated.text.erb within layouts/user_mailer (3.0ms)
+Sent mail to  (10.5ms)
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=249) COMPLETED after 0.1733
+2018-11-13T21:21:09+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=249) COMPLETED after 0.1733
+[Worker(host:934e348393db pid:165)] 3 jobs processed at 7.1358 j/s, 0 failed
+2018-11-13T21:21:09+0000: [Worker(host:934e348393db pid:165)] 3 jobs processed at 7.1358 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=202) RUNNING
+2018-11-13T21:21:19+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=202) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=202) COMPLETED after 0.0389
+2018-11-13T21:21:19+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=202) COMPLETED after 0.0389
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=203) RUNNING
+2018-11-13T21:21:19+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=203) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=203) COMPLETED after 0.0165
+2018-11-13T21:21:19+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=203) COMPLETED after 0.0165
+[Worker(host:934e348393db pid:165)] 2 jobs processed at 14.4118 j/s, 0 failed
+2018-11-13T21:21:19+0000: [Worker(host:934e348393db pid:165)] 2 jobs processed at 14.4118 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=204) RUNNING
+2018-11-13T21:22:24+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=204) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=204) COMPLETED after 0.0576
+2018-11-13T21:22:24+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=204) COMPLETED after 0.0576
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=205) RUNNING
+2018-11-13T21:22:24+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=205) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=205) COMPLETED after 0.0222
+2018-11-13T21:22:24+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=205) COMPLETED after 0.0222
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=262) RUNNING
+2018-11-13T21:22:24+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=262) RUNNING
+  Rendering user_mailer/work_package_updated.html.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.html.erb (10.1ms)
+  Rendered user_mailer/work_package_updated.html.erb within layouts/user_mailer (20.0ms)
+  Rendering user_mailer/work_package_updated.text.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.text.erb (1.0ms)
+  Rendered user_mailer/work_package_updated.text.erb within layouts/user_mailer (1.9ms)
+Sent mail to  (1.5ms)
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=262) COMPLETED after 0.0490
+2018-11-13T21:22:24+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=262) COMPLETED after 0.0490
+[Worker(host:934e348393db pid:165)] 3 jobs processed at 16.8584 j/s, 0 failed
+2018-11-13T21:22:24+0000: [Worker(host:934e348393db pid:165)] 3 jobs processed at 16.8584 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=206) RUNNING
+2018-11-13T21:22:29+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=206) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=206) COMPLETED after 0.0227
+2018-11-13T21:22:29+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=206) COMPLETED after 0.0227
+[Worker(host:934e348393db pid:165)] 1 jobs processed at 27.0563 j/s, 0 failed
+2018-11-13T21:22:29+0000: [Worker(host:934e348393db pid:165)] 1 jobs processed at 27.0563 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=207) RUNNING
+2018-11-13T21:22:34+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=207) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=207) COMPLETED after 0.0661
+2018-11-13T21:22:34+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=207) COMPLETED after 0.0661
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=208) RUNNING
+2018-11-13T21:22:34+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=208) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=208) COMPLETED after 0.0746
+2018-11-13T21:22:34+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=208) COMPLETED after 0.0746
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=263) RUNNING
+2018-11-13T21:22:34+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=263) RUNNING
+  Rendering user_mailer/work_package_updated.html.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.html.erb (10.2ms)
+  Rendered user_mailer/work_package_updated.html.erb within layouts/user_mailer (15.8ms)
+  Rendering user_mailer/work_package_updated.text.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.text.erb (0.9ms)
+  Rendered user_mailer/work_package_updated.text.erb within layouts/user_mailer (1.7ms)
+Sent mail to  (2.9ms)
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=263) COMPLETED after 0.0580
+2018-11-13T21:22:34+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=263) COMPLETED after 0.0580
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=264) RUNNING
+2018-11-13T21:22:34+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=264) RUNNING
+  Rendering user_mailer/work_package_updated.html.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.html.erb (11.5ms)
+  Rendered user_mailer/work_package_updated.html.erb within layouts/user_mailer (18.4ms)
+  Rendering user_mailer/work_package_updated.text.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.text.erb (0.9ms)
+  Rendered user_mailer/work_package_updated.text.erb within layouts/user_mailer (1.8ms)
+Sent mail to  (2.0ms)
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=264) COMPLETED after 0.0660
+2018-11-13T21:22:34+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=264) COMPLETED after 0.0660
+[Worker(host:934e348393db pid:165)] 4 jobs processed at 12.5743 j/s, 0 failed
+2018-11-13T21:22:34+0000: [Worker(host:934e348393db pid:165)] 4 jobs processed at 12.5743 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=209) RUNNING
+2018-11-13T21:22:59+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=209) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=209) COMPLETED after 0.0162
+2018-11-13T21:22:59+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=209) COMPLETED after 0.0162
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=210) RUNNING
+2018-11-13T21:22:59+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=210) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=210) COMPLETED after 0.0164
+2018-11-13T21:23:00+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=210) COMPLETED after 0.0164
+[Worker(host:934e348393db pid:165)] 2 jobs processed at 27.5922 j/s, 0 failed
+2018-11-13T21:23:00+0000: [Worker(host:934e348393db pid:165)] 2 jobs processed at 27.5922 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=211) RUNNING
+2018-11-13T21:23:05+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=211) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=211) COMPLETED after 0.0812
+2018-11-13T21:23:05+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=211) COMPLETED after 0.0812
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=212) RUNNING
+2018-11-13T21:23:05+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=212) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=212) COMPLETED after 0.0241
+2018-11-13T21:23:05+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=212) COMPLETED after 0.0241
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=265) RUNNING
+2018-11-13T21:23:05+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=265) RUNNING
+  Rendering user_mailer/work_package_updated.html.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.html.erb (24.4ms)
+  Rendered user_mailer/work_package_updated.html.erb within layouts/user_mailer (43.2ms)
+  Rendering user_mailer/work_package_updated.text.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.text.erb (1.4ms)
+  Rendered user_mailer/work_package_updated.text.erb within layouts/user_mailer (4.0ms)
+Sent mail to  (2.2ms)
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=265) COMPLETED after 0.0997
+2018-11-13T21:23:05+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=265) COMPLETED after 0.0997
+[Worker(host:934e348393db pid:165)] 3 jobs processed at 11.8516 j/s, 0 failed
+2018-11-13T21:23:05+0000: [Worker(host:934e348393db pid:165)] 3 jobs processed at 11.8516 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=213) RUNNING
+2018-11-13T21:23:15+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=213) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=213) COMPLETED after 0.0158
+2018-11-13T21:23:15+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=213) COMPLETED after 0.0158
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=214) RUNNING
+2018-11-13T21:23:15+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=214) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=214) COMPLETED after 0.0496
+2018-11-13T21:23:15+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=214) COMPLETED after 0.0496
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=215) RUNNING
+2018-11-13T21:23:15+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=215) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=215) COMPLETED after 0.0163
+2018-11-13T21:23:15+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=215) COMPLETED after 0.0163
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=266) RUNNING
+2018-11-13T21:23:15+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=266) RUNNING
+  Rendering user_mailer/work_package_updated.html.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.html.erb (10.8ms)
+  Rendered user_mailer/work_package_updated.html.erb within layouts/user_mailer (19.7ms)
+  Rendering user_mailer/work_package_updated.text.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.text.erb (1.4ms)
+  Rendered user_mailer/work_package_updated.text.erb within layouts/user_mailer (2.7ms)
+Sent mail to  (1.6ms)
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=266) COMPLETED after 0.0579
+2018-11-13T21:23:15+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=266) COMPLETED after 0.0579
+[Worker(host:934e348393db pid:165)] 4 jobs processed at 20.9123 j/s, 0 failed
+2018-11-13T21:23:15+0000: [Worker(host:934e348393db pid:165)] 4 jobs processed at 20.9123 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=216) RUNNING
+2018-11-13T21:23:25+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=216) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=216) COMPLETED after 0.0829
+2018-11-13T21:23:25+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=216) COMPLETED after 0.0829
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=217) RUNNING
+2018-11-13T21:23:25+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=217) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=217) COMPLETED after 0.0831
+2018-11-13T21:23:25+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=217) COMPLETED after 0.0831
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=218) RUNNING
+2018-11-13T21:23:25+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=218) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=218) COMPLETED after 0.0161
+2018-11-13T21:23:25+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=218) COMPLETED after 0.0161
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=267) RUNNING
+2018-11-13T21:23:25+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=267) RUNNING
+  Rendering user_mailer/work_package_updated.html.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.html.erb (19.0ms)
+  Rendered user_mailer/work_package_updated.html.erb within layouts/user_mailer (30.2ms)
+  Rendering user_mailer/work_package_updated.text.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.text.erb (1.2ms)
+  Rendered user_mailer/work_package_updated.text.erb within layouts/user_mailer (3.0ms)
+Sent mail to  (2.2ms)
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=267) COMPLETED after 0.0742
+2018-11-13T21:23:25+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=267) COMPLETED after 0.0742
+[Worker(host:934e348393db pid:165)] 4 jobs processed at 12.3910 j/s, 0 failed
+2018-11-13T21:23:25+0000: [Worker(host:934e348393db pid:165)] 4 jobs processed at 12.3910 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=219) RUNNING
+2018-11-13T21:23:35+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=219) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=219) COMPLETED after 0.0239
+2018-11-13T21:23:35+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=219) COMPLETED after 0.0239
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=220) RUNNING
+2018-11-13T21:23:35+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=220) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=220) COMPLETED after 0.0214
+2018-11-13T21:23:35+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=220) COMPLETED after 0.0214
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=221) RUNNING
+2018-11-13T21:23:35+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=221) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=221) COMPLETED after 0.0661
+2018-11-13T21:23:35+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=221) COMPLETED after 0.0661
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=268) RUNNING
+2018-11-13T21:23:35+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=268) RUNNING
+  Rendering user_mailer/work_package_updated.html.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.html.erb (14.4ms)
+  Rendered user_mailer/work_package_updated.html.erb within layouts/user_mailer (26.1ms)
+  Rendering user_mailer/work_package_updated.text.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.text.erb (1.0ms)
+  Rendered user_mailer/work_package_updated.text.erb within layouts/user_mailer (1.9ms)
+Sent mail to  (3.6ms)
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=268) COMPLETED after 0.0746
+2018-11-13T21:23:36+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=268) COMPLETED after 0.0746
+[Worker(host:934e348393db pid:165)] 4 jobs processed at 16.2872 j/s, 0 failed
+2018-11-13T21:23:36+0000: [Worker(host:934e348393db pid:165)] 4 jobs processed at 16.2872 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=222) RUNNING
+2018-11-13T21:23:41+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=222) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=222) COMPLETED after 0.0240
+2018-11-13T21:23:41+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=222) COMPLETED after 0.0240
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=223) RUNNING
+2018-11-13T21:23:41+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=223) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=223) COMPLETED after 0.0661
+2018-11-13T21:23:41+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=223) COMPLETED after 0.0661
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=269) RUNNING
+2018-11-13T21:23:41+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=269) RUNNING
+  Rendering user_mailer/work_package_updated.html.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.html.erb (13.3ms)
+  Rendered user_mailer/work_package_updated.html.erb within layouts/user_mailer (25.9ms)
+  Rendering user_mailer/work_package_updated.text.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.text.erb (1.0ms)
+  Rendered user_mailer/work_package_updated.text.erb within layouts/user_mailer (1.9ms)
+Sent mail to  (1.6ms)
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=269) COMPLETED after 0.0821
+2018-11-13T21:23:41+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=269) COMPLETED after 0.0821
+[Worker(host:934e348393db pid:165)] 3 jobs processed at 13.6610 j/s, 0 failed
+2018-11-13T21:23:41+0000: [Worker(host:934e348393db pid:165)] 3 jobs processed at 13.6610 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=224) RUNNING
+2018-11-13T21:24:01+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=224) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=224) COMPLETED after 0.0322
+2018-11-13T21:24:01+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=224) COMPLETED after 0.0322
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=225) RUNNING
+2018-11-13T21:24:01+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=225) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=225) COMPLETED after 0.0326
+2018-11-13T21:24:01+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=225) COMPLETED after 0.0326
+[Worker(host:934e348393db pid:165)] 2 jobs processed at 18.1887 j/s, 0 failed
+2018-11-13T21:24:01+0000: [Worker(host:934e348393db pid:165)] 2 jobs processed at 18.1887 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=226) RUNNING
+2018-11-13T21:24:06+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=226) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=226) COMPLETED after 0.1655
+2018-11-13T21:24:06+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=226) COMPLETED after 0.1655
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=227) RUNNING
+2018-11-13T21:24:06+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=227) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=227) COMPLETED after 0.0317
+2018-11-13T21:24:06+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=227) COMPLETED after 0.0317
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=270) RUNNING
+2018-11-13T21:24:06+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=270) RUNNING
+  Rendering user_mailer/work_package_updated.html.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.html.erb (46.0ms)
+  Rendered user_mailer/work_package_updated.html.erb within layouts/user_mailer (74.7ms)
+  Rendering user_mailer/work_package_updated.text.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.text.erb (3.9ms)
+  Rendered user_mailer/work_package_updated.text.erb within layouts/user_mailer (6.7ms)
+Sent mail to  (5.8ms)
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=270) COMPLETED after 0.1904
+2018-11-13T21:24:06+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=270) COMPLETED after 0.1904
+[Worker(host:934e348393db pid:165)] 3 jobs processed at 6.8131 j/s, 0 failed
+2018-11-13T21:24:06+0000: [Worker(host:934e348393db pid:165)] 3 jobs processed at 6.8131 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=228) RUNNING
+2018-11-13T21:24:16+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=228) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=228) COMPLETED after 0.0161
+2018-11-13T21:24:16+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=228) COMPLETED after 0.0161
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=229) RUNNING
+2018-11-13T21:24:16+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=229) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=229) COMPLETED after 0.1089
+2018-11-13T21:24:17+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=229) COMPLETED after 0.1089
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=230) RUNNING
+2018-11-13T21:24:17+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=230) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=230) COMPLETED after 0.0923
+2018-11-13T21:24:17+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=230) COMPLETED after 0.0923
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=271) RUNNING
+2018-11-13T21:24:17+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=271) RUNNING
+  Rendering user_mailer/work_package_updated.html.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.html.erb (28.6ms)
+  Rendered user_mailer/work_package_updated.html.erb within layouts/user_mailer (43.2ms)
+  Rendering user_mailer/work_package_updated.text.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.text.erb (1.6ms)
+  Rendered user_mailer/work_package_updated.text.erb within layouts/user_mailer (3.4ms)
+Sent mail to  (15.9ms)
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=271) COMPLETED after 0.1207
+2018-11-13T21:24:17+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=271) COMPLETED after 0.1207
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=272) RUNNING
+2018-11-13T21:24:17+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=272) RUNNING
+  Rendering user_mailer/work_package_updated.html.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.html.erb (13.9ms)
+  Rendered user_mailer/work_package_updated.html.erb within layouts/user_mailer (29.4ms)
+  Rendering user_mailer/work_package_updated.text.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.text.erb (2.5ms)
+  Rendered user_mailer/work_package_updated.text.erb within layouts/user_mailer (3.4ms)
+Sent mail to  (3.7ms)
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=272) COMPLETED after 0.0929
+2018-11-13T21:24:17+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=272) COMPLETED after 0.0929
+[Worker(host:934e348393db pid:165)] 5 jobs processed at 10.1222 j/s, 0 failed
+2018-11-13T21:24:17+0000: [Worker(host:934e348393db pid:165)] 5 jobs processed at 10.1222 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=231) RUNNING
+2018-11-13T21:25:07+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=231) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=231) COMPLETED after 0.0322
+2018-11-13T21:25:07+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=231) COMPLETED after 0.0322
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=232) RUNNING
+2018-11-13T21:25:07+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=232) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=232) COMPLETED after 0.0321
+2018-11-13T21:25:07+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=232) COMPLETED after 0.0321
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=233) RUNNING
+2018-11-13T21:25:07+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=233) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=233) COMPLETED after 0.1078
+2018-11-13T21:25:07+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=233) COMPLETED after 0.1078
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=234) RUNNING
+2018-11-13T21:25:07+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=234) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=234) COMPLETED after 0.0162
+2018-11-13T21:25:07+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=234) COMPLETED after 0.0162
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=273) RUNNING
+2018-11-13T21:25:07+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=273) RUNNING
+  Rendering user_mailer/work_package_updated.html.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.html.erb (11.2ms)
+  Rendered user_mailer/work_package_updated.html.erb within layouts/user_mailer (21.1ms)
+  Rendering user_mailer/work_package_updated.text.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.text.erb (1.1ms)
+  Rendered user_mailer/work_package_updated.text.erb within layouts/user_mailer (2.0ms)
+Sent mail to  (1.7ms)
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=273) COMPLETED after 0.0733
+2018-11-13T21:25:07+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=273) COMPLETED after 0.0733
+[Worker(host:934e348393db pid:165)] 5 jobs processed at 15.3765 j/s, 0 failed
+2018-11-13T21:25:07+0000: [Worker(host:934e348393db pid:165)] 5 jobs processed at 15.3765 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=235) RUNNING
+2018-11-13T21:25:12+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=235) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=235) COMPLETED after 0.0240
+2018-11-13T21:25:12+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=235) COMPLETED after 0.0240
+[Worker(host:934e348393db pid:165)] 1 jobs processed at 20.5546 j/s, 0 failed
+2018-11-13T21:25:12+0000: [Worker(host:934e348393db pid:165)] 1 jobs processed at 20.5546 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=236) RUNNING
+2018-11-13T21:25:17+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=236) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=236) COMPLETED after 0.0324
+2018-11-13T21:25:17+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=236) COMPLETED after 0.0324
+[Worker(host:934e348393db pid:165)] 1 jobs processed at 14.5791 j/s, 0 failed
+2018-11-13T21:25:17+0000: [Worker(host:934e348393db pid:165)] 1 jobs processed at 14.5791 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=237) RUNNING
+2018-11-13T21:25:22+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=237) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=237) COMPLETED after 0.1242
+2018-11-13T21:25:22+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=237) COMPLETED after 0.1242
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=238) RUNNING
+2018-11-13T21:25:22+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=238) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=238) COMPLETED after 0.0325
+2018-11-13T21:25:23+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=238) COMPLETED after 0.0325
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=274) RUNNING
+2018-11-13T21:25:23+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=274) RUNNING
+  Rendering user_mailer/work_package_updated.html.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.html.erb (11.7ms)
+  Rendered user_mailer/work_package_updated.html.erb within layouts/user_mailer (26.0ms)
+  Rendering user_mailer/work_package_updated.text.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.text.erb (1.0ms)
+  Rendered user_mailer/work_package_updated.text.erb within layouts/user_mailer (2.3ms)
+Sent mail to  (1.5ms)
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=274) COMPLETED after 0.0988
+2018-11-13T21:25:23+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=274) COMPLETED after 0.0988
+[Worker(host:934e348393db pid:165)] 3 jobs processed at 9.8926 j/s, 0 failed
+2018-11-13T21:25:23+0000: [Worker(host:934e348393db pid:165)] 3 jobs processed at 9.8926 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=239) RUNNING
+2018-11-13T21:25:28+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=239) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=239) COMPLETED after 0.0323
+2018-11-13T21:25:28+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=239) COMPLETED after 0.0323
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=240) RUNNING
+2018-11-13T21:25:28+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=240) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=240) COMPLETED after 0.0903
+2018-11-13T21:25:28+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=240) COMPLETED after 0.0903
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=241) RUNNING
+2018-11-13T21:25:28+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=241) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=241) COMPLETED after 0.0995
+2018-11-13T21:25:28+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=241) COMPLETED after 0.0995
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=275) RUNNING
+2018-11-13T21:25:28+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=275) RUNNING
+  Rendering user_mailer/work_package_updated.html.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.html.erb (18.8ms)
+  Rendered user_mailer/work_package_updated.html.erb within layouts/user_mailer (27.7ms)
+  Rendering user_mailer/work_package_updated.text.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.text.erb (1.1ms)
+  Rendered user_mailer/work_package_updated.text.erb within layouts/user_mailer (2.1ms)
+Sent mail to  (1.7ms)
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=275) COMPLETED after 0.1415
+2018-11-13T21:25:28+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=275) COMPLETED after 0.1415
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=276) RUNNING
+2018-11-13T21:25:28+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=276) RUNNING
+  Rendering user_mailer/work_package_updated.html.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.html.erb (7.3ms)
+  Rendered user_mailer/work_package_updated.html.erb within layouts/user_mailer (16.8ms)
+  Rendering user_mailer/work_package_updated.text.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.text.erb (1.3ms)
+  Rendered user_mailer/work_package_updated.text.erb within layouts/user_mailer (4.1ms)
+Sent mail to  (1.7ms)
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=276) COMPLETED after 0.0907
+2018-11-13T21:25:28+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=276) COMPLETED after 0.0907
+[Worker(host:934e348393db pid:165)] 5 jobs processed at 9.7594 j/s, 0 failed
+2018-11-13T21:25:28+0000: [Worker(host:934e348393db pid:165)] 5 jobs processed at 9.7594 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=245) RUNNING
+2018-11-13T21:25:53+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=245) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=245) COMPLETED after 0.0322
+2018-11-13T21:25:53+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=245) COMPLETED after 0.0322
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=246) RUNNING
+2018-11-13T21:25:53+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=246) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=246) COMPLETED after 0.0324
+2018-11-13T21:25:53+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=246) COMPLETED after 0.0324
+[Worker(host:934e348393db pid:165)] 2 jobs processed at 19.0124 j/s, 0 failed
+2018-11-13T21:25:53+0000: [Worker(host:934e348393db pid:165)] 2 jobs processed at 19.0124 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=247) RUNNING
+2018-11-13T21:25:58+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=247) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=247) COMPLETED after 0.1572
+2018-11-13T21:25:58+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=247) COMPLETED after 0.1572
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=248) RUNNING
+2018-11-13T21:25:58+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=248) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=248) COMPLETED after 0.0904
+2018-11-13T21:25:59+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=248) COMPLETED after 0.0904
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=277) RUNNING
+2018-11-13T21:25:59+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=277) RUNNING
+  Rendering user_mailer/work_package_updated.html.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.html.erb (11.9ms)
+  Rendered user_mailer/work_package_updated.html.erb within layouts/user_mailer (19.0ms)
+  Rendering user_mailer/work_package_updated.text.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.text.erb (1.7ms)
+  Rendered user_mailer/work_package_updated.text.erb within layouts/user_mailer (4.8ms)
+Sent mail to  (1.7ms)
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=277) COMPLETED after 0.0579
+2018-11-13T21:25:59+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=277) COMPLETED after 0.0579
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=278) RUNNING
+2018-11-13T21:25:59+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=278) RUNNING
+  Rendering user_mailer/work_package_updated.html.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.html.erb (16.1ms)
+  Rendered user_mailer/work_package_updated.html.erb within layouts/user_mailer (32.8ms)
+  Rendering user_mailer/work_package_updated.text.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.text.erb (1.2ms)
+  Rendered user_mailer/work_package_updated.text.erb within layouts/user_mailer (2.1ms)
+Sent mail to  (1.9ms)
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=278) COMPLETED after 0.0904
+2018-11-13T21:25:59+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=278) COMPLETED after 0.0904
+[Worker(host:934e348393db pid:165)] 4 jobs processed at 8.8658 j/s, 0 failed
+2018-11-13T21:25:59+0000: [Worker(host:934e348393db pid:165)] 4 jobs processed at 8.8658 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=250) RUNNING
+2018-11-13T21:26:09+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=250) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=250) COMPLETED after 0.0239
+2018-11-13T21:26:09+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=250) COMPLETED after 0.0239
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=251) RUNNING
+2018-11-13T21:26:09+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=251) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=251) COMPLETED after 0.0241
+2018-11-13T21:26:09+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=251) COMPLETED after 0.0241
+[Worker(host:934e348393db pid:165)] 2 jobs processed at 22.4830 j/s, 0 failed
+2018-11-13T21:26:09+0000: [Worker(host:934e348393db pid:165)] 2 jobs processed at 22.4830 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=252) RUNNING
+2018-11-13T21:26:34+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=252) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=252) COMPLETED after 0.0241
+2018-11-13T21:26:34+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=252) COMPLETED after 0.0241
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=253) RUNNING
+2018-11-13T21:26:34+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=253) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=253) COMPLETED after 0.0243
+2018-11-13T21:26:34+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=253) COMPLETED after 0.0243
+[Worker(host:934e348393db pid:165)] 2 jobs processed at 24.6378 j/s, 0 failed
+2018-11-13T21:26:34+0000: [Worker(host:934e348393db pid:165)] 2 jobs processed at 24.6378 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=254) RUNNING
+2018-11-13T21:26:39+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=254) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=254) COMPLETED after 0.0235
+2018-11-13T21:26:39+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=254) COMPLETED after 0.0235
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=255) RUNNING
+2018-11-13T21:26:39+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=255) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=255) COMPLETED after 0.0242
+2018-11-13T21:26:39+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=255) COMPLETED after 0.0242
+[Worker(host:934e348393db pid:165)] 2 jobs processed at 22.6988 j/s, 0 failed
+2018-11-13T21:26:39+0000: [Worker(host:934e348393db pid:165)] 2 jobs processed at 22.6988 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=256) RUNNING
+2018-11-13T21:27:04+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=256) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=256) COMPLETED after 0.0568
+2018-11-13T21:27:04+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=256) COMPLETED after 0.0568
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=257) RUNNING
+2018-11-13T21:27:04+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=257) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=257) COMPLETED after 0.0908
+2018-11-13T21:27:04+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=257) COMPLETED after 0.0908
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=279) RUNNING
+2018-11-13T21:27:04+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=279) RUNNING
+  Rendering user_mailer/work_package_updated.html.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.html.erb (25.1ms)
+  Rendered user_mailer/work_package_updated.html.erb within layouts/user_mailer (40.6ms)
+  Rendering user_mailer/work_package_updated.text.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.text.erb (1.7ms)
+  Rendered user_mailer/work_package_updated.text.erb within layouts/user_mailer (3.2ms)
+Sent mail to  (2.2ms)
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=279) COMPLETED after 0.0986
+2018-11-13T21:27:04+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=279) COMPLETED after 0.0986
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=280) RUNNING
+2018-11-13T21:27:04+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=280) RUNNING
+  Rendering user_mailer/work_package_updated.html.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.html.erb (7.5ms)
+  Rendered user_mailer/work_package_updated.html.erb within layouts/user_mailer (13.4ms)
+  Rendering user_mailer/work_package_updated.text.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.text.erb (1.0ms)
+  Rendered user_mailer/work_package_updated.text.erb within layouts/user_mailer (1.8ms)
+Sent mail to  (1.7ms)
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=280) COMPLETED after 0.0412
+2018-11-13T21:27:04+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=280) COMPLETED after 0.0412
+[Worker(host:934e348393db pid:165)] 4 jobs processed at 11.8259 j/s, 0 failed
+2018-11-13T21:27:04+0000: [Worker(host:934e348393db pid:165)] 4 jobs processed at 11.8259 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=258) RUNNING
+2018-11-13T21:27:09+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=258) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=258) COMPLETED after 0.0406
+2018-11-13T21:27:09+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=258) COMPLETED after 0.0406
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=259) RUNNING
+2018-11-13T21:27:09+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=259) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=259) COMPLETED after 0.0248
+2018-11-13T21:27:09+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=259) COMPLETED after 0.0248
+[Worker(host:934e348393db pid:165)] 2 jobs processed at 15.8252 j/s, 0 failed
+2018-11-13T21:27:10+0000: [Worker(host:934e348393db pid:165)] 2 jobs processed at 15.8252 j/s, 0 failed
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=260) RUNNING
+2018-11-13T21:27:20+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=260) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=260) COMPLETED after 0.1064
+2018-11-13T21:27:20+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=260) COMPLETED after 0.1064
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=261) RUNNING
+2018-11-13T21:27:20+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=261) RUNNING
+[Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=261) COMPLETED after 0.0664
+2018-11-13T21:27:20+0000: [Worker(host:934e348393db pid:165)] Job EnqueueWorkPackageNotificationJob (id=261) COMPLETED after 0.0664
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=281) RUNNING
+2018-11-13T21:27:20+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=281) RUNNING
+  Rendering user_mailer/work_package_updated.html.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.html.erb (10.9ms)
+  Rendered user_mailer/work_package_updated.html.erb within layouts/user_mailer (19.6ms)
+  Rendering user_mailer/work_package_updated.text.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.text.erb (1.0ms)
+  Rendered user_mailer/work_package_updated.text.erb within layouts/user_mailer (1.8ms)
+Sent mail to  (1.8ms)
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=281) COMPLETED after 0.0740
+2018-11-13T21:27:20+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=281) COMPLETED after 0.0740
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=282) RUNNING
+2018-11-13T21:27:20+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=282) RUNNING
+  Rendering user_mailer/work_package_updated.html.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.html.erb (7.8ms)
+  Rendered user_mailer/work_package_updated.html.erb within layouts/user_mailer (16.2ms)
+  Rendering user_mailer/work_package_updated.text.erb within layouts/user_mailer
+  Rendered user_mailer/_issue_details.text.erb (0.9ms)
+  Rendered user_mailer/work_package_updated.text.erb within layouts/user_mailer (1.7ms)
+Sent mail to  (1.5ms)
+[Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=282) COMPLETED after 0.0824
+2018-11-13T21:27:20+0000: [Worker(host:934e348393db pid:165)] Job DeliverWorkPackageNotificationJob (id=282) COMPLETED after 0.0824
+[Worker(host:934e348393db pid:165)] 4 jobs processed at 9.2914 j/s, 0 failed
+2018-11-13T21:27:20+0000: [Worker(host:934e348393db pid:165)] 4 jobs processed at 9.2914 j/s, 0 failed
