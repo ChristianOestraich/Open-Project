@@ -2,3 +2,19 @@
 2018-11-13 17:08:15.163 UTC [253] LOG:  MultiXact member wraparound protections are now enabled
 2018-11-13 17:08:15.165 UTC [162] LOG:  database system is ready to accept connections
 2018-11-13 17:08:15.166 UTC [343] LOG:  autovacuum launcher started
+2018-11-14 10:55:08.583 UTC [139] LOG:  database system was shut down at 2018-11-14 10:55:05 UTC
+2018-11-14 10:55:08.703 UTC [139] LOG:  MultiXact member wraparound protections are now enabled
+2018-11-14 10:55:08.704 UTC [170] LOG:  autovacuum launcher started
+2018-11-14 10:55:08.704 UTC [100] LOG:  database system is ready to accept connections
+2018-11-14 10:55:38.794 UTC [100] LOG:  received smart shutdown request
+2018-11-14 10:55:38.795 UTC [170] LOG:  autovacuum launcher shutting down
+2018-11-14 10:55:38.916 UTC [167] LOG:  shutting down
+2018-11-14 10:55:39.191 UTC [100] LOG:  database system is shut down
+2018-11-14 10:56:12.769 UTC [240] LOG:  database system was shut down at 2018-11-14 10:56:10 UTC
+2018-11-14 10:56:12.874 UTC [240] LOG:  MultiXact member wraparound protections are now enabled
+2018-11-14 10:56:12.877 UTC [97] LOG:  database system is ready to accept connections
+2018-11-14 10:56:12.878 UTC [279] LOG:  autovacuum launcher started
+2018-11-14 11:07:33.108 UTC [97] LOG:  received smart shutdown request
+2018-11-14 11:07:33.109 UTC [279] LOG:  autovacuum launcher shutting down
+2018-11-14 11:07:33.249 UTC [276] LOG:  shutting down
+2018-11-14 11:07:33.469 UTC [97] LOG:  database system is shut down

@@ -4066,3 +4066,629 @@ App 8347 output: Started GET "/api/v3/projects/cartola-fc/types" for 127.0.0.1 a
 App 8347 output: Started GET "/api/v3/configuration" for 127.0.0.1 at 2018-11-13 22:18:11 +0000
 App 8347 output: Started POST "/api/v3/queries/form" for 127.0.0.1 at 2018-11-13 22:18:12 +0000
 [ N 2018-11-13 22:22:32.2439 406/T4 age/Cor/CoreMain.cpp:1028 ]: Checking whether to disconnect long-running connections for process 11069, application /usr/src/app (production)
+`/root` is not writable.
+Bundler will use `/tmp/bundler/home/unknown' as your home directory temporarily.
+ --> Downloading a Phusion Passenger agent binary for your platform
+
+ --> Installing Nginx 1.14.0 engine
+
+--------------------------
+
+=============== Phusion Passenger Standalone web server started ===============
+PID file: /usr/src/app/passenger.8080.pid
+Log file: /usr/src/app/log/passenger.8080.log
+Environment: production
+Accessible via: http://0.0.0.0:8080/
+
+You can stop Phusion Passenger Standalone by pressing Ctrl-C.
+Problems? Check https://www.phusionpassenger.com/library/admin/standalone/troubleshooting/
+===============================================================================
+[ N 2018-11-14 10:55:16.8819 344/T9 age/Cor/SecurityUpdateChecker.h:517 ]: Security update check: no update found (next check in 24 hours)
+App 384 output: Rails Error: Unable to access log file. Please ensure that /usr/src/app/log/production.log exists and is writable (ie, make it writable for user and group: chmod 0664 /usr/src/app/log/production.log). The log level has been raised to WARN and the output directed to STDERR until the problem is fixed.
+App 384 output: hook registered
+App 384 output: [auth_saml] Missing settings from '/usr/src/app/config/plugins/auth_saml/settings.yml', skipping omniauth registration.
+App 384 output: Creating scope :order_by_name. Overwriting existing method Sprint.order_by_name.
+App 437 output: Started HEAD "/" for 127.0.0.1 at 2018-11-14 10:55:28 +0000
+App 437 output: Processing by HomescreenController#index as HTML
+App 437 output: Fork detected, re-connecting child process...
+App 437 output:   Rendering homescreen/index.html.erb within layouts/no_menu
+App 437 output:   Rendered announcements/_show.html.erb (0.9ms)
+App 437 output:   Rendered homescreen/blocks/_welcome.html.erb (76.2ms)
+App 437 output:   Rendered homescreen/blocks/_projects.html.erb (48.9ms)
+App 437 output:   Rendered homescreen/blocks/_community.html.erb (1.4ms)
+App 437 output:   Rendered homescreen/blocks/_upsale.html.erb (1.0ms)
+App 437 output:   Rendered homescreen/index.html.erb within layouts/no_menu (363.5ms)
+App 437 output:   Rendering layouts/base.html.erb
+App 437 output:   Rendered common/_favicons.html.erb (0.6ms)
+App 437 output:   Rendered search/_mini_form.html.erb (0.7ms)
+App 437 output:   Rendered onboarding/_onboarding_video_modal.html.erb (0.7ms)
+App 437 output:   Rendered onboarding/_menu_item.html.erb (30.9ms)
+App 437 output:   Rendered hooks/login/_auth_provider.html.erb (0.5ms)
+App 437 output:   Rendered vendored-plugins/openproject-auth_plugins/app/views/hooks/login/_providers.html.erb (0.8ms)
+App 437 output:   Rendered account/_auth_providers.html.erb (88.7ms)
+App 437 output:   Rendered account/_login.html.erb (122.0ms)
+App 437 output:   Rendered layouts/_action_menu.html.erb (0.4ms)
+App 437 output:   Rendered layouts/base.html.erb (473.5ms)
+App 437 output: Completed 200 OK in 1040ms (Views: 790.7ms | ActiveRecord: 159.6ms)
+Stopping web server... done
+`/root` is not writable.
+Bundler will use `/tmp/bundler/home/unknown' as your home directory temporarily.
+ --> Downloading a Phusion Passenger agent binary for your platform
+
+ --> Installing Nginx 1.14.0 engine
+
+--------------------------
+
+=============== Phusion Passenger Standalone web server started ===============
+PID file: /usr/src/app/passenger.8080.pid
+Log file: /usr/src/app/log/passenger.8080.log
+Environment: production
+Accessible via: http://0.0.0.0:8080/
+
+You can stop Phusion Passenger Standalone by pressing Ctrl-C.
+Problems? Check https://www.phusionpassenger.com/library/admin/standalone/troubleshooting/
+===============================================================================
+[ N 2018-11-14 10:56:18.0271 341/T5 age/Cor/SecurityUpdateChecker.h:517 ]: Security update check: no update found (next check in 24 hours)
+App 381 output: Rails Error: Unable to access log file. Please ensure that /usr/src/app/log/production.log exists and is writable (ie, make it writable for user and group: chmod 0664 /usr/src/app/log/production.log). The log level has been raised to WARN and the output directed to STDERR until the problem is fixed.
+App 381 output: hook registered
+App 381 output: [auth_saml] Missing settings from '/usr/src/app/config/plugins/auth_saml/settings.yml', skipping omniauth registration.
+App 381 output: Creating scope :order_by_name. Overwriting existing method Sprint.order_by_name.
+App 434 output: Started HEAD "/" for 127.0.0.1 at 2018-11-14 10:56:30 +0000
+App 434 output: Processing by HomescreenController#index as HTML
+App 434 output: Fork detected, re-connecting child process...
+App 434 output:   Rendering homescreen/index.html.erb within layouts/no_menu
+App 434 output:   Rendered announcements/_show.html.erb (0.8ms)
+App 434 output:   Rendered homescreen/blocks/_welcome.html.erb (25.3ms)
+App 434 output:   Rendered homescreen/blocks/_projects.html.erb (18.3ms)
+App 434 output:   Rendered homescreen/blocks/_community.html.erb (1.4ms)
+App 434 output:   Rendered homescreen/blocks/_upsale.html.erb (1.1ms)
+App 434 output:   Rendered homescreen/index.html.erb within layouts/no_menu (204.7ms)
+App 434 output:   Rendering layouts/base.html.erb
+App 434 output:   Rendered common/_favicons.html.erb (0.5ms)
+App 434 output:   Rendered search/_mini_form.html.erb (0.7ms)
+App 434 output:   Rendered onboarding/_onboarding_video_modal.html.erb (0.6ms)
+App 434 output:   Rendered onboarding/_menu_item.html.erb (30.2ms)
+App 434 output:   Rendered hooks/login/_auth_provider.html.erb (0.4ms)
+App 434 output:   Rendered vendored-plugins/openproject-auth_plugins/app/views/hooks/login/_providers.html.erb (0.7ms)
+App 434 output:   Rendered account/_auth_providers.html.erb (34.0ms)
+App 434 output:   Rendered account/_login.html.erb (64.8ms)
+App 434 output:   Rendered layouts/_action_menu.html.erb (0.3ms)
+App 434 output:   Rendered layouts/base.html.erb (272.7ms)
+App 434 output: Completed 200 OK in 628ms (Views: 507.3ms | ActiveRecord: 32.6ms)
+App 434 output: Started GET "/" for 127.0.0.1 at 2018-11-14 10:56:33 +0000
+App 434 output: Processing by HomescreenController#index as HTML
+App 434 output:   Rendering homescreen/index.html.erb within layouts/no_menu
+App 434 output:   Rendered announcements/_show.html.erb (0.9ms)
+App 434 output:   Rendered homescreen/blocks/_welcome.html.erb (4.1ms)
+App 434 output:   Rendered homescreen/blocks/_projects.html.erb (3.4ms)
+App 434 output:   Rendered homescreen/blocks/_community.html.erb (2.7ms)
+App 434 output:   Rendered homescreen/blocks/_upsale.html.erb (2.2ms)
+App 434 output:   Rendered homescreen/index.html.erb within layouts/no_menu (170.6ms)
+App 434 output:   Rendering layouts/base.html.erb
+App 434 output:   Rendered common/_favicons.html.erb (0.6ms)
+App 434 output:   Rendered search/_mini_form.html.erb (1.1ms)
+App 434 output:   Rendered onboarding/_onboarding_video_modal.html.erb (1.1ms)
+App 434 output:   Rendered onboarding/_menu_item.html.erb (33.6ms)
+App 434 output:   Rendered hooks/login/_auth_provider.html.erb (0.5ms)
+App 434 output:   Rendered vendored-plugins/openproject-auth_plugins/app/views/hooks/login/_providers.html.erb (0.8ms)
+App 434 output:   Rendered account/_auth_providers.html.erb (33.5ms)
+App 434 output:   Rendered account/_login.html.erb (68.1ms)
+App 434 output:   Rendered layouts/_action_menu.html.erb (0.8ms)
+App 434 output:   Rendered layouts/base.html.erb (263.9ms)
+App 434 output: Completed 200 OK in 530ms (Views: 480.7ms | ActiveRecord: 7.4ms)
+App 434 output: Started POST "/login" for 127.0.0.1 at 2018-11-14 10:56:41 +0000
+App 434 output: Processing by AccountController#login as HTML
+App 434 output:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"01pMWwuRYOxVoTXSiXndhGsVQvrPYBLk/wAp36S3d+/6A8RlYv+m4qtPaUrmwmc5V1bcD0TcOY8d0nXTSwFNrA==", "back_url"=>"/", "username"=>"admin", "password"=>"[FILTERED]", "login"=>"Login"}
+App 434 output: Redirected to http://localhost:8080/
+App 434 output: Completed 302 Found in 361ms (ActiveRecord: 172.5ms)
+App 434 output: Started GET "/" for 127.0.0.1 at 2018-11-14 10:56:42 +0000
+App 434 output: Processing by HomescreenController#index as HTML
+App 434 output:   Rendering homescreen/index.html.erb within layouts/no_menu
+App 434 output:   Rendered announcements/_show.html.erb (0.4ms)
+App 434 output:   Rendered homescreen/blocks/_welcome.html.erb (4.2ms)
+App 434 output:   Rendered homescreen/blocks/_projects.html.erb (1.6ms)
+App 434 output:   Rendered homescreen/blocks/_users.html.erb (2.3ms)
+App 434 output:   Rendered homescreen/blocks/_my_account.html.erb (1.1ms)
+App 434 output: Failed to create avatar for : Invalid Mail
+App 434 output: Failed to create avatar for : Invalid Mail
+App 434 output:   Rendered homescreen/blocks/_news.html.erb (104.8ms)
+App 434 output:   Rendered homescreen/blocks/_community.html.erb (0.6ms)
+App 434 output:   Rendered homescreen/blocks/_administration.html.erb (2.1ms)
+App 434 output:   Rendered homescreen/blocks/_upsale.html.erb (1.7ms)
+App 434 output:   Rendered homescreen/index.html.erb within layouts/no_menu (278.0ms)
+App 434 output:   Rendering layouts/base.html.erb
+App 434 output:   Rendered common/_favicons.html.erb (0.2ms)
+App 434 output:   Rendered search/_mini_form.html.erb (0.2ms)
+App 434 output:   Rendered layouts/_action_menu.html.erb (0.2ms)
+App 434 output:   Rendered layouts/base.html.erb (48.0ms)
+App 434 output: Completed 200 OK in 340ms (Views: 289.0ms | ActiveRecord: 39.6ms)
+App 434 output: Started GET "/projects/cartola-fc" for 127.0.0.1 at 2018-11-14 10:56:45 +0000
+App 434 output: Processing by MyProjectsOverviewsController#index as HTML
+App 434 output:   Parameters: {"id"=>"cartola-fc"}
+App 434 output:   Rendering vendored-plugins/openproject-my_project_page/app/views/my_projects_overviews/index.html.erb within layouts/base
+App 434 output:   Rendered vendored-plugins/openproject-my_project_page/app/views/my_projects_overviews/blocks/_project_description.html.erb (0.9ms)
+App 434 output:   Rendered vendored-plugins/openproject-my_project_page/app/views/my_projects_overviews/_block.html.erb (14.9ms)
+App 434 output:   Rendered vendored-plugins/openproject-my_project_page/app/views/my_projects_overviews/blocks/_project_details.html.erb (9.7ms)
+App 434 output:   Rendered vendored-plugins/openproject-my_project_page/app/views/my_projects_overviews/_block.html.erb (26.5ms)
+App 434 output:   Rendered vendored-plugins/openproject-my_project_page/app/views/my_projects_overviews/blocks/_work_package_tracking.html.erb (72.1ms)
+App 434 output:   Rendered vendored-plugins/openproject-my_project_page/app/views/my_projects_overviews/_block.html.erb (85.7ms)
+App 434 output:   Rendered vendored-plugins/openproject-my_project_page/app/views/my_projects_overviews/_members.html.erb (0.9ms)
+App 434 output:   Rendered vendored-plugins/openproject-my_project_page/app/views/my_projects_overviews/blocks/_members.html.erb (61.3ms)
+App 434 output:   Rendered vendored-plugins/openproject-my_project_page/app/views/my_projects_overviews/_block.html.erb (76.2ms)
+App 434 output:   Rendered vendored-plugins/openproject-my_project_page/app/views/my_projects_overviews/blocks/_news_latest.html.erb (4.0ms)
+App 434 output:   Rendered vendored-plugins/openproject-my_project_page/app/views/my_projects_overviews/_block.html.erb (16.2ms)
+App 434 output:   Rendered vendored-plugins/openproject-my_project_page/app/views/my_projects_overviews/index.html.erb within layouts/base (417.5ms)
+App 434 output:   Rendered common/_favicons.html.erb (1.0ms)
+App 434 output:   Rendered work_packages/_menu_query_select.html.erb (0.4ms)
+App 434 output:   Rendered search/_mini_form.html.erb (0.3ms)
+App 434 output:   Rendered layouts/_action_menu.html.erb (0.1ms)
+App 434 output: Completed 200 OK in 675ms (Views: 386.7ms | ActiveRecord: 242.3ms)
+App 434 output: Started GET "/projects/cartola-fc/work_packages" for 127.0.0.1 at 2018-11-14 10:56:48 +0000
+App 434 output: Processing by WorkPackagesController#index as HTML
+App 434 output:   Parameters: {"project_id"=>"cartola-fc"}
+App 434 output:   Rendering work_packages/index.html.erb within layouts/angular
+App 434 output:   Rendered work_packages/_sidebar.html.erb (0.5ms)
+App 434 output:   Rendered work_packages/index.html.erb within layouts/angular (52.2ms)
+App 434 output:   Rendered vendored-plugins/openproject-costs/app/views/hooks/costs/_view_work_package_overview_attributes.html.erb (0.7ms)
+App 434 output:   Rendering layouts/base.html.erb
+App 434 output:   Rendered common/_favicons.html.erb (1.4ms)
+App 434 output:   Rendered work_packages/_menu_query_select.html.erb (0.1ms)
+App 434 output:   Rendered search/_mini_form.html.erb (0.7ms)
+App 434 output:   Rendered layouts/base.html.erb (27.9ms)
+App 434 output: Completed 200 OK in 274ms (Views: 258.5ms | ActiveRecord: 6.7ms)
+App 434 output: Started GET "/api/v3/queries?filters=%5B%7B%22project_identifier%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22cartola-fc%22%5D%7D%7D%5D" for 127.0.0.1 at 2018-11-14 10:56:49 +0000
+App 434 output: Started GET "/api/v3/projects/cartola-fc/queries/default?pageSize=20" for 127.0.0.1 at 2018-11-14 10:56:49 +0000
+App 434 output: Started GET "/api/v3/projects/cartola-fc/types" for 127.0.0.1 at 2018-11-14 10:56:51 +0000
+App 434 output: Started GET "/api/v3/configuration" for 127.0.0.1 at 2018-11-14 10:56:51 +0000
+App 434 output: Started POST "/api/v3/queries/form" for 127.0.0.1 at 2018-11-14 10:56:51 +0000
+App 434 output: Started GET "/api/v3/projects/cartola-fc/types" for 127.0.0.1 at 2018-11-14 10:56:57 +0000
+App 471 output: Started GET "/api/v3/configuration" for 127.0.0.1 at 2018-11-14 10:56:57 +0000
+App 434 output: Started GET "/api/v3/projects/3" for 127.0.0.1 at 2018-11-14 10:56:57 +0000
+App 434 output: Started GET "/api/v3/work_packages/46/summarized_costs_by_type" for 127.0.0.1 at 2018-11-14 10:56:57 +0000
+App 434 output: Started GET "/api/v3/work_packages/46/attachments" for 127.0.0.1 at 2018-11-14 10:56:57 +0000
+App 434 output: Started GET "/api/v3/work_packages/46/relations" for 127.0.0.1 at 2018-11-14 10:56:57 +0000
+App 434 output: Started GET "/highlighting/styles.css" for 127.0.0.1 at 2018-11-14 10:56:57 +0000
+App 434 output: Processing by HighlightingController#styles as CSS
+App 504 output: Started GET "/api/v3/help_texts" for 127.0.0.1 at 2018-11-14 10:56:57 +0000
+App 434 output: Completed 304 Not Modified in 63ms (ActiveRecord: 3.2ms)
+App 434 output: Started GET "/api/v3/work_packages/46/activities" for 127.0.0.1 at 2018-11-14 10:56:57 +0000
+App 471 output: Fork detected, re-connecting child process...
+App 434 output: Started GET "/api/v3/work_packages/46/revisions" for 127.0.0.1 at 2018-11-14 10:56:57 +0000
+App 434 output: Started GET "/api/v3/users/1" for 127.0.0.1 at 2018-11-14 10:56:57 +0000
+App 504 output: Fork detected, re-connecting child process...
+App 434 output: Started GET "/api/v3/queries/default?filters=%5B%7B%22parent%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B46%5D%7D%7D%5D&columns%5B%5D=id&columns%5B%5D=type&columns%5B%5D=subject&columns%5B%5D=status&showHierarchies=false" for 127.0.0.1 at 2018-11-14 10:56:58 +0000
+App 434 output: Started GET "/api/v3/configuration" for 127.0.0.1 at 2018-11-14 10:56:58 +0000
+App 434 output: Started GET "/api/v3/work_packages/46/available_relation_candidates?query=&type=parent" for 127.0.0.1 at 2018-11-14 10:56:59 +0000
+App 434 output: Started GET "/api/v3/work_packages/46/available_relation_candidates?query=&type=parent" for 127.0.0.1 at 2018-11-14 10:57:04 +0000
+App 434 output: Started GET "/api/v3/work_packages/46/available_relation_candidates?query=&type=parent" for 127.0.0.1 at 2018-11-14 10:57:12 +0000
+App 434 output: Started GET "/api/v3/work_packages/46/available_relation_candidates?query=&type=parent" for 127.0.0.1 at 2018-11-14 10:57:29 +0000
+App 434 output: Started GET "/api/v3/work_packages/46/watchers" for 127.0.0.1 at 2018-11-14 10:57:40 +0000
+App 434 output: Started GET "/api/v3/queries/default?filters=%5B%7B%22parent%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B46%5D%7D%7D%5D&columns%5B%5D=id&columns%5B%5D=type&columns%5B%5D=subject&columns%5B%5D=status&showHierarchies=false" for 127.0.0.1 at 2018-11-14 10:57:41 +0000
+App 434 output: Started GET "/api/v3/configuration" for 127.0.0.1 at 2018-11-14 10:57:41 +0000
+App 434 output: Started GET "/api/v3/work_packages/46/available_relation_candidates?query=&type=parent" for 127.0.0.1 at 2018-11-14 10:57:45 +0000
+App 434 output: Started GET "/api/v3/projects/cartola-fc/queries/default?pageSize=20" for 127.0.0.1 at 2018-11-14 10:57:52 +0000
+App 471 output: Started GET "/api/v3/projects/cartola-fc/types" for 127.0.0.1 at 2018-11-14 10:57:52 +0000
+App 471 output: Started GET "/api/v3/configuration" for 127.0.0.1 at 2018-11-14 10:57:52 +0000
+App 434 output: Started POST "/api/v3/queries/form" for 127.0.0.1 at 2018-11-14 10:57:52 +0000
+App 434 output: Started GET "/api/v3/relations?filters=%5B%7B%22involved%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B45%2C47%2C48%2C49%2C50%2C51%2C52%2C53%2C54%2C55%2C56%2C57%2C58%2C59%2C60%2C61%2C62%2C63%2C64%5D%7D%7D%5D" for 127.0.0.1 at 2018-11-14 10:57:53 +0000
+App 434 output: Started GET "/api/v3/relations?filters=%5B%7B%22involved%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B45%2C47%2C48%2C49%2C50%2C51%2C52%2C53%2C54%2C55%2C56%2C57%2C58%2C59%2C60%2C61%2C62%2C63%2C64%5D%7D%7D%5D" for 127.0.0.1 at 2018-11-14 10:57:53 +0000
+App 434 output: Started POST "/api/v3/work_packages/46/relations" for 127.0.0.1 at 2018-11-14 10:58:10 +0000
+App 434 output: Started GET "/api/v3/projects/3/work_packages?pageSize=20&offset=1&columns%5B%5D=id&columns%5B%5D=subject&columns%5B%5D=type&columns%5B%5D=status&columns%5B%5D=assignee&showSums=false&timelineVisible=true&timelineZoomLevel=weeks&timelineLabels=%7B%7D&highlightingMode=none&showHierarchies=true&groupBy=&filters=%5B%7B%22status%22%3A%7B%22operator%22%3A%22o%22%2C%22values%22%3A%5B%5D%7D%7D%5D&sortBy=%5B%5B%22parent%22%2C%22asc%22%5D%5D" for 127.0.0.1 at 2018-11-14 10:58:11 +0000
+App 434 output: Started POST "/api/v3/work_packages/47/form" for 127.0.0.1 at 2018-11-14 10:58:14 +0000
+App 434 output: Started POST "/api/v3/work_packages/47/form" for 127.0.0.1 at 2018-11-14 10:58:19 +0000
+App 434 output: Started PATCH "/api/v3/work_packages/47" for 127.0.0.1 at 2018-11-14 10:58:20 +0000
+App 434 output: Started GET "/api/v3/work_packages?filters=%5B%7B%22id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B45%2C46%2C47%2C48%2C49%2C50%2C51%2C52%2C53%2C54%2C55%2C56%2C57%2C58%2C59%2C60%2C61%2C62%2C63%2C64%5D%7D%7D%2C%7B%22updatedAt%22%3A%7B%22operator%22%3A%22%3C%3Ed%22%2C%22values%22%3A%5B%222018-11-14T10%3A58%3A19.755Z%22%2C%22%22%5D%7D%7D%5D" for 127.0.0.1 at 2018-11-14 10:58:20 +0000
+App 471 output: Started GET "/api/v3/work_packages/45" for 127.0.0.1 at 2018-11-14 10:58:20 +0000
+App 434 output: Started GET "/api/v3/projects/3/work_packages?pageSize=20&offset=1&columns%5B%5D=id&columns%5B%5D=subject&columns%5B%5D=type&columns%5B%5D=status&columns%5B%5D=assignee&showSums=false&timelineVisible=true&timelineZoomLevel=weeks&timelineLabels=%7B%7D&highlightingMode=none&showHierarchies=true&groupBy=&filters=%5B%7B%22status%22%3A%7B%22operator%22%3A%22o%22%2C%22values%22%3A%5B%5D%7D%7D%5D&sortBy=%5B%5B%22parent%22%2C%22asc%22%5D%5D" for 127.0.0.1 at 2018-11-14 10:58:20 +0000
+App 434 output: Started POST "/api/v3/work_packages/47/form" for 127.0.0.1 at 2018-11-14 10:58:22 +0000
+App 434 output: Started PATCH "/api/v3/work_packages/47" for 127.0.0.1 at 2018-11-14 10:58:22 +0000
+App 434 output: Started GET "/api/v3/work_packages/45" for 127.0.0.1 at 2018-11-14 10:58:23 +0000
+App 471 output: Started GET "/api/v3/work_packages?filters=%5B%7B%22id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B45%2C46%2C47%2C48%2C49%2C50%2C51%2C52%2C53%2C54%2C55%2C56%2C57%2C58%2C59%2C60%2C61%2C62%2C63%2C64%5D%7D%7D%2C%7B%22updatedAt%22%3A%7B%22operator%22%3A%22%3C%3Ed%22%2C%22values%22%3A%5B%222018-11-14T10%3A58%3A22.506Z%22%2C%22%22%5D%7D%7D%5D" for 127.0.0.1 at 2018-11-14 10:58:23 +0000
+App 434 output: Started GET "/api/v3/projects/3/work_packages?pageSize=20&offset=1&columns%5B%5D=id&columns%5B%5D=subject&columns%5B%5D=type&columns%5B%5D=status&columns%5B%5D=assignee&showSums=false&timelineVisible=true&timelineZoomLevel=weeks&timelineLabels=%7B%7D&highlightingMode=none&showHierarchies=true&groupBy=&filters=%5B%7B%22status%22%3A%7B%22operator%22%3A%22o%22%2C%22values%22%3A%5B%5D%7D%7D%5D&sortBy=%5B%5B%22parent%22%2C%22asc%22%5D%5D" for 127.0.0.1 at 2018-11-14 10:58:23 +0000
+App 434 output: Started POST "/api/v3/work_packages/47/relations" for 127.0.0.1 at 2018-11-14 10:58:27 +0000
+App 434 output: Started GET "/api/v3/projects/3/work_packages?pageSize=20&offset=1&columns%5B%5D=id&columns%5B%5D=subject&columns%5B%5D=type&columns%5B%5D=status&columns%5B%5D=assignee&showSums=false&timelineVisible=true&timelineZoomLevel=weeks&timelineLabels=%7B%7D&highlightingMode=none&showHierarchies=true&groupBy=&filters=%5B%7B%22status%22%3A%7B%22operator%22%3A%22o%22%2C%22values%22%3A%5B%5D%7D%7D%5D&sortBy=%5B%5B%22parent%22%2C%22asc%22%5D%5D" for 127.0.0.1 at 2018-11-14 10:58:28 +0000
+App 434 output: Started POST "/api/v3/work_packages/48/relations" for 127.0.0.1 at 2018-11-14 10:58:42 +0000
+App 434 output: Started GET "/api/v3/projects/3/work_packages?pageSize=20&offset=1&columns%5B%5D=id&columns%5B%5D=subject&columns%5B%5D=type&columns%5B%5D=status&columns%5B%5D=assignee&showSums=false&timelineVisible=true&timelineZoomLevel=months&timelineLabels=%7B%7D&highlightingMode=none&showHierarchies=true&groupBy=&filters=%5B%7B%22status%22%3A%7B%22operator%22%3A%22o%22%2C%22values%22%3A%5B%5D%7D%7D%5D&sortBy=%5B%5B%22parent%22%2C%22asc%22%5D%5D" for 127.0.0.1 at 2018-11-14 10:58:43 +0000
+App 434 output: Started POST "/api/v3/work_packages/49/relations" for 127.0.0.1 at 2018-11-14 10:58:50 +0000
+App 434 output: Started GET "/api/v3/projects/3/work_packages?pageSize=20&offset=1&columns%5B%5D=id&columns%5B%5D=subject&columns%5B%5D=type&columns%5B%5D=status&columns%5B%5D=assignee&showSums=false&timelineVisible=true&timelineZoomLevel=months&timelineLabels=%7B%7D&highlightingMode=none&showHierarchies=true&groupBy=&filters=%5B%7B%22status%22%3A%7B%22operator%22%3A%22o%22%2C%22values%22%3A%5B%5D%7D%7D%5D&sortBy=%5B%5B%22parent%22%2C%22asc%22%5D%5D" for 127.0.0.1 at 2018-11-14 10:58:51 +0000
+App 434 output: Started POST "/api/v3/work_packages/50/relations" for 127.0.0.1 at 2018-11-14 10:58:55 +0000
+App 434 output: Started GET "/api/v3/projects/3/work_packages?pageSize=20&offset=1&columns%5B%5D=id&columns%5B%5D=subject&columns%5B%5D=type&columns%5B%5D=status&columns%5B%5D=assignee&showSums=false&timelineVisible=true&timelineZoomLevel=months&timelineLabels=%7B%7D&highlightingMode=none&showHierarchies=true&groupBy=&filters=%5B%7B%22status%22%3A%7B%22operator%22%3A%22o%22%2C%22values%22%3A%5B%5D%7D%7D%5D&sortBy=%5B%5B%22parent%22%2C%22asc%22%5D%5D" for 127.0.0.1 at 2018-11-14 10:58:56 +0000
+App 434 output: Started POST "/api/v3/work_packages/51/relations" for 127.0.0.1 at 2018-11-14 10:59:29 +0000
+App 434 output: Started GET "/api/v3/projects/3/work_packages?pageSize=20&offset=1&columns%5B%5D=id&columns%5B%5D=subject&columns%5B%5D=type&columns%5B%5D=status&columns%5B%5D=assignee&showSums=false&timelineVisible=true&timelineZoomLevel=months&timelineLabels=%7B%7D&highlightingMode=none&showHierarchies=true&groupBy=&filters=%5B%7B%22status%22%3A%7B%22operator%22%3A%22o%22%2C%22values%22%3A%5B%5D%7D%7D%5D&sortBy=%5B%5B%22parent%22%2C%22asc%22%5D%5D" for 127.0.0.1 at 2018-11-14 10:59:29 +0000
+App 434 output: Started POST "/api/v3/work_packages/52/relations" for 127.0.0.1 at 2018-11-14 10:59:34 +0000
+App 434 output: Started GET "/api/v3/projects/3/work_packages?pageSize=20&offset=1&columns%5B%5D=id&columns%5B%5D=subject&columns%5B%5D=type&columns%5B%5D=status&columns%5B%5D=assignee&showSums=false&timelineVisible=true&timelineZoomLevel=months&timelineLabels=%7B%7D&highlightingMode=none&showHierarchies=true&groupBy=&filters=%5B%7B%22status%22%3A%7B%22operator%22%3A%22o%22%2C%22values%22%3A%5B%5D%7D%7D%5D&sortBy=%5B%5B%22parent%22%2C%22asc%22%5D%5D" for 127.0.0.1 at 2018-11-14 10:59:34 +0000
+App 434 output: Started POST "/api/v3/work_packages/53/relations" for 127.0.0.1 at 2018-11-14 10:59:41 +0000
+App 434 output: Started GET "/api/v3/projects/3/work_packages?pageSize=20&offset=1&columns%5B%5D=id&columns%5B%5D=subject&columns%5B%5D=type&columns%5B%5D=status&columns%5B%5D=assignee&showSums=false&timelineVisible=true&timelineZoomLevel=months&timelineLabels=%7B%7D&highlightingMode=none&showHierarchies=true&groupBy=&filters=%5B%7B%22status%22%3A%7B%22operator%22%3A%22o%22%2C%22values%22%3A%5B%5D%7D%7D%5D&sortBy=%5B%5B%22parent%22%2C%22asc%22%5D%5D" for 127.0.0.1 at 2018-11-14 10:59:42 +0000
+App 434 output: Started POST "/api/v3/work_packages/55/relations" for 127.0.0.1 at 2018-11-14 10:59:51 +0000
+App 434 output: Started GET "/api/v3/projects/3/work_packages?pageSize=20&offset=1&columns%5B%5D=id&columns%5B%5D=subject&columns%5B%5D=type&columns%5B%5D=status&columns%5B%5D=assignee&showSums=false&timelineVisible=true&timelineZoomLevel=months&timelineLabels=%7B%7D&highlightingMode=none&showHierarchies=true&groupBy=&filters=%5B%7B%22status%22%3A%7B%22operator%22%3A%22o%22%2C%22values%22%3A%5B%5D%7D%7D%5D&sortBy=%5B%5B%22parent%22%2C%22asc%22%5D%5D" for 127.0.0.1 at 2018-11-14 10:59:51 +0000
+App 434 output: Started POST "/api/v3/work_packages/56/relations" for 127.0.0.1 at 2018-11-14 10:59:56 +0000
+App 434 output: Started GET "/api/v3/projects/3/work_packages?pageSize=20&offset=1&columns%5B%5D=id&columns%5B%5D=subject&columns%5B%5D=type&columns%5B%5D=status&columns%5B%5D=assignee&showSums=false&timelineVisible=true&timelineZoomLevel=months&timelineLabels=%7B%7D&highlightingMode=none&showHierarchies=true&groupBy=&filters=%5B%7B%22status%22%3A%7B%22operator%22%3A%22o%22%2C%22values%22%3A%5B%5D%7D%7D%5D&sortBy=%5B%5B%22parent%22%2C%22asc%22%5D%5D" for 127.0.0.1 at 2018-11-14 10:59:57 +0000
+App 434 output: Started POST "/api/v3/work_packages/57/relations" for 127.0.0.1 at 2018-11-14 11:00:07 +0000
+App 434 output: Started GET "/api/v3/projects/3/work_packages?pageSize=20&offset=1&columns%5B%5D=id&columns%5B%5D=subject&columns%5B%5D=type&columns%5B%5D=status&columns%5B%5D=assignee&showSums=false&timelineVisible=true&timelineZoomLevel=quarters&timelineLabels=%7B%7D&highlightingMode=none&showHierarchies=true&groupBy=&filters=%5B%7B%22status%22%3A%7B%22operator%22%3A%22o%22%2C%22values%22%3A%5B%5D%7D%7D%5D&sortBy=%5B%5B%22parent%22%2C%22asc%22%5D%5D" for 127.0.0.1 at 2018-11-14 11:00:07 +0000
+App 434 output: Started POST "/api/v3/work_packages/59/relations" for 127.0.0.1 at 2018-11-14 11:00:16 +0000
+App 434 output: Started GET "/api/v3/projects/3/work_packages?pageSize=20&offset=1&columns%5B%5D=id&columns%5B%5D=subject&columns%5B%5D=type&columns%5B%5D=status&columns%5B%5D=assignee&showSums=false&timelineVisible=true&timelineZoomLevel=quarters&timelineLabels=%7B%7D&highlightingMode=none&showHierarchies=true&groupBy=&filters=%5B%7B%22status%22%3A%7B%22operator%22%3A%22o%22%2C%22values%22%3A%5B%5D%7D%7D%5D&sortBy=%5B%5B%22parent%22%2C%22asc%22%5D%5D" for 127.0.0.1 at 2018-11-14 11:00:16 +0000
+App 434 output: Started POST "/api/v3/work_packages/60/relations" for 127.0.0.1 at 2018-11-14 11:00:23 +0000
+App 434 output: Started GET "/api/v3/projects/3/work_packages?pageSize=20&offset=1&columns%5B%5D=id&columns%5B%5D=subject&columns%5B%5D=type&columns%5B%5D=status&columns%5B%5D=assignee&showSums=false&timelineVisible=true&timelineZoomLevel=quarters&timelineLabels=%7B%7D&highlightingMode=none&showHierarchies=true&groupBy=&filters=%5B%7B%22status%22%3A%7B%22operator%22%3A%22o%22%2C%22values%22%3A%5B%5D%7D%7D%5D&sortBy=%5B%5B%22parent%22%2C%22asc%22%5D%5D" for 127.0.0.1 at 2018-11-14 11:00:24 +0000
+App 434 output: Started POST "/api/v3/work_packages/61/relations" for 127.0.0.1 at 2018-11-14 11:00:42 +0000
+App 434 output: Started GET "/api/v3/projects/3/work_packages?pageSize=20&offset=1&columns%5B%5D=id&columns%5B%5D=subject&columns%5B%5D=type&columns%5B%5D=status&columns%5B%5D=assignee&showSums=false&timelineVisible=true&timelineZoomLevel=months&timelineLabels=%7B%7D&highlightingMode=none&showHierarchies=true&groupBy=&filters=%5B%7B%22status%22%3A%7B%22operator%22%3A%22o%22%2C%22values%22%3A%5B%5D%7D%7D%5D&sortBy=%5B%5B%22parent%22%2C%22asc%22%5D%5D" for 127.0.0.1 at 2018-11-14 11:00:43 +0000
+App 434 output: Started POST "/api/v3/work_packages/62/relations" for 127.0.0.1 at 2018-11-14 11:00:48 +0000
+App 434 output: Started GET "/api/v3/projects/3/work_packages?pageSize=20&offset=1&columns%5B%5D=id&columns%5B%5D=subject&columns%5B%5D=type&columns%5B%5D=status&columns%5B%5D=assignee&showSums=false&timelineVisible=true&timelineZoomLevel=months&timelineLabels=%7B%7D&highlightingMode=none&showHierarchies=true&groupBy=&filters=%5B%7B%22status%22%3A%7B%22operator%22%3A%22o%22%2C%22values%22%3A%5B%5D%7D%7D%5D&sortBy=%5B%5B%22parent%22%2C%22asc%22%5D%5D" for 127.0.0.1 at 2018-11-14 11:00:49 +0000
+App 434 output: Started GET "/api/v3/projects/3/work_packages?pageSize=100&offset=1&columns%5B%5D=id&columns%5B%5D=subject&columns%5B%5D=type&columns%5B%5D=status&columns%5B%5D=assignee&showSums=false&timelineVisible=true&timelineZoomLevel=years&timelineLabels=%7B%7D&highlightingMode=none&showHierarchies=true&groupBy=&filters=%5B%7B%22status%22%3A%7B%22operator%22%3A%22o%22%2C%22values%22%3A%5B%5D%7D%7D%5D&sortBy=%5B%5B%22parent%22%2C%22asc%22%5D%5D" for 127.0.0.1 at 2018-11-14 11:01:04 +0000
+App 434 output: Started GET "/api/v3/relations?filters=%5B%7B%22involved%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B65%2C67%2C68%2C69%2C70%2C71%2C72%2C73%2C74%2C75%2C76%5D%7D%7D%5D" for 127.0.0.1 at 2018-11-14 11:01:05 +0000
+App 434 output: Started POST "/api/v3/work_packages/64/relations" for 127.0.0.1 at 2018-11-14 11:01:19 +0000
+App 434 output: Started GET "/api/v3/projects/3/work_packages?pageSize=100&offset=1&columns%5B%5D=id&columns%5B%5D=subject&columns%5B%5D=type&columns%5B%5D=status&columns%5B%5D=assignee&showSums=false&timelineVisible=true&timelineZoomLevel=years&timelineLabels=%7B%7D&highlightingMode=none&showHierarchies=true&groupBy=&filters=%5B%7B%22status%22%3A%7B%22operator%22%3A%22o%22%2C%22values%22%3A%5B%5D%7D%7D%5D&sortBy=%5B%5B%22parent%22%2C%22asc%22%5D%5D" for 127.0.0.1 at 2018-11-14 11:01:19 +0000
+App 434 output: Started POST "/api/v3/work_packages/65/relations" for 127.0.0.1 at 2018-11-14 11:01:28 +0000
+App 434 output: Started GET "/api/v3/projects/3/work_packages?pageSize=100&offset=1&columns%5B%5D=id&columns%5B%5D=subject&columns%5B%5D=type&columns%5B%5D=status&columns%5B%5D=assignee&showSums=false&timelineVisible=true&timelineZoomLevel=years&timelineLabels=%7B%7D&highlightingMode=none&showHierarchies=true&groupBy=&filters=%5B%7B%22status%22%3A%7B%22operator%22%3A%22o%22%2C%22values%22%3A%5B%5D%7D%7D%5D&sortBy=%5B%5B%22parent%22%2C%22asc%22%5D%5D" for 127.0.0.1 at 2018-11-14 11:01:28 +0000
+App 434 output: Started POST "/api/v3/work_packages/70/relations" for 127.0.0.1 at 2018-11-14 11:01:46 +0000
+App 434 output: Started GET "/api/v3/projects/3/work_packages?pageSize=100&offset=1&columns%5B%5D=id&columns%5B%5D=subject&columns%5B%5D=type&columns%5B%5D=status&columns%5B%5D=assignee&showSums=false&timelineVisible=true&timelineZoomLevel=years&timelineLabels=%7B%7D&highlightingMode=none&showHierarchies=true&groupBy=&filters=%5B%7B%22status%22%3A%7B%22operator%22%3A%22o%22%2C%22values%22%3A%5B%5D%7D%7D%5D&sortBy=%5B%5B%22parent%22%2C%22asc%22%5D%5D" for 127.0.0.1 at 2018-11-14 11:01:46 +0000
+[ N 2018-11-14 11:01:57.3566 341/T3 age/Cor/CoreMain.cpp:1028 ]: Checking whether to disconnect long-running connections for process 504, application /usr/src/app (production)
+App 434 output: Started POST "/api/v3/work_packages/72/relations" for 127.0.0.1 at 2018-11-14 11:02:00 +0000
+App 434 output: Started GET "/api/v3/projects/3/work_packages?pageSize=100&offset=1&columns%5B%5D=id&columns%5B%5D=subject&columns%5B%5D=type&columns%5B%5D=status&columns%5B%5D=assignee&showSums=false&timelineVisible=true&timelineZoomLevel=years&timelineLabels=%7B%7D&highlightingMode=none&showHierarchies=true&groupBy=&filters=%5B%7B%22status%22%3A%7B%22operator%22%3A%22o%22%2C%22values%22%3A%5B%5D%7D%7D%5D&sortBy=%5B%5B%22parent%22%2C%22asc%22%5D%5D" for 127.0.0.1 at 2018-11-14 11:02:00 +0000
+App 434 output: Started POST "/api/v3/work_packages/74/relations" for 127.0.0.1 at 2018-11-14 11:02:07 +0000
+App 434 output: Started GET "/api/v3/projects/3/work_packages?pageSize=100&offset=1&columns%5B%5D=id&columns%5B%5D=subject&columns%5B%5D=type&columns%5B%5D=status&columns%5B%5D=assignee&showSums=false&timelineVisible=true&timelineZoomLevel=years&timelineLabels=%7B%7D&highlightingMode=none&showHierarchies=true&groupBy=&filters=%5B%7B%22status%22%3A%7B%22operator%22%3A%22o%22%2C%22values%22%3A%5B%5D%7D%7D%5D&sortBy=%5B%5B%22parent%22%2C%22asc%22%5D%5D" for 127.0.0.1 at 2018-11-14 11:02:08 +0000
+App 434 output: Started POST "/api/v3/work_packages/75/relations" for 127.0.0.1 at 2018-11-14 11:02:24 +0000
+App 434 output: Started POST "/api/v3/work_packages/74/relations" for 127.0.0.1 at 2018-11-14 11:02:31 +0000
+App 434 output: Started GET "/api/v3/projects/3/work_packages?pageSize=100&offset=1&columns%5B%5D=id&columns%5B%5D=subject&columns%5B%5D=type&columns%5B%5D=status&columns%5B%5D=assignee&showSums=false&timelineVisible=true&timelineZoomLevel=years&timelineLabels=%7B%7D&highlightingMode=none&showHierarchies=true&groupBy=&filters=%5B%7B%22status%22%3A%7B%22operator%22%3A%22o%22%2C%22values%22%3A%5B%5D%7D%7D%5D&sortBy=%5B%5B%22parent%22%2C%22asc%22%5D%5D" for 127.0.0.1 at 2018-11-14 11:02:31 +0000
+App 434 output: Started POST "/api/v3/work_packages/65/relations" for 127.0.0.1 at 2018-11-14 11:02:42 +0000
+App 434 output: Started GET "/api/v3/projects/3/work_packages?pageSize=100&offset=1&columns%5B%5D=id&columns%5B%5D=subject&columns%5B%5D=type&columns%5B%5D=status&columns%5B%5D=assignee&showSums=false&timelineVisible=true&timelineZoomLevel=years&timelineLabels=%7B%7D&highlightingMode=none&showHierarchies=true&groupBy=&filters=%5B%7B%22status%22%3A%7B%22operator%22%3A%22o%22%2C%22values%22%3A%5B%5D%7D%7D%5D&sortBy=%5B%5B%22parent%22%2C%22asc%22%5D%5D" for 127.0.0.1 at 2018-11-14 11:02:43 +0000
+App 434 output: Started POST "/api/v3/work_packages/69/relations" for 127.0.0.1 at 2018-11-14 11:02:52 +0000
+App 434 output: Started GET "/api/v3/projects/3/work_packages?pageSize=100&offset=1&columns%5B%5D=id&columns%5B%5D=subject&columns%5B%5D=type&columns%5B%5D=status&columns%5B%5D=assignee&showSums=false&timelineVisible=true&timelineZoomLevel=years&timelineLabels=%7B%7D&highlightingMode=none&showHierarchies=true&groupBy=&filters=%5B%7B%22status%22%3A%7B%22operator%22%3A%22o%22%2C%22values%22%3A%5B%5D%7D%7D%5D&sortBy=%5B%5B%22parent%22%2C%22asc%22%5D%5D" for 127.0.0.1 at 2018-11-14 11:02:53 +0000
+App 434 output: Started POST "/api/v3/work_packages/71/relations" for 127.0.0.1 at 2018-11-14 11:03:00 +0000
+App 434 output: Started POST "/api/v3/work_packages/70/relations" for 127.0.0.1 at 2018-11-14 11:03:08 +0000
+App 434 output: Started GET "/api/v3/projects/3/work_packages?pageSize=100&offset=1&columns%5B%5D=id&columns%5B%5D=subject&columns%5B%5D=type&columns%5B%5D=status&columns%5B%5D=assignee&showSums=false&timelineVisible=true&timelineZoomLevel=years&timelineLabels=%7B%7D&highlightingMode=none&showHierarchies=true&groupBy=&filters=%5B%7B%22status%22%3A%7B%22operator%22%3A%22o%22%2C%22values%22%3A%5B%5D%7D%7D%5D&sortBy=%5B%5B%22parent%22%2C%22asc%22%5D%5D" for 127.0.0.1 at 2018-11-14 11:03:09 +0000
+App 434 output: Started POST "/api/v3/work_packages/72/relations" for 127.0.0.1 at 2018-11-14 11:03:16 +0000
+App 434 output: Started GET "/api/v3/projects/3/work_packages?pageSize=100&offset=1&columns%5B%5D=id&columns%5B%5D=subject&columns%5B%5D=type&columns%5B%5D=status&columns%5B%5D=assignee&showSums=false&timelineVisible=true&timelineZoomLevel=years&timelineLabels=%7B%7D&highlightingMode=none&showHierarchies=true&groupBy=&filters=%5B%7B%22status%22%3A%7B%22operator%22%3A%22o%22%2C%22values%22%3A%5B%5D%7D%7D%5D&sortBy=%5B%5B%22parent%22%2C%22asc%22%5D%5D" for 127.0.0.1 at 2018-11-14 11:03:16 +0000
+[ N 2018-11-14 11:03:23.2850 341/T3 age/Cor/CoreMain.cpp:1028 ]: Checking whether to disconnect long-running connections for process 471, application /usr/src/app (production)
+App 434 output: Started GET "/api/v3/projects/3/work_packages?pageSize=20&offset=1&columns%5B%5D=id&columns%5B%5D=subject&columns%5B%5D=type&columns%5B%5D=status&columns%5B%5D=assignee&showSums=false&timelineVisible=true&timelineZoomLevel=months&timelineLabels=%7B%7D&highlightingMode=none&showHierarchies=true&groupBy=&filters=%5B%7B%22status%22%3A%7B%22operator%22%3A%22o%22%2C%22values%22%3A%5B%5D%7D%7D%5D&sortBy=%5B%5B%22parent%22%2C%22asc%22%5D%5D" for 127.0.0.1 at 2018-11-14 11:03:34 +0000
+App 434 output: Started GET "/api/v3/projects/cartola-fc/queries/default?pageSize=20" for 127.0.0.1 at 2018-11-14 11:03:43 +0000
+App 434 output: Started POST "/api/v3/queries/form" for 127.0.0.1 at 2018-11-14 11:03:43 +0000
+App 434 output: Started GET "/api/v3/projects/cartola-fc/types" for 127.0.0.1 at 2018-11-14 11:03:45 +0000
+App 434 output: Started GET "/api/v3/work_packages/48/attachments" for 127.0.0.1 at 2018-11-14 11:03:46 +0000
+App 434 output: Started GET "/api/v3/work_packages/48/summarized_costs_by_type" for 127.0.0.1 at 2018-11-14 11:03:46 +0000
+App 434 output: Started GET "/api/v3/work_packages/48/activities" for 127.0.0.1 at 2018-11-14 11:03:46 +0000
+App 434 output: Started GET "/api/v3/work_packages/48/revisions" for 127.0.0.1 at 2018-11-14 11:03:46 +0000
+App 434 output: Started GET "/api/v3/queries/default?filters=%5B%7B%22parent%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B48%5D%7D%7D%5D&columns%5B%5D=id&columns%5B%5D=type&columns%5B%5D=subject&columns%5B%5D=status&showHierarchies=false" for 127.0.0.1 at 2018-11-14 11:03:48 +0000
+App 434 output: Started GET "/api/v3/configuration" for 127.0.0.1 at 2018-11-14 11:03:48 +0000
+App 434 output: Started GET "/api/v3/projects/cartola-fc/types" for 127.0.0.1 at 2018-11-14 11:03:55 +0000
+App 434 output: Started GET "/api/v3/configuration" for 127.0.0.1 at 2018-11-14 11:03:55 +0000
+App 434 output: Started GET "/projects/cartola-fc/work_packages/report" for 127.0.0.1 at 2018-11-14 11:03:58 +0000
+App 434 output: Processing by WorkPackages::ReportsController#report as HTML
+App 434 output:   Parameters: {"project_id"=>"cartola-fc"}
+App 434 output:   Rendering work_packages/reports/report.html.erb within layouts/base
+App 434 output:   Rendered work_packages/reports/_report.html.erb (47.6ms)
+App 434 output:   Rendered work_packages/reports/_report_category.html.erb (81.3ms)
+App 434 output:   Rendered work_packages/reports/_report.html.erb (25.1ms)
+App 434 output:   Rendered work_packages/reports/_report_category.html.erb (25.9ms)
+App 434 output:   Rendered work_packages/reports/_report.html.erb (11.5ms)
+App 434 output:   Rendered work_packages/reports/_report_category.html.erb (12.3ms)
+App 434 output:   Rendered work_packages/reports/_report.html.erb (5.9ms)
+App 434 output:   Rendered work_packages/reports/_report_category.html.erb (7.9ms)
+App 434 output:   Rendered work_packages/reports/_report.html.erb (5.3ms)
+App 434 output:   Rendered work_packages/reports/_report_category.html.erb (6.0ms)
+App 434 output:   Rendered work_packages/reports/_report.html.erb (2.3ms)
+App 434 output:   Rendered work_packages/reports/_report_category.html.erb (3.0ms)
+App 434 output:   Rendered work_packages/reports/_report.html.erb (1.7ms)
+App 434 output:   Rendered work_packages/reports/_report_category.html.erb (2.4ms)
+App 434 output:   Rendered work_packages/reports/report.html.erb within layouts/base (181.4ms)
+App 434 output:   Rendered common/_favicons.html.erb (0.8ms)
+App 434 output:   Rendered work_packages/_menu_query_select.html.erb (0.1ms)
+App 434 output:   Rendered search/_mini_form.html.erb (0.3ms)
+App 434 output:   Rendered layouts/_action_menu.html.erb (0.1ms)
+App 434 output: Completed 200 OK in 276ms (Views: 194.8ms | ActiveRecord: 12.9ms)
+App 434 output: Started GET "/api/v3/queries?filters=%5B%7B%22project_identifier%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22cartola-fc%22%5D%7D%7D%5D" for 127.0.0.1 at 2018-11-14 11:03:58 +0000
+App 434 output: Started GET "/projects/cartola-fc/work_packages?query_props={%22c%22:[%22id%22,%22subject%22],%20%22tv%22:true,%22hi%22:true}" for 127.0.0.1 at 2018-11-14 11:03:59 +0000
+App 434 output: Processing by WorkPackagesController#index as HTML
+App 434 output:   Parameters: {"query_props"=>"{\"c\":[\"id\",\"subject\"], \"tv\":true,\"hi\":true}", "project_id"=>"cartola-fc"}
+App 434 output:   Rendering work_packages/index.html.erb within layouts/angular
+App 434 output:   Rendered work_packages/_sidebar.html.erb (0.1ms)
+App 434 output:   Rendered work_packages/index.html.erb within layouts/angular (3.5ms)
+App 434 output:   Rendered vendored-plugins/openproject-costs/app/views/hooks/costs/_view_work_package_overview_attributes.html.erb (0.4ms)
+App 434 output:   Rendering layouts/base.html.erb
+App 434 output:   Rendered common/_favicons.html.erb (1.0ms)
+App 434 output:   Rendered work_packages/_menu_query_select.html.erb (0.4ms)
+App 434 output:   Rendered search/_mini_form.html.erb (0.3ms)
+App 434 output:   Rendered layouts/base.html.erb (28.7ms)
+App 434 output: Completed 200 OK in 45ms (Views: 29.3ms | ActiveRecord: 7.7ms)
+App 434 output: Started GET "/api/v3/queries?filters=%5B%7B%22project_identifier%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22cartola-fc%22%5D%7D%7D%5D" for 127.0.0.1 at 2018-11-14 11:03:59 +0000
+App 434 output: Started GET "/api/v3/projects/cartola-fc/queries/default?pageSize=20&columns%5B%5D=id&columns%5B%5D=subject&timelineVisible=true&showHierarchies=true&groupBy=" for 127.0.0.1 at 2018-11-14 11:04:00 +0000
+App 434 output: Started GET "/api/v3/projects/cartola-fc/types" for 127.0.0.1 at 2018-11-14 11:04:00 +0000
+App 434 output: Started GET "/api/v3/relations?filters=%5B%7B%22involved%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B45%2C46%2C47%2C48%2C49%2C50%2C51%2C52%2C53%2C54%2C55%2C56%2C57%2C58%2C59%2C60%2C61%2C62%2C63%2C64%5D%7D%7D%5D" for 127.0.0.1 at 2018-11-14 11:04:00 +0000
+App 434 output: Started GET "/api/v3/relations?filters=%5B%7B%22involved%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B45%2C46%2C47%2C48%2C49%2C50%2C51%2C52%2C53%2C54%2C55%2C56%2C57%2C58%2C59%2C60%2C61%2C62%2C63%2C64%5D%7D%7D%5D" for 127.0.0.1 at 2018-11-14 11:04:00 +0000
+App 799 output: Started GET "/highlighting/styles.css" for 127.0.0.1 at 2018-11-14 11:04:00 +0000
+App 434 output: Started GET "/api/v3/relations?filters=%5B%7B%22involved%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B45%2C46%2C47%2C48%2C49%2C50%2C51%2C52%2C53%2C54%2C55%2C56%2C57%2C58%2C59%2C60%2C61%2C62%2C63%2C64%5D%7D%7D%5D" for 127.0.0.1 at 2018-11-14 11:04:00 +0000
+App 434 output: Started GET "/api/v3/relations?filters=%5B%7B%22involved%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B45%2C46%2C47%2C48%2C49%2C50%2C51%2C52%2C53%2C54%2C55%2C56%2C57%2C58%2C59%2C60%2C61%2C62%2C63%2C64%5D%7D%7D%5D" for 127.0.0.1 at 2018-11-14 11:04:00 +0000
+App 434 output: Started GET "/api/v3/configuration" for 127.0.0.1 at 2018-11-14 11:04:00 +0000
+App 434 output: Started POST "/api/v3/queries/form" for 127.0.0.1 at 2018-11-14 11:04:01 +0000
+App 799 output: Processing by HighlightingController#styles as CSS
+App 799 output: Fork detected, re-connecting child process...
+App 799 output: Completed 304 Not Modified in 152ms (ActiveRecord: 35.0ms)
+App 434 output: Started GET "/api/v3/projects/3/work_packages?pageSize=100&offset=1&columns%5B%5D=id&columns%5B%5D=subject&showSums=false&timelineVisible=true&timelineZoomLevel=quarters&timelineLabels=%7B%7D&highlightingMode=none&showHierarchies=true&groupBy=&filters=%5B%7B%22status%22%3A%7B%22operator%22%3A%22o%22%2C%22values%22%3A%5B%5D%7D%7D%5D&sortBy=%5B%5B%22parent%22%2C%22asc%22%5D%5D" for 127.0.0.1 at 2018-11-14 11:04:04 +0000
+App 434 output: Started GET "/api/v3/relations?filters=%5B%7B%22involved%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B65%2C67%2C68%2C69%2C70%2C71%2C72%2C73%2C74%2C75%2C76%5D%7D%7D%5D" for 127.0.0.1 at 2018-11-14 11:04:05 +0000
+App 434 output: Started GET "/api/v3/projects/cartola-fc/queries/default?pageSize=20&columns%5B%5D=id&columns%5B%5D=subject&columns%5B%5D=type&columns%5B%5D=status&columns%5B%5D=author&columns%5B%5D=updatedAt&groupBy=&filters=%5B%7B%22status%22%3A%7B%22operator%22%3A%22o%22%2C%22values%22%3A%5B%5D%7D%7D%2C%7B%22assignee%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22me%22%5D%7D%7D%5D&sortBy=%5B%5B%22updatedAt%22%2C%22desc%22%5D%2C%5B%22parent%22%2C%22asc%22%5D%5D" for 127.0.0.1 at 2018-11-14 11:04:12 +0000
+App 434 output: Started POST "/api/v3/queries/form" for 127.0.0.1 at 2018-11-14 11:04:12 +0000
+App 434 output: Started GET "/api/v3/principals?filters=%5B%7B%22status%22%3A%7B%22operator%22%3A%22%21%22%2C%22values%22%3A%5B%220%22%2C%223%22%5D%7D%7D%2C%7B%22member%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%223%22%5D%7D%7D%5D&pageSize=0" for 127.0.0.1 at 2018-11-14 11:04:12 +0000
+App 799 output: Started GET "/api/v3/" for 127.0.0.1 at 2018-11-14 11:04:12 +0000
+App 434 output: Started GET "/api/v3/projects/cartola-fc/queries/default?pageSize=20&columns%5B%5D=id&columns%5B%5D=subject&columns%5B%5D=type&columns%5B%5D=status&columns%5B%5D=assignee&columns%5B%5D=updatedAt&showHierarchies=false&groupBy=&filters=%5B%7B%22status%22%3A%7B%22operator%22%3A%22o%22%2C%22values%22%3A%5B%5D%7D%7D%2C%7B%22author%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22me%22%5D%7D%7D%5D&sortBy=%5B%5B%22updatedAt%22%2C%22desc%22%5D%2C%5B%22parent%22%2C%22asc%22%5D%5D&offset=1" for 127.0.0.1 at 2018-11-14 11:04:13 +0000
+App 434 output: Started POST "/api/v3/queries/form" for 127.0.0.1 at 2018-11-14 11:04:14 +0000
+App 434 output: Started GET "/api/v3/" for 127.0.0.1 at 2018-11-14 11:04:14 +0000
+App 799 output: Started GET "/api/v3/principals?filters=%5B%7B%22type%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22User%22%5D%7D%7D%2C%7B%22status%22%3A%7B%22operator%22%3A%22%21%22%2C%22values%22%3A%5B%220%22%2C%223%22%5D%7D%7D%2C%7B%22member%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%223%22%5D%7D%7D%5D&pageSize=0" for 127.0.0.1 at 2018-11-14 11:04:14 +0000
+App 434 output: Started GET "/api/v3/projects/cartola-fc/queries/default?pageSize=20&columns%5B%5D=id&columns%5B%5D=subject&columns%5B%5D=type&columns%5B%5D=status&columns%5B%5D=assignee&columns%5B%5D=createdAt&showHierarchies=false&groupBy=&filters=%5B%7B%22status%22%3A%7B%22operator%22%3A%22o%22%2C%22values%22%3A%5B%5D%7D%7D%5D&sortBy=%5B%5B%22createdAt%22%2C%22desc%22%5D%2C%5B%22%22%5D%5D" for 127.0.0.1 at 2018-11-14 11:04:14 +0000
+App 799 output: Started GET "/api/v3/projects/cartola-fc/queries/default?pageSize=20&columns%5B%5D=id&columns%5B%5D=subject&columns%5B%5D=type&columns%5B%5D=status&columns%5B%5D=assignee&columns%5B%5D=createdAt&showHierarchies=false&groupBy=&filters=%5B%7B%22status%22%3A%7B%22operator%22%3A%22o%22%2C%22values%22%3A%5B%5D%7D%7D%5D&sortBy=%5B%5B%22createdAt%22%2C%22desc%22%5D%2C%5B%22%22%5D%5D" for 127.0.0.1 at 2018-11-14 11:04:14 +0000
+App 434 output: Started POST "/api/v3/queries/form" for 127.0.0.1 at 2018-11-14 11:04:15 +0000
+App 434 output: Started GET "/projects/cartola-fc/work_packages/report" for 127.0.0.1 at 2018-11-14 11:04:16 +0000
+App 434 output: Processing by WorkPackages::ReportsController#report as HTML
+App 434 output:   Parameters: {"project_id"=>"cartola-fc"}
+App 434 output:   Rendering work_packages/reports/report.html.erb within layouts/base
+App 434 output:   Rendered work_packages/reports/_report.html.erb (38.2ms)
+App 434 output:   Rendered work_packages/reports/_report_category.html.erb (38.9ms)
+App 434 output:   Rendered work_packages/reports/_report.html.erb (16.0ms)
+App 434 output:   Rendered work_packages/reports/_report_category.html.erb (16.6ms)
+App 434 output:   Rendered work_packages/reports/_report.html.erb (9.0ms)
+App 434 output:   Rendered work_packages/reports/_report_category.html.erb (9.8ms)
+App 434 output:   Rendered work_packages/reports/_report.html.erb (5.1ms)
+App 434 output:   Rendered work_packages/reports/_report_category.html.erb (5.7ms)
+App 434 output:   Rendered work_packages/reports/_report.html.erb (9.2ms)
+App 434 output:   Rendered work_packages/reports/_report_category.html.erb (10.5ms)
+App 434 output:   Rendered work_packages/reports/_report.html.erb (2.2ms)
+App 434 output:   Rendered work_packages/reports/_report_category.html.erb (2.9ms)
+App 434 output:   Rendered work_packages/reports/_report.html.erb (1.7ms)
+App 434 output:   Rendered work_packages/reports/_report_category.html.erb (2.3ms)
+App 434 output:   Rendered work_packages/reports/report.html.erb within layouts/base (88.2ms)
+App 434 output:   Rendered common/_favicons.html.erb (1.1ms)
+App 434 output:   Rendered work_packages/_menu_query_select.html.erb (0.1ms)
+App 434 output:   Rendered search/_mini_form.html.erb (0.3ms)
+App 434 output:   Rendered layouts/_action_menu.html.erb (0.1ms)
+App 434 output: Completed 200 OK in 121ms (Views: 102.6ms | ActiveRecord: 12.6ms)
+App 434 output: Started GET "/api/v3/queries?filters=%5B%7B%22project_identifier%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22cartola-fc%22%5D%7D%7D%5D" for 127.0.0.1 at 2018-11-14 11:04:17 +0000
+App 434 output: Started GET "/projects/cartola-fc/work_packages?query_props={%22c%22:[%22id%22,%22subject%22,%22type%22,%22status%22,%22assignee%22,%22updatedAt%22],%22hi%22:false,%22g%22:%22%22,%22t%22:%22updatedAt:desc%22,%22f%22:[{%22n%22:%22status%22,%22o%22:%22o%22,%22v%22:[]}]}" for 127.0.0.1 at 2018-11-14 11:04:24 +0000
+App 434 output: Processing by WorkPackagesController#index as HTML
+App 434 output:   Parameters: {"query_props"=>"{\"c\":[\"id\",\"subject\",\"type\",\"status\",\"assignee\",\"updatedAt\"],\"hi\":false,\"g\":\"\",\"t\":\"updatedAt:desc\",\"f\":[{\"n\":\"status\",\"o\":\"o\",\"v\":[]}]}", "project_id"=>"cartola-fc"}
+App 434 output:   Rendering work_packages/index.html.erb within layouts/angular
+App 434 output:   Rendered work_packages/_sidebar.html.erb (0.1ms)
+App 434 output:   Rendered work_packages/index.html.erb within layouts/angular (2.6ms)
+App 434 output:   Rendered vendored-plugins/openproject-costs/app/views/hooks/costs/_view_work_package_overview_attributes.html.erb (0.3ms)
+App 434 output:   Rendering layouts/base.html.erb
+App 434 output:   Rendered common/_favicons.html.erb (1.0ms)
+App 434 output:   Rendered work_packages/_menu_query_select.html.erb (0.1ms)
+App 434 output:   Rendered search/_mini_form.html.erb (0.3ms)
+App 434 output:   Rendered layouts/base.html.erb (29.7ms)
+App 434 output: Completed 200 OK in 46ms (Views: 29.0ms | ActiveRecord: 7.4ms)
+App 434 output: Started GET "/api/v3/queries?filters=%5B%7B%22project_identifier%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22cartola-fc%22%5D%7D%7D%5D" for 127.0.0.1 at 2018-11-14 11:04:24 +0000
+App 799 output: Started GET "/api/v3/projects/cartola-fc/queries/default?pageSize=20&columns%5B%5D=id&columns%5B%5D=subject&columns%5B%5D=type&columns%5B%5D=status&columns%5B%5D=assignee&columns%5B%5D=updatedAt&showHierarchies=false&groupBy=&filters=%5B%7B%22status%22%3A%7B%22operator%22%3A%22o%22%2C%22values%22%3A%5B%5D%7D%7D%5D&sortBy=%5B%5B%22updatedAt%22%2C%22desc%22%5D%5D" for 127.0.0.1 at 2018-11-14 11:04:24 +0000
+App 434 output: Started GET "/api/v3/projects/cartola-fc/types" for 127.0.0.1 at 2018-11-14 11:04:24 +0000
+App 434 output: Started GET "/api/v3/configuration" for 127.0.0.1 at 2018-11-14 11:04:24 +0000
+App 434 output: Started POST "/api/v3/queries/form" for 127.0.0.1 at 2018-11-14 11:04:24 +0000
+App 434 output: Started GET "/api/v3/projects/cartola-fc/queries/default?pageSize=20" for 127.0.0.1 at 2018-11-14 11:04:25 +0000
+App 434 output: Started POST "/api/v3/queries/form" for 127.0.0.1 at 2018-11-14 11:04:25 +0000
+App 434 output: Started GET "/projects/level_list.json" for 127.0.0.1 at 2018-11-14 11:04:28 +0000
+App 434 output: Processing by ProjectsController#level_list as JSON
+App 434 output:   Rendering projects/level_list.api.rabl
+App 434 output:   Rendered projects/level_list.api.rabl (1.3ms)
+App 434 output: Completed 200 OK in 350ms (Views: 283.6ms | ActiveRecord: 2.7ms)
+App 434 output: Started GET "/cost_reports" for 127.0.0.1 at 2018-11-14 11:04:35 +0000
+App 434 output: Processing by CostReportsController#index as HTML
+App 434 output:   Rendering vendored-plugins/openproject-reporting/app/views/cost_reports/index.html.erb within layouts/no_menu
+App 434 output:   Rendered vendored-plugins/openproject-reporting/app/views/cost_reports/_reporting_header.html.erb (1.6ms)
+App 434 output:   Rendered vendored-plugins/openproject-reporting/app/views/cost_reports/_report_category.html.erb (21.5ms)
+App 434 output:   Rendered vendored-plugins/openproject-reporting/app/views/cost_reports/_report_category.html.erb (2.4ms)
+App 434 output:   Rendered vendored-plugins/openproject-reporting/app/views/cost_reports/index.html.erb within layouts/no_menu (159.5ms)
+App 434 output:   Rendering layouts/base.html.erb
+App 434 output:   Rendered common/_favicons.html.erb (1.0ms)
+App 434 output:   Rendered search/_mini_form.html.erb (0.2ms)
+App 434 output:   Rendered layouts/_action_menu.html.erb (0.1ms)
+App 434 output:   Rendered layouts/base.html.erb (10.4ms)
+App 434 output: Completed 200 OK in 259ms (Views: 190.2ms | ActiveRecord: 38.1ms)
+App 434 output: Started POST "/cost_reports/available_values" for 127.0.0.1 at 2018-11-14 11:04:35 +0000
+App 434 output: Processing by CostReportsController#available_values as */*
+App 434 output:   Parameters: {"filter_name"=>"user_id", "values"=>"[\"me\"]"}
+App 434 output:   Rendering text template
+App 434 output:   Rendered text template (0.1ms)
+App 434 output: Completed 200 OK in 19ms (Views: 0.5ms | ActiveRecord: 5.4ms)
+App 434 output: Started GET "/projects/level_list.json" for 127.0.0.1 at 2018-11-14 11:05:11 +0000
+App 434 output: Processing by ProjectsController#level_list as JSON
+App 434 output:   Rendering projects/level_list.api.rabl
+App 434 output:   Rendered projects/level_list.api.rabl (2.2ms)
+App 434 output: Completed 200 OK in 20ms (Views: 3.6ms | ActiveRecord: 3.4ms)
+App 434 output: Started GET "/projects/cartola-fc?jump=cost_reports_global" for 127.0.0.1 at 2018-11-14 11:05:13 +0000
+App 434 output: Processing by MyProjectsOverviewsController#index as HTML
+App 434 output:   Parameters: {"jump"=>"cost_reports_global", "id"=>"cartola-fc"}
+App 434 output:   Rendering vendored-plugins/openproject-my_project_page/app/views/my_projects_overviews/index.html.erb within layouts/base
+App 434 output:   Rendered vendored-plugins/openproject-my_project_page/app/views/my_projects_overviews/blocks/_project_description.html.erb (0.4ms)
+App 434 output:   Rendered vendored-plugins/openproject-my_project_page/app/views/my_projects_overviews/_block.html.erb (0.8ms)
+App 434 output:   Rendered vendored-plugins/openproject-my_project_page/app/views/my_projects_overviews/blocks/_project_details.html.erb (3.7ms)
+App 434 output:   Rendered vendored-plugins/openproject-my_project_page/app/views/my_projects_overviews/_block.html.erb (4.0ms)
+App 434 output:   Rendered vendored-plugins/openproject-my_project_page/app/views/my_projects_overviews/blocks/_work_package_tracking.html.erb (13.9ms)
+App 434 output:   Rendered vendored-plugins/openproject-my_project_page/app/views/my_projects_overviews/_block.html.erb (14.9ms)
+App 434 output:   Rendered vendored-plugins/openproject-my_project_page/app/views/my_projects_overviews/_members.html.erb (0.4ms)
+App 434 output:   Rendered vendored-plugins/openproject-my_project_page/app/views/my_projects_overviews/blocks/_members.html.erb (42.6ms)
+App 434 output:   Rendered vendored-plugins/openproject-my_project_page/app/views/my_projects_overviews/_block.html.erb (43.0ms)
+App 434 output:   Rendered vendored-plugins/openproject-my_project_page/app/views/my_projects_overviews/blocks/_news_latest.html.erb (1.2ms)
+App 434 output:   Rendered vendored-plugins/openproject-my_project_page/app/views/my_projects_overviews/_block.html.erb (1.4ms)
+App 434 output:   Rendered vendored-plugins/openproject-my_project_page/app/views/my_projects_overviews/index.html.erb within layouts/base (69.1ms)
+App 434 output:   Rendered common/_favicons.html.erb (0.8ms)
+App 434 output:   Rendered work_packages/_menu_query_select.html.erb (0.1ms)
+App 434 output:   Rendered search/_mini_form.html.erb (0.3ms)
+App 434 output:   Rendered layouts/_action_menu.html.erb (0.1ms)
+App 434 output: Completed 200 OK in 107ms (Views: 81.7ms | ActiveRecord: 19.7ms)
+App 434 output: Started GET "/projects/cartola-fc/members?show_add_members=true" for 127.0.0.1 at 2018-11-14 11:05:21 +0000
+App 434 output: Processing by MembersController#index as HTML
+App 434 output:   Parameters: {"show_add_members"=>"true", "project_id"=>"cartola-fc"}
+App 434 output:   Rendering members/index.html.erb within layouts/base
+App 434 output:   Rendered members/_member_form_non_impaired.html.erb (34.6ms)
+App 434 output:   Rendered members/_member_form.html.erb (70.3ms)
+App 434 output:   Rendered members/index.html.erb within layouts/base (216.2ms)
+App 434 output:   Rendered common/_favicons.html.erb (0.2ms)
+App 434 output:   Rendered work_packages/_menu_query_select.html.erb (0.1ms)
+App 434 output:   Rendered search/_mini_form.html.erb (0.8ms)
+App 434 output:   Rendered layouts/_action_menu.html.erb (0.1ms)
+App 434 output: Completed 200 OK in 319ms (Views: 216.8ms | ActiveRecord: 29.8ms)
+App 434 output: Started GET "/projects/cartola-fc/members/autocomplete_for_member?q=Pi&page_limit=10&page=1&project_id=3&_=1542193521943" for 127.0.0.1 at 2018-11-14 11:05:25 +0000
+App 434 output: Processing by MembersController#autocomplete_for_member as JSON
+App 434 output:   Parameters: {"q"=>"Pi", "page_limit"=>"10", "page"=>"1", "project_id"=>"cartola-fc", "_"=>"1542193521943"}
+App 434 output:   Rendering members/autocomplete_for_member.json.erb
+App 434 output:   Rendered members/autocomplete_for_member.json.erb (0.7ms)
+App 434 output: Completed 200 OK in 46ms (Views: 1.3ms | ActiveRecord: 2.9ms)
+App 434 output: Started GET "/projects/cartola-fc/members/autocomplete_for_member?q=Pittol&page_limit=10&page=1&project_id=3&_=1542193521944" for 127.0.0.1 at 2018-11-14 11:05:26 +0000
+App 434 output: Processing by MembersController#autocomplete_for_member as JSON
+App 434 output:   Parameters: {"q"=>"Pittol", "page_limit"=>"10", "page"=>"1", "project_id"=>"cartola-fc", "_"=>"1542193521944"}
+App 434 output:   Rendering members/autocomplete_for_member.json.erb
+App 434 output:   Rendered members/autocomplete_for_member.json.erb (0.3ms)
+App 434 output: Completed 200 OK in 20ms (Views: 1.5ms | ActiveRecord: 5.4ms)
+App 434 output: Started GET "/projects/cartola-fc/members/autocomplete_for_member?q=&page_limit=10&page=1&project_id=3&_=1542193521945" for 127.0.0.1 at 2018-11-14 11:05:29 +0000
+App 434 output: Processing by MembersController#autocomplete_for_member as JSON
+App 434 output:   Parameters: {"q"=>"", "page_limit"=>"10", "page"=>"1", "project_id"=>"cartola-fc", "_"=>"1542193521945"}
+App 434 output:   Rendering members/autocomplete_for_member.json.erb
+App 434 output:   Rendered members/autocomplete_for_member.json.erb (0.3ms)
+App 434 output: Completed 200 OK in 31ms (Views: 1.6ms | ActiveRecord: 7.7ms)
+App 434 output: Started GET "/projects/cartola-fc/members?page=1&per_page=100" for 127.0.0.1 at 2018-11-14 11:05:59 +0000
+App 434 output: Processing by MembersController#index as HTML
+App 434 output:   Parameters: {"page"=>"1", "per_page"=>"100", "project_id"=>"cartola-fc"}
+App 434 output:   Rendering members/index.html.erb within layouts/base
+App 434 output:   Rendered members/_member_form_non_impaired.html.erb (12.3ms)
+App 434 output:   Rendered members/_member_form.html.erb (15.2ms)
+App 434 output:   Rendered members/index.html.erb within layouts/base (63.7ms)
+App 434 output:   Rendered common/_favicons.html.erb (0.2ms)
+App 434 output:   Rendered work_packages/_menu_query_select.html.erb (0.3ms)
+App 434 output:   Rendered search/_mini_form.html.erb (0.2ms)
+App 434 output:   Rendered layouts/_action_menu.html.erb (0.1ms)
+App 434 output: Completed 200 OK in 116ms (Views: 68.2ms | ActiveRecord: 28.5ms)
+App 434 output: Started GET "/projects/cartola-fc/members?page=1&per_page=20" for 127.0.0.1 at 2018-11-14 11:06:02 +0000
+App 434 output: Processing by MembersController#index as HTML
+App 434 output:   Parameters: {"page"=>"1", "per_page"=>"20", "project_id"=>"cartola-fc"}
+App 434 output:   Rendering members/index.html.erb within layouts/base
+App 434 output:   Rendered members/_member_form_non_impaired.html.erb (10.4ms)
+App 434 output:   Rendered members/_member_form.html.erb (11.9ms)
+App 434 output:   Rendered members/index.html.erb within layouts/base (63.2ms)
+App 434 output:   Rendered common/_favicons.html.erb (0.2ms)
+App 434 output:   Rendered work_packages/_menu_query_select.html.erb (0.3ms)
+App 434 output:   Rendered search/_mini_form.html.erb (0.3ms)
+App 434 output:   Rendered layouts/_action_menu.html.erb (0.1ms)
+App 434 output: Completed 200 OK in 103ms (Views: 71.5ms | ActiveRecord: 23.4ms)
+App 434 output: Started GET "/projects/cartola-fc/wiki/wiki" for 127.0.0.1 at 2018-11-14 11:06:05 +0000
+App 434 output: Processing by WikiController#show as HTML
+App 434 output:   Parameters: {"project_id"=>"cartola-fc", "id"=>"wiki"}
+App 434 output:   Rendering wiki/new.html.erb within layouts/base
+App 434 output:   Rendered wiki/_page_form.html.erb (32.4ms)
+App 434 output:   Rendered wiki/new.html.erb within layouts/base (64.8ms)
+App 434 output:   Rendered common/_favicons.html.erb (0.8ms)
+App 434 output:   Rendered work_packages/_menu_query_select.html.erb (0.1ms)
+App 434 output:   Rendered search/_mini_form.html.erb (0.4ms)
+App 434 output:   Rendered layouts/_action_menu.html.erb (0.1ms)
+App 434 output: Completed 200 OK in 221ms (Views: 142.8ms | ActiveRecord: 21.5ms)
+App 434 output: Started GET "/api/v3/configuration" for 127.0.0.1 at 2018-11-14 11:06:05 +0000
+App 434 output: Started GET "/my/account" for 127.0.0.1 at 2018-11-14 11:06:18 +0000
+App 434 output: Processing by MyController#account as HTML
+App 434 output:   Rendering my/account.html.erb within layouts/my
+App 434 output:   Rendered collection of customizable/_field.html.erb [0 times] (0.1ms)
+App 434 output:   Rendered my/account.html.erb within layouts/my (43.2ms)
+App 434 output:   Rendering layouts/base.html.erb
+App 434 output:   Rendered common/_favicons.html.erb (1.0ms)
+App 434 output:   Rendered search/_mini_form.html.erb (0.3ms)
+App 434 output:   Rendered layouts/_action_menu.html.erb (0.1ms)
+App 434 output:   Rendered layouts/base.html.erb (18.5ms)
+App 434 output: Completed 200 OK in 192ms (Views: 108.7ms | ActiveRecord: 4.1ms)
+App 434 output: Started GET "/my/access_token" for 127.0.0.1 at 2018-11-14 11:06:33 +0000
+App 434 output: Processing by MyController#access_token as HTML
+App 434 output:   Rendering my/access_token.html.erb within layouts/my
+App 434 output:   Rendered my/access_token.html.erb within layouts/my (8.2ms)
+App 434 output:   Rendering layouts/base.html.erb
+App 434 output:   Rendered common/_favicons.html.erb (1.1ms)
+App 434 output:   Rendered search/_mini_form.html.erb (0.3ms)
+App 434 output:   Rendered layouts/_action_menu.html.erb (0.1ms)
+App 434 output:   Rendered layouts/base.html.erb (14.7ms)
+App 434 output: Completed 200 OK in 72ms (Views: 21.8ms | ActiveRecord: 2.7ms)
+App 434 output: Started GET "/my/mail_notifications" for 127.0.0.1 at 2018-11-14 11:06:37 +0000
+App 434 output: Processing by MyController#mail_notifications as HTML
+App 434 output:   Rendering my/mail_notifications.html.erb within layouts/my
+App 434 output:   Rendered users/_mail_notifications.html.erb (15.1ms)
+App 434 output:   Rendered my/mail_notifications.html.erb within layouts/my (54.1ms)
+App 434 output:   Rendering layouts/base.html.erb
+App 434 output:   Rendered common/_favicons.html.erb (0.9ms)
+App 434 output:   Rendered search/_mini_form.html.erb (0.2ms)
+App 434 output:   Rendered layouts/_action_menu.html.erb (0.4ms)
+App 434 output:   Rendered layouts/base.html.erb (14.6ms)
+App 434 output: Completed 200 OK in 133ms (Views: 66.6ms | ActiveRecord: 5.1ms)
+App 434 output: Started GET "/my/avatar" for 127.0.0.1 at 2018-11-14 11:06:39 +0000
+App 434 output: Processing by Avatars::MyAvatarController#show as HTML
+App 434 output:   Rendering vendored-plugins/openproject-avatars/app/views/avatars/my/avatar.html.erb within layouts/my
+App 434 output:   Rendered vendored-plugins/openproject-avatars/app/views/avatars/users/_gravatars.html.erb (1.6ms)
+App 434 output:   Rendered vendored-plugins/openproject-avatars/app/views/avatars/users/_local_avatars.html.erb (6.9ms)
+App 434 output:   Rendered vendored-plugins/openproject-avatars/app/views/avatars/users/_avatar.html.erb (65.4ms)
+App 434 output:   Rendered vendored-plugins/openproject-avatars/app/views/avatars/my/avatar.html.erb within layouts/my (97.9ms)
+App 434 output:   Rendering layouts/base.html.erb
+App 434 output:   Rendered common/_favicons.html.erb (1.2ms)
+App 434 output:   Rendered search/_mini_form.html.erb (0.2ms)
+App 434 output:   Rendered layouts/_action_menu.html.erb (0.1ms)
+App 434 output:   Rendered layouts/base.html.erb (22.6ms)
+App 434 output: Completed 200 OK in 174ms (Views: 166.6ms | ActiveRecord: 2.5ms)
+App 434 output: Started GET "/my/account" for 127.0.0.1 at 2018-11-14 11:06:45 +0000
+App 434 output: Processing by MyController#account as HTML
+App 434 output:   Rendering my/account.html.erb within layouts/my
+App 434 output:   Rendered collection of customizable/_field.html.erb [0 times] (0.1ms)
+App 434 output:   Rendered my/account.html.erb within layouts/my (11.4ms)
+App 434 output:   Rendering layouts/base.html.erb
+App 434 output:   Rendered common/_favicons.html.erb (1.4ms)
+App 434 output:   Rendered search/_mini_form.html.erb (0.2ms)
+App 434 output:   Rendered layouts/_action_menu.html.erb (0.1ms)
+App 434 output:   Rendered layouts/base.html.erb (25.9ms)
+App 434 output: Completed 200 OK in 45ms (Views: 35.7ms | ActiveRecord: 3.1ms)
+App 434 output: Started GET "/projects/level_list.json" for 127.0.0.1 at 2018-11-14 11:06:46 +0000
+App 434 output: Processing by ProjectsController#level_list as JSON
+App 434 output:   Rendering projects/level_list.api.rabl
+App 434 output:   Rendered projects/level_list.api.rabl (2.2ms)
+App 434 output: Completed 200 OK in 24ms (Views: 3.2ms | ActiveRecord: 2.7ms)
+App 434 output: Started GET "/projects/cartola-fc?jump=account" for 127.0.0.1 at 2018-11-14 11:06:48 +0000
+App 434 output: Processing by MyProjectsOverviewsController#index as HTML
+App 434 output:   Parameters: {"jump"=>"account", "id"=>"cartola-fc"}
+App 434 output:   Rendering vendored-plugins/openproject-my_project_page/app/views/my_projects_overviews/index.html.erb within layouts/base
+App 434 output:   Rendered vendored-plugins/openproject-my_project_page/app/views/my_projects_overviews/blocks/_project_description.html.erb (1.3ms)
+App 434 output:   Rendered vendored-plugins/openproject-my_project_page/app/views/my_projects_overviews/_block.html.erb (1.8ms)
+App 434 output:   Rendered vendored-plugins/openproject-my_project_page/app/views/my_projects_overviews/blocks/_project_details.html.erb (5.1ms)
+App 434 output:   Rendered vendored-plugins/openproject-my_project_page/app/views/my_projects_overviews/_block.html.erb (5.5ms)
+App 434 output:   Rendered vendored-plugins/openproject-my_project_page/app/views/my_projects_overviews/blocks/_work_package_tracking.html.erb (21.0ms)
+App 434 output:   Rendered vendored-plugins/openproject-my_project_page/app/views/my_projects_overviews/_block.html.erb (21.4ms)
+App 434 output:   Rendered vendored-plugins/openproject-my_project_page/app/views/my_projects_overviews/_members.html.erb (0.6ms)
+App 434 output:   Rendered vendored-plugins/openproject-my_project_page/app/views/my_projects_overviews/blocks/_members.html.erb (46.5ms)
+App 434 output:   Rendered vendored-plugins/openproject-my_project_page/app/views/my_projects_overviews/_block.html.erb (47.0ms)
+App 434 output:   Rendered vendored-plugins/openproject-my_project_page/app/views/my_projects_overviews/blocks/_news_latest.html.erb (2.2ms)
+App 434 output:   Rendered vendored-plugins/openproject-my_project_page/app/views/my_projects_overviews/_block.html.erb (3.9ms)
+App 434 output:   Rendered vendored-plugins/openproject-my_project_page/app/views/my_projects_overviews/index.html.erb within layouts/base (89.2ms)
+App 434 output:   Rendered common/_favicons.html.erb (1.1ms)
+App 434 output:   Rendered work_packages/_menu_query_select.html.erb (0.1ms)
+App 434 output:   Rendered search/_mini_form.html.erb (0.3ms)
+App 434 output:   Rendered layouts/_action_menu.html.erb (0.1ms)
+App 434 output: Completed 200 OK in 152ms (Views: 108.3ms | ActiveRecord: 19.8ms)
+App 434 output: Started GET "/projects/cartola-fc/meetings" for 127.0.0.1 at 2018-11-14 11:06:51 +0000
+App 434 output: Processing by MeetingsController#index as HTML
+App 434 output:   Parameters: {"project_id"=>"cartola-fc"}
+App 434 output:   Rendering vendored-plugins/openproject-meeting/app/views/meetings/index.html.erb within layouts/base
+App 434 output:   Rendered common/_no_results.html.erb (0.9ms)
+App 434 output:   Rendered vendored-plugins/openproject-meeting/app/views/shared/_meeting_header.html.erb (1.1ms)
+App 434 output:   Rendered vendored-plugins/openproject-meeting/app/views/meetings/index.html.erb within layouts/base (64.3ms)
+App 434 output:   Rendered common/_favicons.html.erb (1.0ms)
+App 434 output:   Rendered work_packages/_menu_query_select.html.erb (0.1ms)
+App 434 output:   Rendered search/_mini_form.html.erb (1.3ms)
+App 434 output:   Rendered layouts/_action_menu.html.erb (0.1ms)
+App 434 output: Completed 200 OK in 763ms (Views: 90.1ms | ActiveRecord: 44.1ms)
+App 434 output: Started GET "/projects/cartola-fc" for 127.0.0.1 at 2018-11-14 11:06:54 +0000
+App 434 output: Processing by MyProjectsOverviewsController#index as HTML
+App 434 output:   Parameters: {"id"=>"cartola-fc"}
+App 434 output:   Rendering vendored-plugins/openproject-my_project_page/app/views/my_projects_overviews/index.html.erb within layouts/base
+App 434 output:   Rendered vendored-plugins/openproject-my_project_page/app/views/my_projects_overviews/blocks/_project_description.html.erb (0.4ms)
+App 434 output:   Rendered vendored-plugins/openproject-my_project_page/app/views/my_projects_overviews/_block.html.erb (0.7ms)
+App 434 output:   Rendered vendored-plugins/openproject-my_project_page/app/views/my_projects_overviews/blocks/_project_details.html.erb (3.2ms)
+App 434 output:   Rendered vendored-plugins/openproject-my_project_page/app/views/my_projects_overviews/_block.html.erb (3.5ms)
+App 434 output:   Rendered vendored-plugins/openproject-my_project_page/app/views/my_projects_overviews/blocks/_work_package_tracking.html.erb (14.8ms)
+App 434 output:   Rendered vendored-plugins/openproject-my_project_page/app/views/my_projects_overviews/_block.html.erb (15.2ms)
+App 434 output:   Rendered vendored-plugins/openproject-my_project_page/app/views/my_projects_overviews/_members.html.erb (0.7ms)
+App 434 output:   Rendered vendored-plugins/openproject-my_project_page/app/views/my_projects_overviews/blocks/_members.html.erb (40.2ms)
+App 434 output:   Rendered vendored-plugins/openproject-my_project_page/app/views/my_projects_overviews/_block.html.erb (40.5ms)
+App 434 output:   Rendered vendored-plugins/openproject-my_project_page/app/views/my_projects_overviews/blocks/_news_latest.html.erb (1.3ms)
+App 434 output:   Rendered vendored-plugins/openproject-my_project_page/app/views/my_projects_overviews/_block.html.erb (1.6ms)
+App 434 output:   Rendered vendored-plugins/openproject-my_project_page/app/views/my_projects_overviews/index.html.erb within layouts/base (65.6ms)
+App 434 output:   Rendered common/_favicons.html.erb (0.8ms)
+App 434 output:   Rendered work_packages/_menu_query_select.html.erb (0.2ms)
+App 434 output:   Rendered search/_mini_form.html.erb (0.3ms)
+App 434 output:   Rendered layouts/_action_menu.html.erb (0.1ms)
+App 434 output: Completed 200 OK in 100ms (Views: 74.3ms | ActiveRecord: 19.6ms)
+Stopping web server... done
