@@ -18,3 +18,4 @@
 2018-11-13 17:08:15,728 INFO success: worker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
 2018-11-13 17:08:15,728 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
 2018-11-13 17:08:15,728 INFO success: memcached entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-11-13 22:22:55,448 INFO reaped unknown pid 832
